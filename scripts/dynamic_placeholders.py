@@ -67,9 +67,10 @@ class Script(scripts.Script):
     def ui(self, is_img2img):
         with gr.Accordion("Dynamic Placeholders", open=False):
             section_description(
-                "Write <code>__name__</code> like any other prompt phrase; "
-                "at generation it is replaced with a random line from its list. "
-                "Example: <code>a __profession__</code>"
+                "Write tokens like <code>__profession__</code> or <code>__hair__</code> "
+                "like any other prompt phrase; at generation each is replaced with a "
+                "random line from its list. "
+                "Example: <code>portrait of a __profession__ with __hair__</code>"
             )
             with setting_block():
                 enabled = gr.Checkbox(

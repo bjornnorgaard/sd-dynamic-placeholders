@@ -205,7 +205,7 @@ def on_ui_settings() -> None:
             "Also expand placeholders in negative prompts",
             section=SECTION,
         )
-        .info("Applies the same __name__ expansion used on the positive prompt."),
+        .info("Applies the same placeholder expansion used on the positive prompt."),
     )
 
     shared.opts.add_option(

@@ -11,8 +11,9 @@ import gradio as gr
 _USAGE_GUIDE_HTML = """
 <div class="dynph-usage-guide">
   <p>
-    Placeholders are tokens like <code>__name__</code> in your prompt.
-    At generation, each token is replaced with a random line from a matching list file.
+    Placeholders are tokens like <code>__profession__</code> or <code>__hair__</code>
+    in your prompt. At generation, each token is replaced with a random line from a
+    matching list file.
   </p>
 
   <h4>In the prompt</h4>
