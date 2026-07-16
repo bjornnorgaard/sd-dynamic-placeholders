@@ -23,6 +23,7 @@ from lib_dynamic_placeholders.ui import (
     field_help,
     section_description,
     setting_block,
+    usage_guide,
 )
 
 logger = logging.getLogger("dynamic_placeholders")
@@ -127,6 +128,9 @@ class Script(scripts.Script):
                 inputs=[extra_placeholders_dir],
                 outputs=[extra_placeholders_dir, save_extra_status],
             )
+
+            with gr.Accordion("How to use", open=False, elem_id="dynph_usage_guide"):
+                usage_guide()
         return [enabled, same_seed_link, extra_placeholders_dir]
 
     def process(self, p, enabled: bool, same_seed_link: bool, extra_placeholders_dir: str = ""):

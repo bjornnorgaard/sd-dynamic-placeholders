@@ -31,6 +31,54 @@
     margin-bottom: 0;
 }
 
+/* Collapsed quick guide at the bottom of the script accordion */
+
+#dynph_usage_guide {
+    margin-top: 0.5em;
+}
+
+.dynph-usage-guide {
+    color: var(--body-text-color, inherit);
+    opacity: 0.9;
+    font-size: 0.9em;
+    line-height: 1.45;
+}
+
+.dynph-usage-guide p {
+    margin: 0 0 0.75em;
+}
+
+.dynph-usage-guide h4 {
+    margin: 1em 0 0.35em;
+    font-size: 0.95em;
+    font-weight: 600;
+    opacity: 0.95;
+}
+
+.dynph-usage-guide h4:first-of-type {
+    margin-top: 0.25em;
+}
+
+.dynph-usage-guide ul {
+    margin: 0 0 0.75em;
+    padding-left: 1.25em;
+}
+
+.dynph-usage-guide li {
+    margin: 0.2em 0;
+}
+
+.dynph-usage-guide code {
+    font-size: 0.95em;
+}
+
+.dynph-usage-guide-footnote {
+    margin-top: 1em !important;
+    margin-bottom: 0 !important;
+    opacity: 0.75;
+    font-size: 0.95em;
+}
+
 .dynph-setting > .form,
 .dynph-setting > .gr-form,
 .dynph-setting > .gr-box,
