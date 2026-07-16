@@ -1,6 +1,7 @@
 # Accessories — referenced from clothes.txt via __clothes/accessories__
-# Ordered: bags → belts → jewelry → watches & misc. (not headwear, glasses, piercings, or scarves)
-# One bag / belt / jewelry silhouette per family
+# Ordered: bags → belts → watches & handheld props → gloves & suspenders
+# Jewelry lives in clothes/jewelry.txt (not headwear, glasses, piercings, or scarves)
+# One bag / belt / prop silhouette per family
 
 crossbody bag
 tote bag
@@ -10,20 +11,11 @@ fanny pack
 leather belt
 chain belt
 wide cinch belt
-wristwatch
 pocket watch
-bracelet stack
-pearl necklace
-layered necklaces
-hoop earrings
-drop earrings
-statement ring
 leather gloves
 opera gloves
 umbrella
 cane
 fan
-brooch
-cufflinks
 suspenders
 keychain clipped to a belt loop

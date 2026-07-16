@@ -127,7 +127,7 @@ Child lists live under `placeholders/clothes/`:
 
 - `head/` — `hat`, `glasses`, `piercings` (composed by `head.txt`)
 - `torso/` — `shirt`, `jacket` (composed by `torso.txt`)
-- plus `scarf`, `fullbody`, `pants`, `shoes`, `accessories`
+- plus `scarf`, `fullbody`, `pants`, `shoes`, `accessories`, `jewelry`
 
 ## Examples
 

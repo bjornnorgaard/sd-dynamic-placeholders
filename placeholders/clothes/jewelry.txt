@@ -1,0 +1,25 @@
+# Jewelry & worn adornments — referenced from clothes.txt via __clothes/jewelry__
+# Ordered: neck → ears → wrists/hands → body & pins
+# Distinct silhouettes only — skip gem/metal color variants of the same piece
+# Face piercings stay in clothes/head/piercings; bags/belts/props stay in clothes/accessories
+
+pearl necklace
+layered necklaces
+chunky gold chain
+pendant necklace
+jeweled choker
+heavy beaded collar
+hoop earrings
+drop earrings
+chandelier earrings
+ear cuff
+bracelet stack
+wide cuff bracelet
+wristwatch
+statement ring
+stack of thin rings
+anklet
+body chain
+brooch
+cufflinks
+locket

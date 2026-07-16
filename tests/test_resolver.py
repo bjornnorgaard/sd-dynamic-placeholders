@@ -246,6 +246,7 @@ class ResolverTests(unittest.TestCase):
             "pants",
             "shoes",
             "accessories",
+            "jewelry",
         ):
             self.assertTrue((samples / "clothes" / f"{layer}.txt").is_file())
         for layer in ("hat", "glasses", "piercings"):
