@@ -1,11 +1,43 @@
 # Hair color options — referenced from hair.txt via __hair/color__
+# Ordered: deep naturals → browns → reds → blondes → grey/white → fashion & fantasy
 
-blonde
-brunette
+jet black
 black
-auburn
-silver
-pastel pink
+raven black
 dark brown
+espresso brown
+chestnut brown
+brunette
+warm brown
+light brown
+caramel brown
+mahogany
+auburn
+copper
+ginger
+fiery red
+strawberry blonde
+dirty blonde
+honey blonde
+golden blonde
+blonde
+ash blonde
 platinum blonde
-redhead
+rose gold
+burgundy
+wine red
+silver
+steel grey
+salt-and-pepper
+white
+pastel pink
+hot pink
+lavender
+vivid violet
+electric blue
+teal
+mint green
+ombre
+two-tone black and pink
+iridescent
+rainbow

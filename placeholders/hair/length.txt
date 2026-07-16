@@ -1,10 +1,17 @@
 # Hair length options — referenced from hair.txt via __hair/length__
+# Ordered short → long. Length-only phrasing (no cut names) so it composes cleanly with style.
 
+cropped
 short
+ear-length
+chin-length
+jaw-length
+collarbone-length
+shoulder-length
 medium-length
 long
-shoulder-length
+mid-back length
 waist-length
-buzz-cut
-chin-length
+hip-length
 very long
+floor-length

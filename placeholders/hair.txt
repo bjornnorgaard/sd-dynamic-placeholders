@@ -2,5 +2,8 @@
 # Each nested token is resolved from its own list file under hair/.
 
 __hair/length__ __hair/color__ __hair/style__ hair
+__hair/length__ __hair/color__ hair, __hair/style__
 __hair/color__ __hair/style__, __hair/length__
-messy __hair/length__ __hair/color__ hair in a __hair/style__
+__hair/length__ __hair/color__ hair with __hair/style__
+messy __hair/length__ __hair/color__ hair with __hair/style__
+flowing __hair/length__ __hair/color__ __hair/style__
