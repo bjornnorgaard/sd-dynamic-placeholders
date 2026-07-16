@@ -2,6 +2,9 @@
 
 from __future__ import annotations
 
+from contextlib import contextmanager
+from typing import Iterator
+
 import gradio as gr
 
 # Demo prompt for the script accordion — uses the shipped top-level lists.
@@ -14,13 +17,24 @@ EXAMPLE_PROMPT = (
 
 
 def section_description(html: str) -> gr.HTML:
-    """Intro copy under a section/accordion heading."""
-    return gr.HTML(f'<p class="dynph-ui-desc">{html}</p>')
+    """Intro copy under a section/accordion heading (same type as field help)."""
+    return gr.HTML(f'<p class="dynph-ui-desc dynph-ui-intro">{html}</p>')
 
 
 def field_help(html: str) -> gr.HTML:
-    """Help text placed immediately under a control."""
-    return gr.HTML(f'<p class="dynph-ui-help">{html}</p>')
+    """Description placed immediately under a control (same look as section copy)."""
+    return gr.HTML(f'<p class="dynph-ui-desc">{html}</p>')
+
+
+@contextmanager
+def setting_block() -> Iterator[None]:
+    """
+    One setting: control(s) then ``field_help``.
+
+    Shared spacing so checkboxes, textboxes, and other inputs stack evenly.
+    """
+    with gr.Group(elem_classes=["dynph-setting"]):
+        yield
 
 
 def example_prompt_box(prompt: str = EXAMPLE_PROMPT) -> gr.Textbox:

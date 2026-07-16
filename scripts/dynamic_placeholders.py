@@ -18,7 +18,12 @@ from lib_dynamic_placeholders.settings import (
     on_ui_settings,
     persist_extra_placeholders_dir,
 )
-from lib_dynamic_placeholders.ui import example_prompt_box, field_help, section_description
+from lib_dynamic_placeholders.ui import (
+    example_prompt_box,
+    field_help,
+    section_description,
+    setting_block,
+)
 
 logger = logging.getLogger("dynamic_placeholders")
 
@@ -66,36 +71,40 @@ class Script(scripts.Script):
                 "Each name maps to a newline-separated list file in the placeholders folder "
                 "(Settings → Dynamic Placeholders), and optionally an extra folder below."
             )
-            example_prompt_box()
-            field_help(
-                "Select all and paste into the prompt box, then generate. "
-                "Each <code>__token__</code> is replaced from its list file; "
-                "<code>__hair__</code> and <code>__clothes__</code> expand into nested lists. "
-                "Swap <code>__artstyle__</code> for <code>__photostyle__</code> for a photo look."
-            )
-            enabled = gr.Checkbox(
-                label="Enable",
-                value=True,
-                elem_id="dynph_enabled",
-            )
-            field_help("When off, prompts are left unchanged.")
-            same_seed_link = gr.Checkbox(
-                label="Link seed to placeholder choices",
-                value=True,
-                elem_id="dynph_link_seed",
-            )
-            field_help("When enabled, the same seed reproduces the same replacements.")
-            extra_placeholders_dir = gr.Textbox(
-                label="Additional placeholders directory",
-                value=get_extra_placeholders_dir(),
-                placeholder="/path/to/your/placeholders",
-                elem_id="dynph_extra_dir",
-            )
-            field_help(
-                "Optional folder outside the extension install path. "
-                "List files there are used alongside the default/settings directory "
-                "(default wins on name conflicts). Saved across restarts."
-            )
+            with setting_block():
+                example_prompt_box()
+                field_help(
+                    "Select all and paste into the prompt box, then generate. "
+                    "Each <code>__token__</code> is replaced from its list file; "
+                    "<code>__hair__</code> and <code>__clothes__</code> expand into nested lists. "
+                    "Swap <code>__artstyle__</code> for <code>__photostyle__</code> for a photo look."
+                )
+            with setting_block():
+                enabled = gr.Checkbox(
+                    label="Enable",
+                    value=True,
+                    elem_id="dynph_enabled",
+                )
+                field_help("When off, prompts are left unchanged.")
+            with setting_block():
+                same_seed_link = gr.Checkbox(
+                    label="Link seed to placeholder choices",
+                    value=True,
+                    elem_id="dynph_link_seed",
+                )
+                field_help("When enabled, the same seed reproduces the same replacements.")
+            with setting_block():
+                extra_placeholders_dir = gr.Textbox(
+                    label="Additional placeholders directory",
+                    value=get_extra_placeholders_dir(),
+                    placeholder="/path/to/your/placeholders",
+                    elem_id="dynph_extra_dir",
+                )
+                field_help(
+                    "Optional folder outside the extension install path. "
+                    "List files there are used alongside the default/settings directory "
+                    "(default wins on name conflicts). Saved across restarts."
+                )
             extra_placeholders_dir.change(
                 fn=persist_extra_placeholders_dir,
                 inputs=[extra_placeholders_dir],

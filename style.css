@@ -1,20 +1,43 @@
-/* Shared form copy — accordion / script UI */
+/* Shared form copy — accordion / script UI (one style for all descriptions) */
 
 .dynph-ui-desc {
-    margin: 0 0 0.85em;
-    opacity: 0.9;
+    margin: 0.35em 0 0;
+    color: var(--body-text-color, inherit);
+    opacity: 0.8;
+    font-size: 0.9em;
     line-height: 1.4;
 }
 
-.dynph-ui-help {
-    margin: -0.25em 0 0.85em;
-    opacity: 0.75;
-    font-size: 0.9em;
-    line-height: 1.35;
+.dynph-ui-desc code {
+    font-size: 0.95em;
 }
 
-.dynph-ui-help:last-child {
+.dynph-ui-intro {
+    margin: 0 0 1em;
+}
+
+/* Even stack: each setting is control + description */
+
+.dynph-setting {
+    margin: 0 0 1em;
+    padding: 0 !important;
+    border: none !important;
+    background: transparent !important;
+    box-shadow: none !important;
+    gap: 0;
+}
+
+.dynph-setting:last-child {
     margin-bottom: 0;
+}
+
+.dynph-setting > .form,
+.dynph-setting > .gr-form,
+.dynph-setting > .gr-box,
+.dynph-setting > .gr-group,
+.dynph-setting > .gr-checkbox,
+.dynph-setting > .gr-padded {
+    margin-bottom: 0 !important;
 }
 
 /* Example prompt in the script accordion */
