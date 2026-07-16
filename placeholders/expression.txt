@@ -1,0 +1,89 @@
+# Facial expressions & moods — use as __expression__ in prompts
+# Phrases meant to sit after "with a/an" or "wearing a" (e.g. "with a __expression__", "wearing a __expression__")
+# Ordered by mood family: happy → soft/calm → thoughtful → sad → angry → fear/surprise → playful → intense → tired → romantic
+# Kept deliberately distinct — near-synonyms pruned so each line reads as a different face
+
+# --- Happy & joyful ---
+warm smile
+bright smile
+wide grin
+beaming smile
+laughing expression
+mischievous grin
+closed-eye smile
+
+# --- Soft, calm & serene ---
+serene expression
+content expression
+dreamy expression
+soft gaze
+quiet smile
+
+# --- Thoughtful & contemplative ---
+pensive expression
+distant gaze
+curious expression
+focused expression
+serious expression
+stern look
+blank expression
+
+# --- Sad & melancholic ---
+melancholy expression
+wistful look
+tearful eyes
+tear-streaked face
+downcast eyes
+heartbroken look
+forlorn gaze
+trembling lip
+
+# --- Angry & frustrated ---
+scowling face
+furrowed brow
+fierce glare
+clenched jaw
+furious look
+irritated expression
+resentful expression
+
+# --- Fear, shock & surprise ---
+terrified look
+shocked expression
+startled look
+gasping expression
+anxious expression
+
+# --- Playful & coy ---
+playful expression
+coy smile
+raised eyebrow
+knowing smile
+sly smirk
+flirtatious look
+winking expression
+embarrassed blush
+
+# --- Intense & dramatic ---
+piercing gaze
+haunting expression
+smoldering look
+determined expression
+defiant expression
+proud expression
+confident smirk
+aloof expression
+cold stare
+
+# --- Tired & weary ---
+exhausted face
+heavy-lidded eyes
+yawning expression
+haggard expression
+
+# --- Soft affection & romance ---
+loving gaze
+tender expression
+affectionate smile
+longing gaze
+blushing smile
