@@ -1,0 +1,76 @@
+# Animals — use as __animal__ in prompts
+# Phrases meant to stand in for the creature (e.g. "a __animal__", "portrait of a __animal__",
+# "__animal__ in a __setting__", "__animal__, cinematic lighting")
+# Real and mythical creatures; one entry per visual family only —
+# if two animals would likely render interchangeable silhouettes, keep the sharper one
+# Style: single word only — just the animal name, no descriptors
+
+# --- Domestic & farm ---
+dog
+cat
+horse
+pig
+cow
+sheep
+goat
+chicken
+duck
+rabbit
+
+# --- Wild mammals ---
+wolf
+fox
+bear
+lion
+tiger
+elephant
+giraffe
+zebra
+deer
+kangaroo
+monkey
+panda
+sloth
+
+# --- Birds ---
+eagle
+owl
+parrot
+penguin
+flamingo
+peacock
+raven
+swan
+
+# --- Reptiles & amphibians ---
+snake
+crocodile
+turtle
+frog
+chameleon
+lizard
+
+# --- Marine & aquatic ---
+dolphin
+shark
+whale
+octopus
+jellyfish
+seahorse
+crab
+
+# --- Insects & arachnids ---
+butterfly
+bee
+spider
+scorpion
+mantis
+
+# --- Mythical & fantasy ---
+dragon
+unicorn
+phoenix
+griffin
+pegasus
+kraken
+basilisk
