@@ -8,23 +8,19 @@
 
 # --- Outer space & cosmic ---
 outer space among stars and nebulae
-deep space with distant galaxies
 moon surface barren under black sky
 planet alien with twin suns and strange rock formations
 space station corridor with portholes looking out at Earth
 gas giant rings seen from a nearby moon
 asteroid field drifting through starlight
-comet tail cutting across the void
 
 # --- Sky & above the clouds ---
-clouds soft and white in a bright sky
 sea of clouds at golden hour
 sky stormy filled with dark thunderheads
 aurora borealis over a frozen landscape
 rainbow after rain against clearing skies
 
 # --- Forests & woodland ---
-forest dense with moss and dappled light
 redwood grove ancient with towering trunks
 pine forest misty at dawn
 forest autumn with fallen leaves and warm light
@@ -34,21 +30,17 @@ rainforest tropical with hanging vines and dense canopy
 
 # --- Meadows, fields & open land ---
 meadow of wildflowers under clear sky
-hills rolling green under a wide sky
 wheat field golden in late summer
 lavender field stretching to the horizon
 moor misty with low heather and gray skies
 
 # --- Mountains & high places ---
 mountain peak snowy above the clouds
-cliff face rocky alpine with sparse pines
-mountain pass high with stone cairns
 volcanic crater with smoking vents
 canyon sheer with layered red rock walls
 
 # --- Deserts & arid ---
 desert sandy with wind-sculpted dunes
-desert canyon rocky under harsh sunlight
 salt flat dry shimmering with heat haze
 oasis with palm trees around a still pool
 badlands of eroded earth pillars
@@ -65,9 +57,7 @@ river gorge with whitewater between stone walls
 
 # --- Underground & caves ---
 cavern underground with glowing crystals
-cave deep lit by shafts of surface light
 mine tunnels narrow with wooden supports
-lake subterranean in a vast dark chamber
 lava tubes with glowing cracks in the rock
 catacomb of carved stone corridors
 bunker deep beneath the earth

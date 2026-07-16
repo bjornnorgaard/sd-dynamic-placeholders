@@ -1,26 +1,20 @@
 # Hat / headwear options — referenced via __clothes/head/hat__
 # Ordered: casual caps → brimmed → soft/knit → formal → fashion & costume
+# Cap and brim lookalikes pruned to one exemplar each
 
 baseball cap
-trucker hat
 beanie
-knit beanie
 bucket hat
-newsie cap
 flat cap
 beret
-wide-brim sun hat
 straw hat
 fedora
-trilby
 panama hat
 cowboy hat
-boater hat
 cloche hat
 pillbox hat
 top hat
 bowler hat
-baker boy hat
 visor
 headscarf
 bandana tied as a headwrap

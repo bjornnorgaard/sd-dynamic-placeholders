@@ -4,6 +4,5 @@
 cropped
 short
 shoulder-length
-medium length
 long
 very long

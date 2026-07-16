@@ -3,31 +3,15 @@
 # (e.g. "in the __time__", "at __time__", "__time__ light", "a __time__ scene")
 # Ordered roughly from dawn through night; near-duplicates pruned so each line feels distinct
 
-# --- Dawn & early day ---
 dawn
-daybreak
 sunrise
-early morning
 morning
-
-# --- Midday ---
-late morning
 midday
-noon
 afternoon
-
-# --- Late day ---
-late afternoon
 golden hour
-dusk
-twilight
 sunset
-
-# --- Evening & night ---
+dusk
 evening
-nightfall
 night
-late night
 midnight
-dead of night
 before dawn

@@ -34,9 +34,6 @@ Tokyo with neon streets, dense towers, and Shinto shrine courtyards
 Bangkok with golden temples, canal boats, and dense tropical towers
 Singapore with Marina Bay skyline, Gardens by the Bay, and spotless streets
 
-# --- Oceania ---
-Wellington with harbor hills, colorful wooden houses, and windy waterfront
-
 # --- Americas ---
 Washington DC with the National Mall, white neoclassical monuments, and broad axes
 Mexico City with Aztec ruins beside baroque cathedrals and dense avenues

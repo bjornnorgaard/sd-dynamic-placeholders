@@ -1,39 +1,32 @@
 # Hair style options — referenced from hair.txt via __hair/style__
 # Ordered by family: tied/up → braids → loose texture → cuts/fringe → parted/sculpted
 # Phrases meant to sit after color (e.g. "auburn high ponytail") or with "in a …"
+# One look per silhouette family — near-duplicate cuts and braids omitted
 
 high ponytail
 low ponytail
 messy bun
 sleek bun
-top knot
 space buns
 half-up half-down
 braided crown
 French braid
-Dutch braid
 fishtail braid
 twin braids
-loose waves
 beach waves
 soft curls
 tight curls
-corkscrew curls
 voluminous afro
 pin-straight
 windswept
-tousled layers
-shaggy layers
 wolf cut
 blunt bob
 asymmetrical bob
 pixie cut
 undercut
 curtain bangs
-side-swept bangs
 middle part
 deep side part
 slicked back
-wet-look
 finger waves
 vintage victory rolls

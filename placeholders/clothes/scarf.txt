@@ -1,25 +1,18 @@
 # Scarf / neckwear options — referenced from clothes.txt via __clothes/scarf__
 # Ordered: casual wraps → formal ties → fashion statement pieces
+# Material synonyms and near-identical ties pruned
 
-knit scarf
-wool scarf
-cashmere scarf
+chunky knit scarf
 plaid scarf
 silk scarf
-infinity scarf
-chunky knit scarf
 lightweight linen scarf
-pashmina wrap
 shawl draped over the shoulders
 neckerchief
 bandana around the neck
 ascot
-cravat
 necktie
-skinny tie
 bow tie
 bolo tie
 choker scarf
 fur stole
-winter muffler
 collared capelet

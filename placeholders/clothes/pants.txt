@@ -1,37 +1,24 @@
 # Pants / lower-body options — referenced from clothes.txt via __clothes/pants__
 # Ordered: jeans → trousers → shorts → skirts → athletic & specialty
 # Meant for separates outfits (not used alongside fullbody).
+# Silhouette-first — drop near-duplicate washes, cuts, and athletic synonyms
 
 blue jeans
-black jeans
 ripped jeans
-straight-leg jeans
-skinny jeans
 wide-leg jeans
 chinos
-khaki pants
 dress trousers
-pleated trousers
-slacks
 corduroy pants
 cargo pants
 linen trousers
 leather pants
 joggers
-sweatpants
 leggings
-bike shorts
 denim shorts
 tailored shorts
-bermuda shorts
 pencil skirt
-A-line skirt
-pleated skirt
 maxi skirt
 mini skirt
-culottes
 palazzo pants
 harem pants
 kilt
-yoga pants
-compression tights

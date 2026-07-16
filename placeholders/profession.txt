@@ -11,7 +11,6 @@ doctor in white coat over scrubs with pen light and name badge
 surgeon in surgical greens with scrub cap, face mask pulled down, and shoe covers
 paramedic in reflective-stripe uniform with shoulder radio and heavy boots
 dentist in white coat with latex gloves and head-mounted exam light
-veterinarian in scrubs with stethoscope and animal-hair-dusted sleeves
 
 # --- Education & research ---
 teacher in tweed blazer with elbow patches, lanyard ID, and chalk-dusted cuffs
@@ -22,9 +21,7 @@ archaeologist in khaki field shirt, wide-brim hat, and dusty boots
 # --- Creative & arts ---
 painter in paint-splattered overalls with smock and pigment-stained hands
 photographer in multi-pocket vest with hanging camera straps and scuffed boots
-fashion designer in sharp black ensemble with measuring tape around the neck
 ballerina in leotard, tutu, tights, and ballet slippers with hair in a tight bun
-sculptor in dusty apron with clay under the fingernails
 tattoo artist in black clothes with ink-stained forearms and nitrile gloves
 
 # --- Tech & site work ---
@@ -39,7 +36,6 @@ carpenter in flannel shirt and tool belt with hammer loop and sawdust on sleeves
 mason in dusty work clothes with mortar-caked boots and knee pads
 tailor in waistcoat with measuring tape around the neck and pin cushion on wrist
 jeweler with loupe headset, fine-work apron, and precise clean hands
-locksmith in work vest with key rings and pick-set pouches
 glassblower in heat-resistant apron with singed cuffs and safety glasses
 
 # --- Service & hospitality ---
@@ -48,7 +44,6 @@ bartender in black vest with rolled sleeves and bar towel over one shoulder
 waiter in white shirt, black apron, and polished black shoes
 flight attendant in tailored uniform with scarf, wings pin, and neat updo
 hairdresser in black smock with scissors in belt holster and dye-stained fingertips
-makeup artist in black clothes with brush belt and pigment-smudged wrists
 florist in apron with green-stained fingers and shears in pocket
 maid in classic uniform with apron and neat lace collar
 butler in black tailcoat with white gloves and immaculate dress shoes
@@ -71,18 +66,14 @@ lifeguard in red shorts with whistle around the neck and sun-weathered skin
 
 # --- Food & outdoors ---
 chef in white double-breasted coat with toque and flour-dusted sleeves
-baker in flour-dusted apron and white tee with powdery forearms
 butcher in striped apron with steel and knife holster and blood-flecked cuffs
 sommelier in black apron with tastevin around the neck and neat waistcoat
 fisherman in oilskin jacket and cable-knit sweater with salt-crusted boots
 farmer in flannel shirt with mud-caked boots and sun-weathered hands
-gardener in dirt-stained apron and sun hat with soil under the fingernails
-zookeeper in khaki uniform with key ring and animal-feed dust on sleeves
 horse trainer in riding boots and breeches with worn leather gloves
 
 # --- Media & entertainment ---
 detective in rumpled trench coat with badge on neck chain and tired eyes
-private investigator in leather jacket with camera strap and notepad pocket
 news anchor in tailored blazer with mic pack and earpiece wire
 radio DJ with headphones around the neck and casual on-air layers
 stunt performer in padded undersuit with harness straps and scuffed boots
@@ -94,7 +85,6 @@ personal trainer in fitted tank and athletic shorts with coaching lanyard
 yoga instructor in fitted leggings and draped wrap top with bare feet
 boxer in hand wraps and high-waist shorts with mouthguard case on a chain
 martial artist in gi with colored belt and bare feet
-soccer player in team kit with shin guards and cleats
 basketball player in jersey and shorts with high-top sneakers
 surfer in wetsuit with salt-crusted hair and board-wax on the hands
 ski instructor in ski jacket with goggles on helmet and ski boots
@@ -102,8 +92,6 @@ referee in striped jersey with whistle and badge
 
 # --- Transport ---
 truck driver in flannel and jeans with CB radio clip and road-worn boots
-delivery courier in branded jacket and cargo pants with battered sneakers
-postal worker in postal-blue shirt with badge and mail-bag strap marks
 
 # --- Specialty & characterful ---
 monk in simple robes with rope belt and worn sandals
@@ -114,5 +102,4 @@ imam in thobe with kufi cap
 fortune teller in layered shawls with heavy jewelry and headscarf
 street performer in patched colorful clothes with face paint accents
 inventor with goggles on forehead, tool-stained apron, and eccentric layered clothes
-tour guide in branded vest with lanyard badge and comfortable walking shoes
 bodyguard in dark suit with earpiece wire and discreet holster bulge
