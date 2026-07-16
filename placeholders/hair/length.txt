@@ -3,12 +3,8 @@
 
 cropped
 short
-ear-length
-chin-length
-jaw-length
-collarbone-length
 shoulder-length
-medium-length
+medium length
 long
 mid-back length
 waist-length
