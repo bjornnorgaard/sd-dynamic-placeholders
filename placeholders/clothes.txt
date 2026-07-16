@@ -5,57 +5,38 @@
 #   - fullbody  ↔  pants
 # Optional layers (head, scarf, shoes, accessories) may appear on either path.
 # Head/torso themselves expand into further combinations via their group files.
+# One phrasing per unique layer set — synonym prefixes pruned.
 
 # --- Separates: torso + pants (never with fullbody) ---
-
-# Maximal separates
 wearing __clothes/head__, __clothes/scarf__, __clothes/torso__, __clothes/pants__, __clothes/shoes__, and __clothes/accessories__
-dressed in __clothes/head__, __clothes/scarf__, __clothes/torso__, __clothes/pants__, and __clothes/shoes__
-in __clothes/head__, __clothes/scarf__, __clothes/torso__, __clothes/pants__, and __clothes/accessories__
-
-# Head + torso + pants (± shoes / accessories)
-wearing __clothes/head__, __clothes/torso__, __clothes/pants__, __clothes/shoes__, and __clothes/accessories__
-dressed in __clothes/head__, __clothes/torso__, __clothes/pants__, and __clothes/shoes__
-wearing __clothes/head__, __clothes/torso__, __clothes/pants__, and __clothes/accessories__
-in __clothes/head__, __clothes/torso__, and __clothes/pants__
-
-# Scarf + torso + pants (± shoes / accessories)
-wearing __clothes/scarf__, __clothes/torso__, __clothes/pants__, __clothes/shoes__, and __clothes/accessories__
-dressed in __clothes/scarf__, __clothes/torso__, __clothes/pants__, and __clothes/shoes__
-wearing __clothes/scarf__, __clothes/torso__, __clothes/pants__, and __clothes/accessories__
-in __clothes/scarf__, __clothes/torso__, and __clothes/pants__
-
-# Core separates (± shoes / accessories)
-wearing __clothes/torso__, __clothes/pants__, __clothes/shoes__, and __clothes/accessories__
-dressed in __clothes/torso__, __clothes/pants__, and __clothes/shoes__
-wearing __clothes/torso__ and __clothes/pants__ with __clothes/accessories__
-in __clothes/torso__ and __clothes/pants__
-
-# Head + scarf without accessories clutter
 wearing __clothes/head__, __clothes/scarf__, __clothes/torso__, __clothes/pants__, and __clothes/shoes__
-dressed in __clothes/head__, __clothes/torso__, __clothes/pants__, __clothes/shoes__, with __clothes/accessories__
+wearing __clothes/head__, __clothes/scarf__, __clothes/torso__, __clothes/pants__, and __clothes/accessories__
+wearing __clothes/head__, __clothes/torso__, __clothes/pants__, __clothes/shoes__, and __clothes/accessories__
+wearing __clothes/head__, __clothes/torso__, __clothes/pants__, and __clothes/shoes__
+wearing __clothes/head__, __clothes/torso__, __clothes/pants__, and __clothes/accessories__
+wearing __clothes/head__, __clothes/torso__, and __clothes/pants__
+wearing __clothes/scarf__, __clothes/torso__, __clothes/pants__, __clothes/shoes__, and __clothes/accessories__
+wearing __clothes/scarf__, __clothes/torso__, __clothes/pants__, and __clothes/shoes__
+wearing __clothes/scarf__, __clothes/torso__, __clothes/pants__, and __clothes/accessories__
+wearing __clothes/scarf__, __clothes/torso__, and __clothes/pants__
+wearing __clothes/torso__, __clothes/pants__, __clothes/shoes__, and __clothes/accessories__
+wearing __clothes/torso__, __clothes/pants__, and __clothes/shoes__
+wearing __clothes/torso__ and __clothes/pants__ with __clothes/accessories__
+wearing __clothes/torso__ and __clothes/pants__
 
 # --- Full-body: no torso, no pants ---
-
-# Maximal fullbody
 wearing __clothes/head__, __clothes/scarf__, __clothes/fullbody__, __clothes/shoes__, and __clothes/accessories__
-dressed in __clothes/head__, __clothes/scarf__, __clothes/fullbody__, and __clothes/shoes__
-in __clothes/head__, __clothes/scarf__, __clothes/fullbody__, and __clothes/accessories__
-
-# Head + fullbody (± shoes / accessories)
+wearing __clothes/head__, __clothes/scarf__, __clothes/fullbody__, and __clothes/shoes__
+wearing __clothes/head__, __clothes/scarf__, __clothes/fullbody__, and __clothes/accessories__
 wearing __clothes/head__, __clothes/fullbody__, __clothes/shoes__, and __clothes/accessories__
-dressed in __clothes/head__, __clothes/fullbody__, and __clothes/shoes__
+wearing __clothes/head__, __clothes/fullbody__, and __clothes/shoes__
 wearing __clothes/head__, __clothes/fullbody__, and __clothes/accessories__
-in __clothes/head__ and __clothes/fullbody__
-
-# Scarf + fullbody (± shoes / accessories)
+wearing __clothes/head__ and __clothes/fullbody__
 wearing __clothes/scarf__, __clothes/fullbody__, __clothes/shoes__, and __clothes/accessories__
-dressed in __clothes/scarf__, __clothes/fullbody__, and __clothes/shoes__
+wearing __clothes/scarf__, __clothes/fullbody__, and __clothes/shoes__
 wearing __clothes/scarf__, __clothes/fullbody__, and __clothes/accessories__
-in __clothes/scarf__ and __clothes/fullbody__
-
-# Core fullbody (± shoes / accessories)
+wearing __clothes/scarf__ and __clothes/fullbody__
 wearing __clothes/fullbody__ with __clothes/shoes__ and __clothes/accessories__
-dressed in __clothes/fullbody__ and __clothes/shoes__
+wearing __clothes/fullbody__ and __clothes/shoes__
 wearing __clothes/fullbody__ with __clothes/accessories__
-in __clothes/fullbody__
+wearing __clothes/fullbody__
