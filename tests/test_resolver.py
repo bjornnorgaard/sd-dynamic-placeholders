@@ -260,6 +260,41 @@ class ResolverTests(unittest.TestCase):
             self.assertNotIn("__clothes/torso/", torso)
             self.assertNotIn("__clothes/torso__", torso)
 
+class MultiRootLibraryTests(unittest.TestCase):
+    def setUp(self) -> None:
+        self.tmp = tempfile.TemporaryDirectory()
+        base = Path(self.tmp.name)
+        self.primary = base / "primary"
+        self.extra = base / "extra"
+        self.primary.mkdir()
+        self.extra.mkdir()
+        (self.primary / "pose.txt").write_text("primary-pose\n", encoding="utf-8")
+        (self.extra / "pose.txt").write_text("extra-pose\n", encoding="utf-8")
+        (self.extra / "mood.txt").write_text("cheerful\n", encoding="utf-8")
+
+    def tearDown(self) -> None:
+        self.tmp.cleanup()
+
+    def test_lists_names_from_all_roots(self):
+        library = PlaceholderLibrary([self.primary, self.extra])
+        self.assertEqual(library.list_placeholders(), ["mood", "pose"])
+
+    def test_primary_wins_on_name_conflict(self):
+        library = PlaceholderLibrary([self.primary, self.extra])
+        self.assertEqual(library.get_values("pose"), ["primary-pose"])
+        self.assertEqual(library.resolve_file("pose"), self.primary / "pose.txt")
+
+    def test_extra_root_supplies_missing_names(self):
+        library = PlaceholderLibrary([self.primary, self.extra])
+        self.assertEqual(library.get_values("mood"), ["cheerful"])
+
+    def test_resolver_uses_extra_root(self):
+        library = PlaceholderLibrary([self.primary, self.extra])
+        resolver = PlaceholderResolver(library)
+        self.assertEqual(resolver.expand("feel __mood__", seed=0), "feel cheerful")
+        self.assertEqual(resolver.expand("__pose__", seed=0), "primary-pose")
+
+
 class PatternEdgeCaseTests(unittest.TestCase):
     def test_custom_wrap(self):
         with tempfile.TemporaryDirectory() as tmp:

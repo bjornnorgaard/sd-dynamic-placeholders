@@ -59,7 +59,7 @@ class Script(scripts.Script):
                 "<p style='margin:0.4em 0 0'>"
                 "Use <code>__name__</code> in prompts. "
                 "Each name maps to a newline-separated list file in the placeholders folder "
-                "(Settings → Dynamic Placeholders)."
+                "(Settings → Dynamic Placeholders), and optionally an extra folder below."
                 "</p>"
             )
             same_seed_link = gr.Checkbox(
@@ -72,15 +72,28 @@ class Script(scripts.Script):
                 "When enabled, the same seed reproduces the same replacements."
                 "</p>"
             )
-        return [enabled, same_seed_link]
+            extra_placeholders_dir = gr.Textbox(
+                label="Additional placeholders directory",
+                value="",
+                placeholder="/path/to/your/placeholders",
+                elem_id="dynph_extra_dir",
+            )
+            gr.HTML(
+                "<p style='margin:0.2em 0 0;opacity:0.8'>"
+                "Optional folder outside the extension install path. "
+                "List files there are used alongside the default/settings directory "
+                "(default wins on name conflicts)."
+                "</p>"
+            )
+        return [enabled, same_seed_link, extra_placeholders_dir]
 
-    def process(self, p, enabled: bool, same_seed_link: bool):
+    def process(self, p, enabled: bool, same_seed_link: bool, extra_placeholders_dir: str = ""):
         if not enabled:
             return
 
         fix_seed(p)
 
-        resolver = make_resolver_from_settings()
+        resolver = make_resolver_from_settings(extra_placeholders_dir)
         original_prompt = _effective_prompt(getattr(p, "all_prompts", None), p.prompt)
         original_negative = _effective_prompt(
             getattr(p, "all_negative_prompts", None),

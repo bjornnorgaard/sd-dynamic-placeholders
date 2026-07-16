@@ -95,10 +95,11 @@ class PlaceholderResolver:
 
             values = self.library.get_values(name)
             if not values:
+                looked = ", ".join(str(root) for root in self.library.roots)
                 logger.warning(
                     "Dynamic Placeholders: no values found for %s (looked under %s)",
                     self.wrap_name(name),
-                    self.library.root,
+                    looked,
                 )
                 return match.group(0) if self.leave_unresolved else ""
 
@@ -148,8 +149,25 @@ def expand_prompt_list(
     return expanded
 
 
-def make_resolver_from_settings() -> PlaceholderResolver:
-    """Build a resolver using current WebUI settings (with safe defaults)."""
+def _optional_dir(path: str | Path | None) -> Path | None:
+    if path is None:
+        return None
+    text = str(path).strip()
+    if not text:
+        return None
+    return Path(text).expanduser()
+
+
+def make_resolver_from_settings(
+    extra_placeholders_dir: str | Path | None = None,
+) -> PlaceholderResolver:
+    """
+    Build a resolver using current WebUI settings (with safe defaults).
+
+    ``extra_placeholders_dir`` is an optional second folder (typically from the
+    script UI) searched after the configured/default placeholders directory.
+    Use it for portable lists kept outside the extension install path.
+    """
     wrap = DEFAULT_WRAP
     max_depth = DEFAULT_MAX_DEPTH
     leave_unresolved = True
@@ -167,8 +185,18 @@ def make_resolver_from_settings() -> PlaceholderResolver:
     except Exception:
         pass
 
+    roots: list[Path] = [root]
+    extra = _optional_dir(extra_placeholders_dir)
+    if extra is not None:
+        try:
+            same_dir = extra.resolve() == root.resolve()
+        except OSError:
+            same_dir = extra == root
+        if not same_dir:
+            roots.append(extra)
+
     return PlaceholderResolver(
-        PlaceholderLibrary(root),
+        PlaceholderLibrary(roots),
         wrap=wrap,
         max_depth=max_depth,
         leave_unresolved=leave_unresolved,

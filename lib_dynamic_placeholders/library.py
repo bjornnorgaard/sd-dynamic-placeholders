@@ -2,6 +2,7 @@ from __future__ import annotations
 
 import logging
 import re
+from collections.abc import Sequence
 from pathlib import Path
 
 logger = logging.getLogger(__name__)
@@ -26,16 +27,52 @@ def normalize_placeholder_name(name: str) -> str:
     return name.strip().replace("\\", "/")
 
 
+def _normalize_roots(root: Path | str | Sequence[Path | str]) -> list[Path]:
+    if isinstance(root, (str, Path)):
+        candidates = [root]
+    else:
+        candidates = list(root)
+
+    roots: list[Path] = []
+    seen: set[Path] = set()
+    for candidate in candidates:
+        if candidate is None:
+            continue
+        path = Path(candidate).expanduser()
+        if not str(path).strip():
+            continue
+        resolved = path.resolve() if path.exists() else path
+        if resolved in seen:
+            continue
+        seen.add(resolved)
+        roots.append(path)
+    return roots
+
+
 class PlaceholderLibrary:
     """
-    Loads newline-separated replacement lists from a directory tree.
+    Loads newline-separated replacement lists from one or more directory trees.
 
     ``placeholders/pose.txt``          → ``__pose__``
     ``placeholders/furniture/sofa.txt`` → ``__furniture/sofa__``
+
+    When multiple roots are given, the first root that contains a matching
+    list file wins. Extra roots are a convenient place for portable lists
+    kept outside the extension install folder.
     """
 
-    def __init__(self, root: Path, *, encoding: str = "utf-8"):
-        self.root = Path(root)
+    def __init__(
+        self,
+        root: Path | str | Sequence[Path | str],
+        *,
+        encoding: str = "utf-8",
+    ):
+        roots = _normalize_roots(root)
+        if not roots:
+            raise ValueError("PlaceholderLibrary requires at least one root directory")
+        self.roots = roots
+        # Back-compat: callers and log messages that expect a single root.
+        self.root = roots[0]
         self.encoding = encoding
         self._cache: dict[str, tuple[float, list[str]]] = {}
 
@@ -43,23 +80,23 @@ class PlaceholderLibrary:
         self._cache.clear()
 
     def list_placeholders(self) -> list[str]:
-        """Return sorted placeholder names discovered under the root."""
+        """Return sorted placeholder names discovered under all roots."""
         names: set[str] = set()
-        if not self.root.is_dir():
-            return []
-
-        for path in self.root.rglob("*"):
-            if not path.is_file():
+        for root in self.roots:
+            if not root.is_dir():
                 continue
-            if path.suffix.lower() not in TEXT_EXTENSIONS:
-                continue
-            try:
-                relative = path.relative_to(self.root)
-            except ValueError:
-                continue
-            name = normalize_placeholder_name(str(relative.with_suffix("")))
-            if name:
-                names.add(name)
+            for path in root.rglob("*"):
+                if not path.is_file():
+                    continue
+                if path.suffix.lower() not in TEXT_EXTENSIONS:
+                    continue
+                try:
+                    relative = path.relative_to(root)
+                except ValueError:
+                    continue
+                name = normalize_placeholder_name(str(relative.with_suffix("")))
+                if name:
+                    names.add(name)
         return sorted(names)
 
     def resolve_file(self, name: str) -> Path | None:
@@ -68,11 +105,12 @@ class PlaceholderLibrary:
         if not name or ".." in name.split("/"):
             return None
 
-        base = self.root / Path(*name.split("/"))
-        for ext in TEXT_EXTENSIONS:
-            candidate = base.with_suffix(ext)
-            if candidate.is_file():
-                return candidate
+        for root in self.roots:
+            base = root / Path(*name.split("/"))
+            for ext in TEXT_EXTENSIONS:
+                candidate = base.with_suffix(ext)
+                if candidate.is_file():
+                    return candidate
         return None
 
     def get_values(self, name: str) -> list[str]:
