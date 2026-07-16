@@ -1,5 +1,7 @@
 # Dynamic Placeholders syntax
 
+Related docs: [PLACEHOLDERS.md](PLACEHOLDERS.md) (shipped tokens) · [SETTINGS.md](SETTINGS.md) (UI & options) · [EXAMPLES.md](EXAMPLES.md) (ready-to-paste prompts)
+
 ## Tokens
 
 A placeholder is a name wrapped on both sides by the wrap string (default `__`):
@@ -129,72 +131,31 @@ Child lists live under `placeholders/clothes/`:
 - `torso/` — `shirt`, `jacket` (composed by `torso.txt`)
 - plus `scarf`, `fullbody`, `pants`, `shoes`, `accessories`, `jewelry`
 
-## Examples
-
-**Basic**
+## Minimal examples
 
 Prompt:
 
 ```
-a man __pose__ on a __furniture__
+portrait of a __profession__ with __hair__
 ```
 
-Possible result:
+Possible result (composition from `hair.txt`):
 
 ```
-a man kneeling on a wooden bench
+portrait of a firefighter in turnout gear with reflective stripes, helmet, and soot-smudged face with long auburn ponytail hair
 ```
 
-**Longer scene fragments**
-
-`placeholders/scene.txt`:
+Custom nested lists of your own:
 
 ```
-a quiet rainy street at dusk, reflections on wet asphalt
-an overgrown greenhouse filled with tropical plants
+placeholders/
+  lighting.txt          →  soft morning light / __lighting/color__ studio softboxes
+  lighting/color.txt    →  golden amber / cool blue
 ```
 
-Prompt:
+Prompt `portrait, __lighting__` might become `portrait, cool blue studio softboxes`.
 
-```
-cinematic photo of __scene__, 35mm
-```
-
-**Nested path placeholders**
-
-`placeholders/lighting.txt`:
-
-```
-soft morning light through curtains
-__lighting/color__ studio softboxes
-```
-
-`placeholders/lighting/color.txt`:
-
-```
-golden amber
-cool blue
-```
-
-Prompt:
-
-```
-portrait, __lighting__
-```
-
-Possible result:
-
-```
-portrait, cool blue studio softboxes
-```
-
-**Negative prompts**
-
-Placeholders work in negative prompts when the setting is enabled:
-
-```
-__bad_quality__, blurry, watermark
-```
+For fuller ready-to-paste prompts (focused demos and kitchen-sink showcases), see [EXAMPLES.md](EXAMPLES.md).
 
 ## Tips
 
@@ -202,3 +163,4 @@ __bad_quality__, blurry, watermark
 - Keep one concept per file, then compose them in higher-level files (e.g. `hair.txt`).
 - Use `#` comments at the top of a file to document intended usage.
 - After editing list files, generate again — no WebUI restart is required (cache keys on file mtime).
+- Placeholders also expand in negative / Hires prompts when those settings are on — see [SETTINGS.md](SETTINGS.md).

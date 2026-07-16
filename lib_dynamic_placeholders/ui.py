@@ -7,7 +7,7 @@ from typing import Iterator
 
 import gradio as gr
 
-# Light in-UI guide — not a substitute for README / docs/SYNTAX.md.
+# Light in-UI guide — not a substitute for README / docs/*.
 _USAGE_GUIDE_HTML = """
 <div class="dynph-usage-guide">
   <p>
@@ -57,8 +57,10 @@ _USAGE_GUIDE_HTML = """
   </ul>
 
   <p class="dynph-usage-guide-footnote">
-    This is a short overview only. Full syntax, examples, and shipped token lists
-    are in the extension repository (<code>README.md</code>, <code>docs/SYNTAX.md</code>).
+    This is a short overview only. Full docs live in the extension repository:
+    <code>README.md</code> plus <code>docs/</code>
+    (<code>SYNTAX.md</code>, <code>PLACEHOLDERS.md</code>, <code>SETTINGS.md</code>,
+    <code>EXAMPLES.md</code>).
   </p>
 </div>
 """
