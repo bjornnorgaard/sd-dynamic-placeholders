@@ -1,6 +1,8 @@
 # Dynamic Placeholders
 
-A Stable Diffusion WebUI extension that turns prompt tokens into random phrase expansions from plain text files.
+A [Stable Diffusion WebUI Forge - Neo](https://github.com/Haoming02/sd-webui-forge-classic/tree/neo) extension that turns prompt tokens into random phrase expansions from plain text files.
+
+**Only tested with Forge Neo.** It may work on other Automatic1111-compatible frontends, but that is unsupported.
 
 Write lists under `placeholders/`, then use `__name__` in a prompt. At generation time each token is replaced with a random line from the matching file. Nested tokens inside those lines expand recursively, so one high-level placeholder can compose hair, clothes, setting, and more from smaller lists.
 
@@ -14,19 +16,13 @@ Example expansion:
 portrait of firefighter in turnout gear with reflective stripes, helmet, and soot-smudged face with a sly smirk, long auburn high ponytail hair, wearing knit beanie, wire-rim glasses, flannel shirt under a denim jacket, blue jeans, and sneakers, in a pine forest misty at dawn at golden hour, Tokyo with neon streets, dense towers, and Shinto shrine courtyards
 ```
 
-Built for **Stable Diffusion WebUI Forge - Neo** and other Automatic1111-compatible frontends.
+## Features
 
-## Why this exists
-
-[sd-dynamic-prompts](https://github.com/adieyal/sd-dynamic-prompts) is a full combinatorial / Jinja / magic-prompt toolkit. Dynamic Placeholders is narrower on purpose:
-
-- A dedicated `placeholders/` folder (not `wildcards/`)
+- A dedicated `placeholders/` folder for list files
 - One random line per token — no combinatorial explosion
 - List lines are first-class **phrases and sentences**, not only single words
 - Nested composition so parent lists (`__hair__`, `__clothes__`) pull in child lists automatically
 - Shipped lists tuned for **visual distinctiveness** in image models (fewer near-duplicates, sharper silhouettes)
-
-Use it when you want varied, readable prompt fragments without learning a template language.
 
 ## Install
 
@@ -132,11 +128,9 @@ Override under **Settings → Dynamic Placeholders → Placeholders directory**,
 
 ## How it works
 
-Forge Neo uses the same extension script API as Automatic1111. This extension registers an `AlwaysVisible` script and rewrites `p.all_prompts` (and optional negative / HR prompts) inside `Script.process()`, after `setup_prompts()` and before sampling.
+On Forge Neo this extension registers an `AlwaysVisible` script and rewrites `p.all_prompts` (and optional negative / HR prompts) inside `Script.process()`, after `setup_prompts()` and before sampling.
 
 Each `__token__` is resolved independently (two `__expression__` tokens can become two different faces). With seed linking enabled, sampling is driven by the image seed so reruns match. The unresolved template stays in the UI / PNG info when that setting is on.
-
-You do **not** need Forge-specific APIs for prompt rewriting.
 
 ## Autocomplete
 
@@ -144,16 +138,6 @@ Typing `__` in a prompt (or negative / HR prompt) opens a list of available plac
 
 - Built-in: works without other extensions. Uses the wrap string and placeholders directory from Settings.
 - [Tag Autocomplete](https://github.com/DominikDoom/a1111-sd-webui-tagcomplete): if that extension is installed with wildcard search enabled, it owns `__` completion instead. This extension keeps a `wildcards/` symlink to `placeholders/` so Tag Autocomplete can discover the same lists.
-
-## Coexistence with sd-dynamic-prompts
-
-Both extensions understand `__name__`-style tokens. If both are enabled they can interfere. Prefer one of:
-
-- Disable Dynamic Prompts when using Dynamic Placeholders, or
-- Disable Dynamic Placeholders when using Dynamic Prompts, or
-- Point each at different directories and avoid overlapping token names.
-
-Dynamic Placeholders uses `placeholders/` by default; Dynamic Prompts uses `wildcards/`.
 
 ## Tests
 
