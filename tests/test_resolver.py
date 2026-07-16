@@ -195,25 +195,26 @@ class ResolverTests(unittest.TestCase):
 
     def test_bundled_samples_exist(self):
         samples = EXTENSION_ROOT / "placeholders"
-        self.assertTrue((samples / "pose.txt").is_file())
-        self.assertTrue((samples / "furniture.txt").is_file())
         self.assertTrue((samples / "hair.txt").is_file())
         self.assertTrue((samples / "hair" / "length.txt").is_file())
         self.assertTrue((samples / "hair" / "color.txt").is_file())
         self.assertTrue((samples / "hair" / "style.txt").is_file())
+        self.assertTrue((samples / "clothes.txt").is_file())
+        self.assertTrue((samples / "clothes" / "head.txt").is_file())
+        self.assertTrue((samples / "clothes" / "torso.txt").is_file())
+        for layer in (
+            "scarf",
+            "fullbody",
+            "pants",
+            "shoes",
+            "accessories",
+        ):
+            self.assertTrue((samples / "clothes" / f"{layer}.txt").is_file())
+        for layer in ("hat", "glasses", "piercings"):
+            self.assertTrue((samples / "clothes" / "head" / f"{layer}.txt").is_file())
+        for layer in ("shirt", "jacket"):
+            self.assertTrue((samples / "clothes" / "torso" / f"{layer}.txt").is_file())
         lib = PlaceholderLibrary(samples)
-        pose = lib.get_values("pose")
-        furniture = lib.get_values("furniture")
-        self.assertGreaterEqual(len(pose), 4)
-        self.assertGreaterEqual(len(furniture), 4)
-        # Longer phrase present in sample data
-        self.assertTrue(any(len(v.split()) > 2 for v in pose))
-
-        prompt = "a man __pose__ on a __furniture__"
-        expanded = PlaceholderResolver(lib).expand(prompt, seed=7)
-        self.assertRegex(expanded, r"^a man .+ on a .+$")
-        self.assertNotIn("__pose__", expanded)
-        self.assertNotIn("__furniture__", expanded)
 
         # Bundled composable hair fully resolves nested tokens.
         haired = PlaceholderResolver(lib).expand(
@@ -222,6 +223,14 @@ class ResolverTests(unittest.TestCase):
         )
         self.assertNotIn("__", haired)
         self.assertTrue(haired.startswith("a woman with "))
+
+        # Bundled composable clothes fully resolves nested tokens.
+        clothed = PlaceholderResolver(lib).expand(
+            "a person __clothes__",
+            seed=3,
+        )
+        self.assertNotIn("__", clothed)
+        self.assertTrue(clothed.startswith("a person "))
 
     def test_bundled_hair_composition_variants(self):
         samples = EXTENSION_ROOT / "placeholders"
@@ -232,6 +241,58 @@ class ResolverTests(unittest.TestCase):
             self.assertNotIn("__hair/color__", result)
             self.assertNotIn("__hair/style__", result)
             self.assertNotIn("__hair__", result)
+
+    def test_bundled_clothes_composition_variants(self):
+        samples = EXTENSION_ROOT / "placeholders"
+        resolver = PlaceholderResolver(PlaceholderLibrary(samples))
+        for seed in range(40):
+            result = resolver.expand("__clothes__", seed=seed)
+            self.assertNotIn("__clothes/", result)
+            self.assertNotIn("__clothes__", result)
+
+        # Separates vs fullbody stay mutually exclusive in composition lines.
+        lines = [
+            line.strip()
+            for line in (samples / "clothes.txt").read_text(encoding="utf-8").splitlines()
+            if line.strip() and not line.strip().startswith("#")
+        ]
+        separates = [
+            line
+            for line in lines
+            if "__clothes/torso__" in line or "__clothes/pants__" in line
+        ]
+        fullbody = [line for line in lines if "__clothes/fullbody__" in line]
+        self.assertGreaterEqual(len(separates), 12)
+        self.assertGreaterEqual(len(fullbody), 12)
+        self.assertEqual(len(lines), len(separates) + len(fullbody))
+
+        for line in lines:
+            has_fullbody = "__clothes/fullbody__" in line
+            has_torso = "__clothes/torso__" in line
+            has_pants = "__clothes/pants__" in line
+            self.assertFalse(
+                has_fullbody and has_torso,
+                f"composition mixes fullbody with torso: {line!r}",
+            )
+            self.assertFalse(
+                has_fullbody and has_pants,
+                f"composition mixes fullbody with pants: {line!r}",
+            )
+            # Separates always keep torso + pants together.
+            if has_torso or has_pants:
+                self.assertTrue(
+                    has_torso and has_pants,
+                    f"separates line missing torso or pants: {line!r}",
+                )
+
+        # Head and torso group files resolve their nested children.
+        for seed in range(12):
+            head = resolver.expand("__clothes/head__", seed=seed)
+            self.assertNotIn("__clothes/head/", head)
+            self.assertNotIn("__clothes/head__", head)
+            torso = resolver.expand("__clothes/torso__", seed=seed)
+            self.assertNotIn("__clothes/torso/", torso)
+            self.assertNotIn("__clothes/torso__", torso)
 
 class PatternEdgeCaseTests(unittest.TestCase):
     def test_custom_wrap(self):

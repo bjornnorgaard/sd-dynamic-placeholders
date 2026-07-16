@@ -1,0 +1,35 @@
+# Shoes / footwear options — referenced from clothes.txt via __clothes/shoes__
+# Ordered: casual → athletic → boots → formal → fashion & specialty
+
+sneakers
+white sneakers
+high-top sneakers
+running shoes
+loafers
+boat shoes
+espadrilles
+sandals
+flip-flops
+slide sandals
+ballet flats
+mary janes
+ankle boots
+chelsea boots
+combat boots
+cowboy boots
+hiking boots
+rain boots
+dress shoes
+oxfords
+brogues
+patent leather shoes
+heels
+stilettos
+block heels
+platform shoes
+wedges
+mules
+clogs
+slippers
+barefoot
+socked feet

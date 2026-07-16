@@ -1,0 +1,30 @@
+# Shirts / tops — referenced via __clothes/torso/shirt__
+# Ordered: casual tees → shirts → knits → structured tops
+# Meant for separates (not used alongside fullbody).
+
+plain t-shirt
+graphic tee
+tank top
+crop top
+henley shirt
+polo shirt
+button-up shirt
+flannel shirt
+oxford shirt
+blouse
+peasant blouse
+off-shoulder top
+halter top
+turtleneck
+mock turtleneck
+sweater
+cardigan
+hoodie
+zip-up hoodie
+crewneck sweatshirt
+vest
+waistcoat
+corset top
+bustier
+camisole
+tube top

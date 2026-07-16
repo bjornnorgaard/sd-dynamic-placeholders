@@ -1,0 +1,7 @@
+# Torso group: shirts/tops and jackets/coats as separate nested lists.
+# Shirt alone, jacket alone, or shirt under jacket — never mixed with fullbody.
+
+__clothes/torso/shirt__ under a __clothes/torso/jacket__
+__clothes/torso/shirt__ and a __clothes/torso/jacket__
+__clothes/torso/shirt__
+__clothes/torso/jacket__

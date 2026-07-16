@@ -1,0 +1,10 @@
+# Head group: hat, glasses, and piercings as separate nested lists.
+# Variants omit optional layers so not every look forces all three.
+
+__clothes/head/hat__, __clothes/head/glasses__, __clothes/head/piercings__
+__clothes/head/hat__, __clothes/head/glasses__
+__clothes/head/hat__, __clothes/head/piercings__
+__clothes/head/glasses__, __clothes/head/piercings__
+__clothes/head/hat__
+__clothes/head/glasses__
+__clothes/head/piercings__

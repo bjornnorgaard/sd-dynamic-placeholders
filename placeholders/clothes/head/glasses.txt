@@ -1,0 +1,22 @@
+# Glasses / eyewear options — referenced via __clothes/head/glasses__
+# Ordered: prescription frames → sunglasses → specialty eyewear
+
+wire-rim glasses
+round spectacles
+rectangular glasses
+cat-eye glasses
+thick-rimmed glasses
+rimless glasses
+aviator sunglasses
+wayfarer sunglasses
+round sunglasses
+mirrored sunglasses
+oversized sunglasses
+monocle
+reading glasses perched on the nose
+pince-nez
+safety goggles
+ski goggles
+swimming goggles
+blindfold
+eye patch

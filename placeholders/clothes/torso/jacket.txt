@@ -1,0 +1,24 @@
+# Jackets / coats — referenced via __clothes/torso/jacket__
+# Ordered: light layers → denim/leather → formal → heavy outerwear
+# Meant for separates (not used alongside fullbody).
+
+denim jacket
+leather jacket
+bomber jacket
+varsity jacket
+windbreaker
+rain jacket
+fleece jacket
+blazer
+sport coat
+suit jacket
+trench coat
+peacoat
+overcoat
+parka
+puffer jacket
+quilted jacket
+motorcycle jacket
+cape
+poncho
+cloak

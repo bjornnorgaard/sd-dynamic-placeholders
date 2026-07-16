@@ -1,0 +1,19 @@
+# Piercings & face jewelry — referenced via __clothes/head/piercings__
+# Ordered: nose → lip/brow → ear-adjacent face → ornamental face jewelry
+
+nose ring
+septum piercing
+nose stud
+double nose studs
+lip ring
+labret piercing
+eyebrow piercing
+cheek piercings
+dermal piercings
+bridge piercing
+medusa piercing
+facial gemstones
+bindi
+face chain
+temporary face tattoos
+ornate face jewels

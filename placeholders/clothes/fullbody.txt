@@ -1,0 +1,38 @@
+# Full-body attire — referenced from clothes.txt via __clothes/fullbody__
+# One-piece or coordinated head-to-hem looks. Composition lines that use this
+# omit top/pants so nothing is worn over the outfit.
+
+tailored suit
+three-piece suit
+tuxedo
+evening gown
+cocktail dress
+sundress
+maxi dress
+wrap dress
+little black dress
+ball gown
+jumpsuit
+romper
+overalls
+coveralls
+boiler suit
+kimono
+yukata
+cheongsam
+hanbok
+sari
+abaya
+kaftan
+dashiki
+tracksuit
+onesie
+hazmat suit
+armor suit
+superhero costume
+wedding dress
+bridal suit
+lab coat over scrubs
+military dress uniform
+monk's robes
+academic gown
