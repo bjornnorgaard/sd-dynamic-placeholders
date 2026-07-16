@@ -10,7 +10,7 @@ import gradio as gr
 # Demo prompt for the script accordion — uses the shipped top-level lists.
 # Swap __artstyle__ for __photostyle__ for a photography look.
 EXAMPLE_PROMPT = (
-    "__view__, __artstyle__ of a __race__ __profession__, __country__, "
+    "__focus__, __view__, __artstyle__ of a __race__ __profession__, __country__, "
     "with a __expression__, __face__, __hair__, __clothes__, "
     "in a __setting__ in __city__ at __time__"
 )

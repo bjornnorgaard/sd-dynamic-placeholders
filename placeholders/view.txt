@@ -1,5 +1,5 @@
 # View, angle & composition — use as __view__ in prompts
-# Phrases for viewpoint, framing distance, and composition
+# Phrases for viewpoint, facing, and composition (not character crop — use __focus__)
 # Shared language of anime/manga direction and cinema / still imagery
 # (e.g. "__view__", "seen in __view__", "__view__ of …", "a __view__ composition")
 # Medium-agnostic — no photography-only optics jargon (no lens, bokeh, depth of field)
@@ -22,15 +22,6 @@ view from behind
 over-the-shoulder framing
 subject looking back over the shoulder
 
-# --- Framing distance ---
-extreme close-up
-close-up on the face
-bust framing from the chest up
-cowboy framing from mid-thigh up
-full-body framing
-wide establishing view
-distant tiny figure in a vast space
-
 # --- Tilt, drama & perspective ---
 dutch angle with tilted horizon
 dynamic action angle
@@ -47,3 +38,5 @@ seen through a doorway
 reflection in a mirror
 first-person point-of-view
 two figures sharing the frame
+wide establishing view
+distant tiny figure in a vast space

@@ -1,0 +1,26 @@
+# Character crop & body focus — use as __focus__ in prompts
+# How much of the character is in frame, or which body part the shot centers on
+# (e.g. "__focus__", "shot as __focus__", "__focus__ portrait", "__focus__ of …")
+# Crop and subject emphasis only — not camera angle, facing, or composition devices
+# (those belong in __view__)
+# One exemplar per visual family; near-duplicates pruned so each line changes the crop
+# Style: short, no leading a/an/the — lead with the crop or body-part cue
+
+# --- Face & head ---
+extreme close-up on the eyes
+close-up on the face
+headshot from the shoulders up
+
+# --- Torso crops ---
+bust framing from the chest up
+upper body from the waist up
+cowboy framing from mid-thigh up
+
+# --- Full figure ---
+full body from head to toe
+full body with space around the figure
+
+# --- Body-part emphasis ---
+hands in close focus
+feet and legs in frame
+back and shoulders filling the frame
