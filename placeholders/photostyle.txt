@@ -1,0 +1,40 @@
+# Photorealistic photography styles — use as __photostyle__ in prompts
+# Phrases meant for camera / capture slots (e.g. "__photostyle__ of …", "shot as __photostyle__",
+# "a __photostyle__ portrait", "__photostyle__, sharp detail")
+# Photography and photoreal capture looks only — no illustration, painting, or animation
+# One exemplar per visual family; near-duplicates pruned so each line pushes a different look
+# Style: short, to the point, no leading a/an/the — lead with the photo noun
+
+# --- Cinematic & narrative ---
+cinematic still with anamorphic lens flare
+film noir with hard shadows and smoke haze
+documentary photojournalism with raw candid framing
+
+# --- Portrait & fashion ---
+studio portrait with soft key light and clean backdrop
+fashion editorial with dramatic posing and hard flash
+environmental portrait in natural available light
+
+# --- Street & everyday capture ---
+street photography with candid decisive moment
+disposable camera flash with harsh overexposure
+polaroid instant photo with soft faded tones
+
+# --- Film stock & process ---
+black and white photography with rich silver grain
+vintage color film with warm faded dyes
+wet plate tintype with dark metallic sheen
+infrared photography with pale foliage and dark skies
+
+# --- Specialty optics & technique ---
+macro photography with razor-thin depth of field
+long exposure with silky motion blur trails
+tilt-shift photography with miniature-world blur
+double exposure with overlapping translucent frames
+aerial drone photography looking straight down
+
+# --- Genre & subject framing ---
+architectural photography with precise converging lines
+wildlife photography with telephoto compressed background
+sports action photography with frozen motion freeze
+product photography on seamless white backdrop

@@ -1,0 +1,41 @@
+# Non-photorealistic art styles — use as __artstyle__ in prompts
+# Phrases meant for medium / rendering slots (e.g. "__artstyle__ of …", "in the style of __artstyle__",
+# "drawn as __artstyle__", "an __artstyle__ illustration")
+# Painted, drawn, animated, and craft looks only — no photography or photorealism
+# One exemplar per visual family; near-duplicates pruned so each line pushes a different look
+# Style: short, to the point, no leading a/an/the — lead with the style noun
+
+# --- Animation & comics ---
+anime cel shading with bold outlines
+western cartoon with thick ink lines and flat color
+comic book with heavy inks and halftone dots
+manga with screentones and speed lines
+
+# --- Classical & fine art painting ---
+oil painting with visible brushstrokes
+watercolor with soft washes and paper texture
+impressionist painting with broken color dabs
+cubist painting with fragmented geometric planes
+surrealist painting with dreamlike warped forms
+pop art with hard edges and saturated flats
+
+# --- Print & ink traditions ---
+ukiyo-e woodblock print with flat color blocks
+ink wash painting with spare brush strokes
+linocut print with bold carved contrasts
+stained glass with leaded jewel-tone panes
+
+# --- Drawing & illustration ---
+pencil sketch with hatching and construction lines
+charcoal drawing with smudged soft shadows
+flat vector illustration with clean shapes
+art nouveau illustration with organic flowing lines
+storybook illustration with whimsical soft edges
+
+# --- Digital, craft & dimensional ---
+pixel art with chunky limited palette
+low poly 3D with faceted geometric surfaces
+claymation with fingerprints in soft clay
+paper cutout collage with layered silhouettes
+embroidery with stitched thread texture
+graffiti mural with spray drips and bold fills
