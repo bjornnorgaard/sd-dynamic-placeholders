@@ -3,7 +3,6 @@
 # (e.g. "in the __time__", "at __time__", "__time__ light", "a __time__ scene")
 # Ordered roughly from dawn through night; near-duplicates pruned so each line feels distinct
 
-dawn
 sunrise
 morning
 midday
@@ -11,7 +10,6 @@ afternoon
 golden hour
 sunset
 dusk
-evening
 night
 midnight
 before dawn

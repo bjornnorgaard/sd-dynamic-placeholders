@@ -5,7 +5,6 @@
 sneakers
 high-top sneakers
 loafers
-boat shoes
 espadrilles
 sandals
 flip-flops
@@ -20,7 +19,6 @@ oxfords
 stilettos
 block heels
 platform shoes
-wedges
 clogs
 slippers
 barefoot

@@ -15,5 +15,4 @@ peacoat
 overcoat
 parka
 puffer jacket
-poncho
 cloak

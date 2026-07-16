@@ -58,7 +58,6 @@ officer in dress military uniform with medals, polished shoes, and peaked cap
 firefighter in turnout gear with reflective stripes, helmet, and soot-smudged face
 police officer in duty uniform with badge, radio, and duty belt
 sailor in navy dress blues with white cover and polished shoes
-pilot in uniform with epaulets, wings pin, and peaked cap
 astronaut in pressure suit with mission patch and neck ring
 judge in black robes with white jabot collar
 park ranger in khaki uniform with campaign hat and badge
@@ -102,4 +101,3 @@ imam in thobe with kufi cap
 fortune teller in layered shawls with heavy jewelry and headscarf
 street performer in patched colorful clothes with face paint accents
 inventor with goggles on forehead, tool-stained apron, and eccentric layered clothes
-bodyguard in dark suit with earpiece wire and discreet holster bulge

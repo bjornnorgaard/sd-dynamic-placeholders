@@ -50,7 +50,6 @@ piercing gaze
 haunting expression
 smoldering look
 defiant expression
-confident smirk
 
 # --- Tired & weary ---
 exhausted face
