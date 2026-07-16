@@ -20,7 +20,6 @@ from lib_dynamic_placeholders.settings import (
     persist_extra_placeholders_dir,
 )
 from lib_dynamic_placeholders.ui import (
-    example_prompt_box,
     field_help,
     section_description,
     setting_block,
@@ -67,19 +66,10 @@ class Script(scripts.Script):
     def ui(self, is_img2img):
         with gr.Accordion("Dynamic Placeholders", open=False):
             section_description(
-                "Use <code>__name__</code> in prompts. "
-                "Type <code>__</code> to autocomplete available names. "
-                "Each name maps to a newline-separated list file in the placeholders folder "
-                "(Settings → Dynamic Placeholders), and optionally an extra folder below."
+                "Write <code>__name__</code> like any other prompt phrase; "
+                "at generation it is replaced with a random line from its list. "
+                "Example: <code>a __profession__</code>"
             )
-            with setting_block():
-                example_prompt_box()
-                field_help(
-                    "Select all and paste into the prompt box, then generate. "
-                    "Each <code>__token__</code> is replaced from its list file; "
-                    "<code>__hair__</code> and <code>__clothes__</code> expand into nested lists. "
-                    "Swap <code>__artstyle__</code> for <code>__photostyle__</code> for a photo look."
-                )
             with setting_block():
                 enabled = gr.Checkbox(
                     label="Enable",
