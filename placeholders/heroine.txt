@@ -3,60 +3,61 @@
 # (e.g. "portrait of __heroine__", "__heroine__ standing in a __setting__", "__artstyle__ of __heroine__")
 # One exemplar per visual family only — if two would likely render interchangeable
 # silhouettes, costumes, or face types in Stable Diffusion, keep the sharper one
+# Ambiguous short names get franchise keywords so the model does not confuse them
 # Style: short, no leading a/an/the — lead with the character name, then signature look
 
 # --- Video games ---
 Lara Croft in tank top with dual pistols and long braid
 Samus Aran in orange Power Suit with arm cannon and helmet
-Aloy in Nora tribal armor with Focus earpiece and spear
-Ellie with backpack, bow, and scarred determined face
+Aloy of Horizon Zero Dawn in Nora tribal armor with Focus earpiece and spear
+Ellie from The Last of Us with backpack, bow, and scarred determined face
 Bayonetta in black catsuit with guns-as-heels and long hair
-2B with white hair, black blindfold, and frilled combat dress
-Ciri with ashen hair, witcher swords, and scarred cheek
+2B from NieR Automata with white hair, black blindfold, and frilled combat dress
+Ciri from The Witcher with ashen hair, witcher swords, and scarred cheek
 Jill Valentine in STARS beret with shoulder holster and handgun
 Ada Wong in red cheongsam dress with handgun
 Chun-Li in blue qipao with spiked bracelets and bun hair
 Tifa Lockhart in black tank top with suspenders and leather gloves
 Princess Zelda in royal blue-and-gold dress with Triforce crest
-Tracer with orange goggles, chronal accelerator, and twin pistols
-Chell in orange jumpsuit with Portal Gun and long ponytail
-Kassandra in Spartan armor with spear and broken spear of Leonidas
-Senua with Celtic war paint, braided hair, and sword
-Lady Maria in hunter coat with bloodied rapier and tricorne
-Yennefer with raven-black hair, violet eyes, and black gown
+Tracer from Overwatch with orange goggles, chronal accelerator, and twin pistols
+Chell from Portal in orange jumpsuit with Portal Gun and long ponytail
+Kassandra of Assassin's Creed Odyssey in Spartan armor with spear
+Senua of Hellblade with Celtic war paint, braided hair, and sword
+Lady Maria of Bloodborne in hunter coat with bloodied rapier and tricorne
+Yennefer of The Witcher with raven-black hair, violet eyes, and black gown
 
 # --- Movies & live action ---
 Wonder Woman in armored bodice with tiara, lasso, and shield
-Black Widow in black tactical catsuit with widow's bite gauntlets
-Captain Marvel in red-and-blue suit with glowing fists
+Black Widow Natasha Romanoff of Marvel in black tactical catsuit with widow's bite gauntlets
+Captain Marvel Carol Danvers of Marvel in red-and-blue suit with glowing fists
 Ellen Ripley in jumpsuit with pulse rifle and xenomorph scars
 Sarah Connor in tank top with shotgun and military toughness
-Furiosa with shaved head, mechanical arm, and war paint
+Furiosa of Mad Max with shaved head, mechanical arm, and war paint
 Leia Organa in white gown with side buns and blaster
-Rey in scavenger wraps with staff and blue lightsaber
+Rey of Star Wars in scavenger wraps with staff and blue lightsaber
 Katniss Everdeen with side braid, bow, and Mockingjay pin
 Hermione Granger with bushy hair, wand, and Hogwarts robes
-Eowyn in Rohan armor with sword and flowing blond hair
-Trinity in black leather coat with sunglasses and dual pistols
+Eowyn of The Lord of the Rings in Rohan armor with sword and flowing blond hair
+Trinity of The Matrix in black leather coat with sunglasses and dual pistols
 Major Motoko Kusanagi in tactical bodysuit with cybernetic eyes
-Alita with large eyes, cybernetic body, and Damascus blade
-Buffy Summers with wooden stake, leather jacket, and blonde hair
+Alita Battle Angel with large eyes, cybernetic body, and Damascus blade
+Buffy Summers the Vampire Slayer with wooden stake, leather jacket, and blonde hair
 
 # --- Comics & superheroes ---
-Storm with white hair, cape, and crackling lightning
-Scarlet Witch in red hex crown with chaotic magic aura
-She-Ra with golden armor, long blond hair, and Sword of Protection
-Xena in leather armor with chakram and sword
+Storm of the X-Men with white hair, cape, and crackling lightning
+Scarlet Witch Wanda Maximoff of Marvel in red hex crown with chaotic magic aura
+She-Ra Princess of Power with golden armor, long blond hair, and Sword of Protection
+Xena Warrior Princess in leather armor with chakram and sword
 
 # --- Animation & anime ---
 Sailor Moon in sailor fuku with odango buns and crescent wand
 Mikasa Ackerman in Survey Corps cape with red scarf and blades
-Nami with orange hair, bikini top, and Clima-Tact staff
-San from Princess Mononoke with wolf fur cloak and spear mask
-Elsa in ice-blue gown with platinum braid and frost magic
-Merida with wild red curls, green dress, and longbow
-Mulan in Chinese armor with sword and army helmet
-Moana in Polynesian wrap with ocean necklace and canoe paddle
-Jinx with long blue braids, chaos tattoos, and rocket launcher
-Vi with pink hair, hextech gauntlets, and undercity jacket
+Nami of One Piece with orange hair, bikini top, and Clima-Tact staff
+San of Princess Mononoke with wolf fur cloak and spear mask
+Elsa of Frozen in ice-blue gown with platinum braid and frost magic
+Merida of Brave with wild red curls, green dress, and longbow
+Mulan of Disney in Chinese armor with sword and army helmet
+Moana of Disney in Polynesian wrap with ocean necklace and canoe paddle
+Jinx of Arcane League of Legends with long blue braids, chaos tattoos, and rocket launcher
+Vi of Arcane League of Legends with pink hair, hextech gauntlets, and undercity jacket
 Faye Valentine in yellow coat with red hair and cigarette
