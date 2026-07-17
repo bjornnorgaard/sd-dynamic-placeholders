@@ -1,0 +1,36 @@
+# Monsters — use as __monster__ in prompts
+# Phrases meant to stand in for the creature (e.g. "a __monster__", "portrait of a __monster__",
+# "__monster__ in a __setting__", "__artstyle__ of __monster__")
+# Horror and pop-culture monsters from film, books, and games — not ordinary animals or
+# simple fantasy beasts (those belong in __animal__); one entry per visual family only —
+# if two would likely render interchangeable silhouettes, keep the sharper one
+# Style: short, no leading a/an/the — lead with the monster name, then signature look
+
+# --- Classic cinema ---
+Frankenstein's monster with neck bolts, stitches, and green-gray skin
+Nosferatu with bald head, pointed ears, and clawed fingers
+Wolf Man with lupine face, torn clothes, and bristling fur
+mummy wrapped in dusty torn Egyptian bandages
+Gill-man with green scales, gills, and webbed claws
+zombie with rotting flesh, vacant eyes, and shambling posture
+
+# --- Modern horror icons ---
+Xenomorph with elongated smooth head and biomechanical body
+The Thing with fused screaming faces and writhing flesh
+Pennywise clown with red balloon and rows of needle fangs
+Freddy Krueger with burned face, striped sweater, and claw glove
+Pinhead with nail-studded grid face and black leather robes
+Chucky doll with overalls, scars, and wide plastic grin
+Sadako with long black hair covering a pale dripping face
+Demogorgon with flower-petal head and spindly clawed limbs
+Gremlin with scaly green skin, long ears, and sharp teeth
+
+# --- Literary & cosmic ---
+Cthulhu with octopus head, bat wings, and massive tentacles
+Mr. Hyde with brutish twisted face and hulking frame
+
+# --- Kaiju ---
+Godzilla with jagged dorsal plates and towering reptilian bulk
+
+# --- Video games ---
+Pyramid Head with rusted iron pyramid helmet and great knife

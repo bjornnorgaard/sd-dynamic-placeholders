@@ -15,6 +15,7 @@ You can use a parent alone (`__hair__`) and let composition pull in children, or
 | `__makeup__` | Full-face cosmetic looks (natural through theatrical / fantasy) |
 | `__race__` | Fantasy / D&D-style subject races (silhouette + signature traits) |
 | `__animal__` | Real and mythical creatures (single-word names) |
+| `__monster__` | Horror / pop-culture monsters (film, books, games) |
 | `__face__` | Composable face → structure, eyes, nose, lips, ears |
 | `__hair__` | Composable hair → `hair/length`, `hair/color`, `hair/style` |
 | `__clothes__` | Composable attire → head, torso, pants, fullbody, shoes, etc. |

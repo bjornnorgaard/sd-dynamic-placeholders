@@ -82,6 +82,14 @@ __photostyle__, __focus__, __view__ of a __profession__ with __expression__, __h
 __artstyle__ of a __animal__ beside a __profession__, in a __setting__ at __time__, __view__
 ```
 
+### Horror monster
+
+`__monster__` is a pop-culture horror creature (film, books, games) — use it instead of `__animal__` when you want dread and familiar iconography, not a simple beast.
+
+```
+__artstyle__ of a __monster__ looming in a __setting__ at __time__, __view__
+```
+
 ### Photography look vs art medium
 
 Pick one style family per prompt so they do not compete.
