@@ -1,0 +1,37 @@
+# Body builds & physiques — use as __body__ in prompts
+# Phrases meant to sit after "with a/an" or describe the subject (e.g. "with a __body__",
+# "__body__ character", "portrait of someone with a __body__")
+# One exemplar per silhouette family; near-duplicates pruned so each line changes
+# overall proportions, mass, or muscle vs soft tissue — not just wording
+# Style: short, no leading a/an/the — lead with the build cue
+
+# --- Small & delicate ---
+petite frame
+slender build
+wiry build
+gaunt frame
+
+# --- Tall & elongated ---
+lanky build
+
+# --- Average baseline ---
+average medium build
+
+# --- Fit & athletic ---
+athletic build
+lean muscular physique
+
+# --- Strong & muscular ---
+muscular build
+heavily muscled bodybuilder physique
+stocky build
+broad-shouldered frame
+barrel-chested torso
+
+# --- Curved & shaped ---
+curvy hourglass figure
+pear-shaped figure
+
+# --- Soft & heavy ---
+soft plump body
+heavyset build
