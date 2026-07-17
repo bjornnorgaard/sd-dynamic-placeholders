@@ -16,6 +16,7 @@ You can use a parent alone (`__hair__`) and let composition pull in children, or
 | `__hair__` | Composable hair → `hair/length`, `hair/color`, `hair/style` |
 | `__clothes__` | Composable attire → head, torso, pants, fullbody, shoes, etc. |
 | `__setting__` | Outdoor / environment backdrop |
+| `__location__` | Stereotypical movie / animation scene places |
 | `__room__` | Composable interior → type, size, mood, place |
 | `__time__` | Time of day / lighting cue |
 | `__city__` | Visually distinct city / place names |
@@ -57,9 +58,9 @@ Child lists under `placeholders/clothes/`:
 
 `face.txt` mixes structure with optional feature groups (`__eyes__`, `__nose__`, `__lips__`, `__ears__`) so prompts stay light when you omit layers. Each feature group nests size / shape / color / adjective lists the same way hair does.
 
-### Room vs setting
+### Room vs setting vs location
 
-`room.txt` composes indoor locations from `type` with optional `size`, `mood`, and `place` (dwelling context). Use `__room__` for interiors and `__setting__` for outdoor / environment backdrops.
+`room.txt` composes indoor locations from `type` with optional `size`, `mood`, and `place` (dwelling context). Use `__room__` for dwelling interiors, `__setting__` for outdoor / environment backdrops, and `__location__` for stereotypical movie and animation scene places (diner, school hallway, spaceship bridge, and similar).
 
 ### View, focus, pose
 
