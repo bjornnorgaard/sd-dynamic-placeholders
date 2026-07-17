@@ -24,6 +24,18 @@ portrait of a __profession__ with __expression__, __hair__, __clothes__
 portrait of a __profession__ with __expression__, __makeup__, __hair__, __clothes__
 ```
 
+### Famous hero / heroine
+
+`__hero__` and `__heroine__` are named protagonists (games, movies, comics, animation). Use one at a time as the subject — they already carry costume and silhouette.
+
+```
+__artstyle__ portrait of __hero__, __expression__, __pose__, in a __setting__ at __time__
+```
+
+```
+__photostyle__ of __heroine__ __pose__, __view__, in a __location__
+```
+
 ### Fantasy race + cultural look
 
 `__race__` and `__country__` both add silhouette cues; useful for stylized fantasy.

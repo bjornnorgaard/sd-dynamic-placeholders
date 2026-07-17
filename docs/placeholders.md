@@ -9,6 +9,8 @@ You can use a parent alone (`__hair__`) and let composition pull in children, or
 | Token | Role |
 |---|---|
 | `__profession__` | Subject look (silhouette + distinctive gear / traits) |
+| `__hero__` | Male protagonists from games, movies, comics, animation |
+| `__heroine__` | Female protagonists from games, movies, comics, animation |
 | `__expression__` | Facial expression / mood |
 | `__makeup__` | Full-face cosmetic looks (natural through theatrical / fantasy) |
 | `__race__` | Fantasy / D&D-style subject races (silhouette + signature traits) |

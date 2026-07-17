@@ -1,0 +1,62 @@
+# Male heroes — use as __hero__ in prompts
+# Known male protagonists from games, movies, comics, and animation
+# (e.g. "portrait of __hero__", "__hero__ standing in a __setting__", "__artstyle__ of __hero__")
+# One exemplar per visual family only — if two would likely render interchangeable
+# silhouettes, costumes, or face types in Stable Diffusion, keep the sharper one
+# Style: short, no leading a/an/the — lead with the character name, then signature look
+
+# --- Video games ---
+Mario in red hat, blue overalls, and thick mustache
+Link in green tunic, pointed cap, and Master Sword
+Master Chief in green MJOLNIR armor with gold visor
+Solid Snake in sneaking suit with headband and stubble
+Kratos with ash-white skin, red tattoos, and Spartan blades
+Cloud Strife with spiky blond hair and enormous Buster Sword
+Geralt of Rivia with white hair, witcher medallion, and twin swords
+Dante in long red coat with white hair and Rebellion sword
+Doom Slayer in bulky green Praetor armor with shotgun
+Gordon Freeman in orange HEV suit with crowbar and glasses
+Ezio Auditore in Assassin white robes with hood and hidden blade
+Jin Sakai in samurai armor with Ghost half-mask
+Arthur Morgan in cowboy hat, gun belt, and weathered duster
+Leon Kennedy in tactical vest with handgun and police badge
+Ryu in white karate gi with red headband and bare feet
+Scorpion in yellow ninja garb with spear rope and skull mask
+Sonic the Hedgehog blue with red shoes and quills
+Crash Bandicoot orange with jeans and gloves
+
+# --- Movies & live action ---
+Indiana Jones in fedora, leather jacket, and coiled whip
+Neo in long black coat with sunglasses and Matrix green tint
+John Wick in black suit with gun-fu stance and pencil beard
+James Bond in tuxedo with wristwatch and suppressed pistol
+Luke Skywalker in Jedi robes with blue lightsaber
+Han Solo in black vest, white shirt, and blaster holster
+Aragorn in ranger cloak with Anduril and weathered stubble
+Frodo Baggins small hobbit with curly hair and the One Ring
+Harry Potter with round glasses, lightning scar, and wand
+Mad Max in leather jacket with shotgun and desert grit
+T-800 Terminator in leather jacket with red cybernetic eye
+Rocky Balboa in boxing gloves with bruised face and robe
+
+# --- Comics & superheroes ---
+Batman in black cowl, cape, and bat-emblazoned chest
+Superman in blue suit with red cape and S shield
+Spider-Man in red-and-blue webbed suit with large white eyes
+Iron Man in red-and-gold armor with glowing arc reactor
+Captain America with star shield, blue suit, and winged mask
+Wolverine with adamantium claws, sideburns, and yellow costume
+Deadpool in red-and-black suit with dual katanas
+Thor in Asgardian armor with red cape and hammer Mjolnir
+Black Panther in black vibranium suit with pointed ears
+The Hulk enormous green muscle with torn purple pants
+
+# --- Animation & anime ---
+Goku in orange gi with spiky black hair and Power Pole
+Naruto in orange jacket with forehead protector and whisker marks
+Monkey D. Luffy in straw hat, red vest, and stretchy grin
+Edward Elric in red coat with automail arm and blond braid
+Spike Spiegel in blue suit with cigarette and casual lean
+Ash Ketchum in baseball cap with Poké Ball and backpack
+Optimus Prime towering Autobot truck-robot with blue-and-red armor
+He-Man bare-chested with fur loincloth and Power Sword
