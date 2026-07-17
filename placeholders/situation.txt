@@ -1,0 +1,69 @@
+# Situation / activity — use as __situation__ in prompts
+# What is happening: everyday errands through extreme set pieces
+# (e.g. "__situation__", "caught __situation__", "scene of someone __situation__")
+# Activities and events only — not body poses (__pose__), places (__setting__/__location__),
+# or professions (__profession__)
+# One exemplar per visual family; near-duplicates pruned so each line changes the scene action
+# Style: short, to the point, no leading a/an/the — lead with the activity
+
+# --- Everyday errands & chores ---
+shopping in a crowded mall with bags in both hands
+browsing bookshelves in a quiet bookstore
+getting a haircut in a salon chair draped in a cape
+doing laundry in a humming laundromat
+cooking dinner at a stove with steam rising from pans
+watering houseplants on a sunny windowsill
+walking a dog on a leash down a neighborhood sidewalk
+unpacking cardboard moving boxes in an empty room
+commuting on a packed subway gripping a handrail
+stuck in bumper-to-bumper traffic behind a steering wheel
+working late at a glowing laptop in a dark office
+having a picnic on a blanket spread on grass
+ordering coffee at a busy café counter
+waiting at a rainy bus stop under a dripping awning
+scrolling a phone while sprawled on a couch
+
+# --- Social & celebrations ---
+toasting champagne at a candlelit dinner table
+dancing under disco lights on a packed dance floor
+cheering in a roaring sports stadium crowd
+taking wedding vows at an altar strewn with flowers
+blowing out birthday candles on a cake
+reuniting with a hug in a busy airport terminal
+
+# --- Work & skill moments ---
+performing surgery under bright operating-room lights
+teaching at a chalkboard in front of a classroom
+painting a mural on a tall brick wall from scaffolding
+filming with a camera crew on a busy street set
+fighting a grease fire in a commercial kitchen
+
+# --- Sports & physical play ---
+scoring a goal on a muddy soccer pitch
+surfing a towering ocean wave at sunrise
+rock climbing a sheer cliff face with chalked hands
+skiing a steep powder slope through pine trees
+boxing in a ring under harsh arena spotlights
+racing a motorcycle through neon city streets at night
+
+# --- Danger, disaster & survival ---
+fleeing a collapsing building as dust and debris fall
+stranded in a blizzard beside a buried tent
+surviving a shipwreck clinging to floating wreckage
+trapped in a flooding subway as water rises
+running from a tornado across open farmland
+parachuting from a burning airplane mid-sky
+
+# --- Combat & conflict ---
+fighting a pitched medieval battle on muddy fields
+dueling with swords at dawn in misty woodland
+engaging in a gunfight through shattered downtown windows
+
+# --- Fantasy, sci-fi & surreal extremes ---
+battling a dragon in a ruined temple of cracked stone
+facing a kaiju towering over a neon megacity
+boarding an enemy starship through a breached airlock
+fleeing through a haunted mansion as doors slam shut
+opening a glowing portal in the middle of a subway platform
+riding a broomstick low over moonlit rooftops
+standing before an ancient god in a hall of floating lights

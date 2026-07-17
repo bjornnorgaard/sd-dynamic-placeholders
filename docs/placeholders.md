@@ -26,6 +26,7 @@ You can use a parent alone (`__hair__`) and let composition pull in children, or
 | `__view__` | Viewpoint, facing & composition (dutch angle, profile, …) |
 | `__focus__` | Character crop / body focus (upper body, full body, …) |
 | `__pose__` | Body stance & gesture (standing, sitting, anime/game tropes, …) |
+| `__situation__` | Activity / event (everyday errands through extreme set pieces) |
 
 ## Composition groups
 
@@ -62,9 +63,9 @@ Child lists under `placeholders/clothes/`:
 
 `room.txt` composes indoor locations from `type` with optional `size`, `mood`, and `place` (dwelling context). Use `__room__` for dwelling interiors, `__setting__` for outdoor / environment backdrops, and `__location__` for stereotypical movie and animation scene places (diner, school hallway, spaceship bridge, and similar).
 
-### View, focus, pose
+### View, focus, pose, situation
 
-`__view__` covers angle and composition; `__focus__` covers how much of the figure is in frame; `__pose__` covers how the body is held — keep them separate so they do not fight.
+`__view__` covers angle and composition; `__focus__` covers how much of the figure is in frame; `__pose__` covers how the body is held; `__situation__` covers what is happening — keep them separate so they do not fight.
 
 ## File format (short)
 

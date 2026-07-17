@@ -32,6 +32,14 @@ Environment-first: setting, city, and time drive the backdrop.
 __photostyle__ of a __profession__ __pose__ in a __setting__ in __city__ at __time__, __view__
 ```
 
+### Situation-driven scene
+
+`__situation__` supplies the activity; pair with pose/setting only when you want extra control.
+
+```
+__photostyle__ of a __profession__ __situation__, __expression__, __clothes__, __view__
+```
+
 ### Indoor scene
 
 Use `__room__` instead of `__setting__` for interiors.
