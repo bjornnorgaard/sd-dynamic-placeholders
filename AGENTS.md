@@ -34,9 +34,22 @@ Same logic for professions, settings, clothes, hair, expressions, lighting, etc.
 
 Before adding a line, ask: *If this and an existing line both got sampled, would the images look interchangeable?* If yes, do not add it — replace or drop.
 
+## Token boundaries & familiarity
+
+Do not dump lookalikes across adjacent tokens. Prefer the sharper home for the entry:
+
+| Token | Keep | Leave out |
+|---|---|---|
+| `__monster__` | Horror / pop-culture icons with dread | Simple beasts (`__animal__`), RPG types like vampire (`__race__`), plain human slashers |
+| `__game__` | Breakthrough franchise looks | Near-clone genres and niche titles |
+| `__makeup__` | Full-face cosmetic looks | Bare lip color (`__lips__`), expression blush |
+
+When a list is meant for named cultural icons (monsters, games, heroes), prefer **broadly familiar** exemplars over niche completeness. One short signature cue after the name is enough — do not pad with landmark laundry lists.
+
 ## File conventions
 
 - One replacement phrase per line; `#` comments and blank lines are ignored.
 - Match existing style: short, no leading `a`/`an`/`the`, lead with the main noun.
 - Header comments should state the token (`__city__`), intended prompt slots, and the distinctiveness rule.
 - Token name = path under `placeholders/` without extension (`city.txt` → `__city__`).
+- New top-level tokens: add the list, then a one-line row in `docs/placeholders.md` and a short example in `docs/examples.md`.
