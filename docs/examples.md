@@ -24,6 +24,14 @@ portrait of a __profession__ with __expression__, __hair__, __clothes__
 portrait of a __profession__ with __expression__, __makeup__, __hair__, __clothes__
 ```
 
+### Portrait — with skin tone
+
+`__skin__` sets complexion; pair with hair / clothes, not with fantasy race skin cues unless you want them to fight.
+
+```
+portrait of a __profession__ with __skin__, __expression__, __hair__, __clothes__
+```
+
 ### Famous hero / heroine
 
 `__hero__` and `__heroine__` are named protagonists (games, movies, comics, animation). Use one at a time as the subject — they already carry costume and silhouette.

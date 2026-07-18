@@ -1,0 +1,35 @@
+# Skin tones & complexion — use as __skin__ in prompts
+# Phrases meant to sit after "with" (e.g. "with __skin__", "portrait of someone with __skin__")
+# One exemplar per visual family; near-synonyms pruned so each line shifts tone,
+# undertone, or weathering clearly in an image model
+# Style: short, no leading a/an/the — lead with the skin cue
+
+# --- Fair & pale ---
+pale skin
+white skin
+porcelain skin
+fair freckled skin
+
+# --- Light & warm ---
+light warm skin
+
+# --- Olive ---
+olive skin
+
+# --- Tan & sun ---
+tanned skin
+bronze sun-kissed skin
+sunburned skin
+
+# --- Brown spectrum ---
+light brown skin
+brown skin
+deep brown skin
+
+# --- Dark ---
+dark skin
+black skin
+
+# --- Flush & weathering ---
+rosy flushed skin
+weathered sun-darkened skin

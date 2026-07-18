@@ -13,6 +13,7 @@ You can use a parent alone (`__hair__`) and let composition pull in children, or
 | `__heroine__` | Female protagonists from games, movies, comics, animation |
 | `__expression__` | Facial expression / mood |
 | `__makeup__` | Full-face cosmetic looks (natural through theatrical / fantasy) |
+| `__skin__` | Skin tone / complexion (pale through dark, tan, sunburn, etc.) |
 | `__race__` | Fantasy / D&D-style subject races (silhouette + signature traits) |
 | `__animal__` | Real and mythical creatures (single-word names) |
 | `__monster__` | Horror / pop-culture monsters (film, books, games) |
