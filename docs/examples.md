@@ -44,9 +44,9 @@ portrait of a __profession__ with __body__, __expression__, __hair__, __clothes_
 __artstyle__ of a __race__ with __body/frame__, __stomach__, __legs__, __pose__
 ```
 
-### Famous hero / heroine
+### Famous hero / heroine / villain
 
-`__hero__` and `__heroine__` live under `character/` (short-path works). Use one at a time as the subject — they already carry costume and silhouette. Pin a franchise with `__character/heroine/game/ff7__` when you want a fixed list.
+`__hero__`, `__heroine__`, and `__villain__` live under `character/` (short-path works). Use one at a time as the subject — they already carry costume and silhouette. Pin a franchise with `__character/heroine/game/ff7__` or `__character/villain/movie/star_wars__` when you want a fixed list.
 
 ```
 __artstyle__ portrait of __hero__, __expression__, __pose__, in a __outdoor__ at __time__
@@ -54,6 +54,32 @@ __artstyle__ portrait of __hero__, __expression__, __pose__, in a __outdoor__ at
 
 ```
 __photostyle__ of __heroine__ __pose__, __view__, in a __location__
+```
+
+```
+__artstyle__ of __villain__ __pose__, __expression__, in a __location__ at __time__, __view__
+```
+
+### Historical figure / celebrity
+
+```
+__photostyle__ of __historical__ __pose__, __view__, __era__
+```
+
+```
+__artstyle__ portrait of __celebrity__, __expression__, __pose__, __view__
+```
+
+### Age, markings, hands
+
+`__age__` is life stage (`body/age`). `__marking__` picks tattoo / scar / birthmark / brand. `__hands__` is hand anatomy — gloves are `__gloves__`.
+
+```
+portrait of an __age__ __profession__ with __marking__, __expression__, __hair__, __clothes__
+```
+
+```
+__photostyle__, __focus__ of __hands__, __skin__, holding a __prop/held__, __view__
 ```
 
 ### Fantasy race + cultural look
@@ -158,16 +184,52 @@ __photostyle__ of a __profession__ __situation__, __expression__, __clothes__, _
 
 ### Indoor scene
 
-Use `__house__`, `__castle__`, or `__ballroom__` for interiors; `__outdoor__` for biomes.
+Use `__house__`, `__castle__`, `__ballroom__`, `__laboratory__`, or `__office__` for interiors; `__outdoor__` for biomes.
 
 ```
 __photostyle__, __focus__, __view__ of a __profession__ with __expression__, __hair__, __clothes__, __pose__ in a __house__ at __time__
+```
+
+```
+__photostyle__ of a __profession__ in a __laboratory__ at __time__, __clothes__, __pose__, __view__
+```
+
+```
+__photostyle__ of a __profession__ in an __office__ at __time__, holding a __prop/held__, __view__
+```
+
+### Props, magic, era, atmosphere
+
+```
+__artstyle__ of a __race__ casting __magic__, __expression__, __pose__, in a __location__ at __time__, __view__
+```
+
+```
+__artstyle__ __era__ portrait of a __profession__ with __expression__, __hair__, __clothes__, __pose__, __atmosphere__, __view__
+```
+
+### Fabric / material / pattern
+
+Shared primitives compose inside clothes and gear lists — pin them when you want a fixed surface.
+
+```
+portrait of a __profession__ wearing a __fabric__ shirt with __pattern__, __expression__, __hair__
+```
+
+```
+__artstyle__ of a warrior in __material__ plate armor, wielding a __weapon__, __pose__
 ```
 
 ### Animal companion / creature focus
 
 ```
 __artstyle__ of a __animal__ beside a __profession__, in a __outdoor__ at __time__, __view__
+```
+
+### Plant / flora focus
+
+```
+__artstyle__ of a __plant__ in a __outdoor__ at __time__, __weather__, __view__
 ```
 
 ### Horror monster

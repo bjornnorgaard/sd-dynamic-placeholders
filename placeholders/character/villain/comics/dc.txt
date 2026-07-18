@@ -1,0 +1,11 @@
+# Villain — dc comics (__character/villain/comics/dc__)
+# One exemplar per visual family; short, no leading a/an/the
+
+Joker with white skin, green hair, and purple suit
+Darkseid with gray rock face and Omega symbol
+Poison Ivy with red hair and living vine wrap
+Scarecrow with burlap sack mask and straw
+Black Manta in black helmet with red eye lenses
+Ra's al Ghul in hooded League of Assassins robes
+Harley Quinn with mallet and red-black outfit
+Bane with luchador mask and venom tubes

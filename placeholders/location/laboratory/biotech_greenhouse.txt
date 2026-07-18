@@ -1,0 +1,7 @@
+# Laboratory biotech greenhouse — __location/laboratory/biotech_greenhouse__
+# Distinctive interior variants; one look per line
+# Style: short, no leading a/an/the
+
+biotech greenhouse with genetically modified vines under grow lights
+hydroponic lab greenhouse with stacked nutrient trays
+tropical plant lab with misting hoses and humid glass

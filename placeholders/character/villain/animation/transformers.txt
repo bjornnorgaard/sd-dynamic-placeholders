@@ -1,0 +1,7 @@
+# Villain — transformers (__character/villain/animation/transformers__)
+# One exemplar per visual family; short, no leading a/an/the
+
+Megatron in gun-metal robot tank form
+Starscream with angular jet-fighter alt-mode
+Soundwave with cassette-deck chest and visor
+Shockwave with single glowing eye and purple frame

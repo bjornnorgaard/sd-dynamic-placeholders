@@ -1,0 +1,7 @@
+# Office cubicle farm — __location/office/cubicle_farm__
+# Distinctive interior variants; one look per line
+# Style: short, no leading a/an/the
+
+endless cubicle maze with fabric dividers and flickering monitors
+call-center cubicle floor with headset hooks and name placards
+beige cubicle row with motivational posters and paper stacks

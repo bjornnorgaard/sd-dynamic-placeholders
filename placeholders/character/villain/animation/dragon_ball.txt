@@ -1,0 +1,7 @@
+# Villain — dragon ball (__character/villain/animation/dragon_ball__)
+# One exemplar per visual family; short, no leading a/an/the
+
+Frieza in white armor with purple accents and tail
+Cell with green insectoid body and stinger tail
+Majin Buu pink fat creature with antenna
+Broly with massive green-haired berserker frame

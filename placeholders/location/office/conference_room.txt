@@ -1,0 +1,7 @@
+# Office conference room — __location/office/conference_room__
+# Distinctive interior variants; one look per line
+# Style: short, no leading a/an/the
+
+glass-walled conference room with long table and video screen
+boardroom with dark wood table and leather high-back chairs
+huddle room with whiteboard walls and sticky notes

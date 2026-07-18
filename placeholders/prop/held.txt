@@ -1,0 +1,30 @@
+# Held props — __prop/held__ (short: __held__)
+# Objects held in hands; changes composition
+# Not weapons (__weapon__); not worn bags/gloves (__clothes__)
+# Style: short, no leading a/an/the — lead with the object noun
+
+coffee cup in hand
+open book held open
+smartphone with glowing screen
+open umbrella
+flower bouquet
+cigarette with thin smoke trail
+wine glass by the stem
+pen and notepad
+camera held to the eye
+lit flashlight
+briefcase in hand
+shopping bag
+ice cream cone
+balloon on a string
+paintbrush and palette
+violin under the chin
+handheld microphone
+glowing lantern
+letter envelope
+jingling key ring
+magnifying glass held up
+fanned playing cards
+crystal ball in palms
+skull cradled in hands
+teddy bear hugged to chest

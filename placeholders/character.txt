@@ -1,6 +1,10 @@
 # Character umbrella — use as __character__ in prompts
-# Picks a hero or heroine composer (media → franchise → character)
-# Pin directly with __hero__, __heroine__, or __character/heroine/game/ff7__
+# Picks one named-icon family per expand (heroes, villains, historical, celebrity)
+# Pin directly with __hero__, __heroine__, __villain__, __historical__, __celebrity__,
+# or a franchise path like __character/heroine/game/ff7__
 
 __character/hero__
 __character/heroine__
+__character/villain__
+__character/historical__
+__character/celebrity__

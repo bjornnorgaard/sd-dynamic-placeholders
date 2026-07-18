@@ -1,0 +1,11 @@
+# Villain animation — __character/villain/animation__
+# Picks one franchise list
+
+__character/villain/animation/disney__
+__character/villain/animation/dragon_ball__
+__character/villain/animation/naruto__
+__character/villain/animation/one_piece__
+__character/villain/animation/avatar__
+__character/villain/animation/he_man__
+__character/villain/animation/transformers__
+__character/villain/animation/pokemon__

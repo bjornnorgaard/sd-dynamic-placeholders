@@ -1,0 +1,19 @@
+# Magic elements — __magic/element__ (short: __element__)
+# Elemental power types; distinct color and particle families
+# Style: short, no leading a/an/the — lead with the element cue
+
+fire magic with orange flames
+ice magic with frost crystals
+lightning magic with electric arcs
+water magic with swirling streams
+earth magic with rising stone
+wind magic with swirling gusts
+shadow magic with black wisps
+light magic with golden radiance
+poison magic with green toxic vapor
+arcane magic with purple runic energy
+blood magic with crimson mist
+nature magic with vines and leaves
+psychic magic with pink mental aura
+holy magic with white divine glow
+gravity magic with bending space distortion

@@ -1,0 +1,7 @@
+# Villain — james bond (__character/villain/movie/james_bond__)
+# One exemplar per visual family; short, no leading a/an/the
+
+Blofeld with facial scar and white Persian cat
+Goldfinger in gold suit beside a laser table
+Jaws with steel teeth and towering frame
+Oddjob with razor-edged bowler hat

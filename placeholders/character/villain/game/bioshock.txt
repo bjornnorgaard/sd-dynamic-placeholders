@@ -1,0 +1,7 @@
+# Villain — bioshock (__character/villain/game/bioshock__)
+# One exemplar per visual family; short, no leading a/an/the
+
+Big Daddy in rusted diving suit with drill arm
+Splicer with mask and hook in art-deco ruin
+Andrew Ryan in tuxedo before a lighthouse window
+Fontaine in brutal mutated final form

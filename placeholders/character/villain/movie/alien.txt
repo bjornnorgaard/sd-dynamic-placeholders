@@ -1,0 +1,6 @@
+# Villain — alien (__character/villain/movie/alien__)
+# One exemplar per visual family; short, no leading a/an/the
+
+Xenomorph with elongated black biomechanical head and tail
+Alien Queen with crested head and massive claws
+Predator with mandibles, dreadlocks, and shoulder cannon

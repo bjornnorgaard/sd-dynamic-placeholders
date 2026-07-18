@@ -1,0 +1,25 @@
+# Shared patterns — use as __pattern__ in prompts
+# Prints and repeating surface designs; compose with __fabric__ or __material__
+# Domain lists compose this plus local-only motifs
+# One entry per print family — near-synonyms pruned
+# Style: short, no leading a/an/the
+
+stripes
+tartan plaid
+polka dots
+floral print
+paisley
+camouflage
+houndstooth
+chevron
+geometric print
+leopard print
+zebra print
+tie-dye
+checkerboard
+damask
+herringbone
+argyle
+pinstripe
+mosaic
+batik

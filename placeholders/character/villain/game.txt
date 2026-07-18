@@ -1,0 +1,14 @@
+# Villain game — __character/villain/game__
+# Picks one franchise list
+
+__character/villain/game/final_fantasy__
+__character/villain/game/resident_evil__
+__character/villain/game/zelda__
+__character/villain/game/mario__
+__character/villain/game/mortal_kombat__
+__character/villain/game/metal_gear__
+__character/villain/game/bioshock__
+__character/villain/game/doom__
+__character/villain/game/mass_effect__
+__character/villain/game/street_fighter__
+__character/villain/game/sonic__

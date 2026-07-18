@@ -1,6 +1,6 @@
 # Accessories — referenced from clothes.txt via __clothes/accessories__
-# Ordered: bags → belts → watches & handheld props → gloves & suspenders
-# Jewelry lives in clothes/jewelry.txt (not headwear, glasses, piercings, or scarves)
+# Ordered: bags → belts → watches & carried accents → suspenders
+# Jewelry lives in clothes/jewelry.txt; gloves live in clothes/hands/gloves.txt
 # One bag / belt / prop silhouette per family
 
 crossbody bag
@@ -12,8 +12,6 @@ leather belt
 chain belt
 wide cinch belt
 pocket watch
-leather gloves
-opera gloves
 umbrella
 cane
 fan

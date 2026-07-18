@@ -13,3 +13,5 @@ __location/house__
 __location/castle__
 __location/mansion__
 __location/cabin__
+__location/laboratory__
+__location/office__

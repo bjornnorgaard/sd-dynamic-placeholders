@@ -1,0 +1,7 @@
+# Laboratory cleanroom — __location/laboratory/cleanroom__
+# Distinctive interior variants; one look per line
+# Style: short, no leading a/an/the
+
+white cleanroom with bunny suits and sealed airlocks
+nanotech cleanroom with yellow anti-static lighting
+pharmaceutical cleanroom with stainless steel vats

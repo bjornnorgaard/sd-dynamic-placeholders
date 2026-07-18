@@ -6,6 +6,10 @@
 # Style: short, no leading a/an/the — lead with the armor noun, then signature look
 # Keep separate from __clothes__ (everyday attire) and named costume heroes (__hero__ / __heroine__)
 
+# --- Shared material composers ---
+__material__ plate armor
+__material__ scale armor
+
 # --- Historical metal ---
 full plate armor with mirror-polished articulated steel plates
 chainmail hauberk with dense interlocking iron rings

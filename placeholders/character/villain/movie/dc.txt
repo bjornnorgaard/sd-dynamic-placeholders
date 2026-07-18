@@ -1,0 +1,10 @@
+# Villain — dc (__character/villain/movie/dc__)
+# One exemplar per visual family; short, no leading a/an/the
+
+Joker with white skin, green hair, and purple suit
+Harley Quinn with pigtails, mallet, and red-black harlequin outfit
+Bane with luchador mask and hulking muscles
+Two-Face with half-scarred coin-flip face
+Penguin in top hat with monocle and umbrella cane
+Catwoman in black catsuit with whip and goggles
+Lex Luthor bald in power-armor exosuit

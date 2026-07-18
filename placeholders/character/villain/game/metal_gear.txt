@@ -1,0 +1,7 @@
+# Villain — metal gear (__character/villain/game/metal_gear__)
+# One exemplar per visual family; short, no leading a/an/the
+
+Revolver Ocelot spinning revolvers in a trench coat
+Psycho Mantis with gas mask and psychic aura
+Liquid Snake with bandana and sneering grin
+Sniper Wolf with rifle and wolf motif

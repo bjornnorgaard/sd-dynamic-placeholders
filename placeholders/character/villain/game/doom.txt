@@ -1,0 +1,6 @@
+# Villain — doom (__character/villain/game/doom__)
+# One exemplar per visual family; short, no leading a/an/the
+
+Cyberdemon with rocket-launcher arm and minotaur horns
+Icon of Sin with giant demonic face in a wall
+Mancubus with twin flamethrower arms and bloated body

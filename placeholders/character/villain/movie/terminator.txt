@@ -1,0 +1,6 @@
+# Villain — terminator (__character/villain/movie/terminator__)
+# One exemplar per visual family; short, no leading a/an/the
+
+T-800 endoskeleton with red glowing eye and chrome skull
+T-1000 as liquid-metal shapeshifter with silver surface
+T-X with plasma-cannon arm and blonde fembot frame

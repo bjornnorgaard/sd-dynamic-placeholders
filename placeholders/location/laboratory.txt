@@ -1,0 +1,10 @@
+# Laboratory interiors — __location/laboratory__ (short: __laboratory__)
+# Picks one room so lab interiors never stack
+
+__location/laboratory/main_lab__
+__location/laboratory/cleanroom__
+__location/laboratory/specimen_storage__
+__location/laboratory/observation_deck__
+__location/laboratory/chemical_storage__
+__location/laboratory/biotech_greenhouse__
+__location/laboratory/autopsy_room__

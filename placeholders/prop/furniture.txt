@@ -1,0 +1,17 @@
+# Furniture props — __prop/furniture__
+# Large objects that anchor scene composition
+# Composes shared __material__ / __fabric__ plus silhouette-specific pieces
+# Style: short, no leading a/an/the — lead with the furniture noun
+
+__material__ desk
+__fabric__ armchair
+upholstered armchair
+wooden desk with drawers
+floor lamp with fabric shade
+packed bookshelf wall
+dining table with place settings
+bed with rumpled sheets
+sofa with cushions
+tall grandfather clock
+grand piano with open lid
+full-length standing mirror

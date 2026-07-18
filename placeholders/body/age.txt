@@ -1,0 +1,15 @@
+# Age / life stage — __body/age__ (short: __age__)
+# Life stages with visual cues; distinct ages only
+# (e.g. "__age__ __profession__", "portrait of an __age__")
+# Style: short, no leading a/an/the — lead with the age cue
+
+toddler with chubby cheeks and small stature
+young child with gap-toothed smile
+preteen with gangly growing frame
+teenager with youthful skin
+young adult with fresh-faced vitality
+adult in prime with mature features
+middle-aged with subtle lines and gray hints
+senior with silver hair and gentle wrinkles
+elderly with deep wrinkles and frail frame
+ancient wizened face with parchment-thin skin

@@ -1,0 +1,8 @@
+# Villain — resident evil (__character/villain/game/resident_evil__)
+# One exemplar per visual family; short, no leading a/an/the
+
+Albert Wesker in sunglasses and black trench coat
+Lady Dimitrescu towering pale vampire in wide black hat
+Mr. X hulking trench-coat tyrant with fedora
+Nemesis with exposed teeth and rocket-launcher arm
+William Birkin with grotesque G-virus mutation

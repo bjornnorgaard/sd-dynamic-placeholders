@@ -1,0 +1,9 @@
+# Villain — star wars (__character/villain/movie/star_wars__)
+# One exemplar per visual family; short, no leading a/an/the
+
+Darth Vader in black helmet, cape, and red lightsaber
+Emperor Palpatine in hooded black robe with pale wrinkled face
+Darth Maul with red-and-black face paint and double-bladed lightsaber
+Boba Fett in dented green Mandalorian armor with T-shaped visor
+Jabba the Hutt as massive slug on a stone throne
+General Grievous with four arms and coughing cybernetic chest

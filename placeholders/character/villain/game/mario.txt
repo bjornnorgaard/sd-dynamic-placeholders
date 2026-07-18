@@ -1,0 +1,6 @@
+# Villain — mario (__character/villain/game/mario__)
+# One exemplar per visual family; short, no leading a/an/the
+
+Bowser spiked turtle king with fire breath
+Wario in yellow cap with twisted mustache
+King Boo with crown and ghostly tongue

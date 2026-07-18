@@ -1,0 +1,6 @@
+# Villain — zelda (__character/villain/game/zelda__)
+# One exemplar per visual family; short, no leading a/an/the
+
+Ganondorf with red hair and dark Gerudo armor
+Majora's Mask with twisted wooden mask and carnival aura
+Dark Link as shadow mirror of the hero in black armor

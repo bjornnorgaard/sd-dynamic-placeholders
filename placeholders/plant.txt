@@ -1,0 +1,33 @@
+# Plants — use as __plant__ in prompts
+# Flora as subjects; one entry per distinct silhouette family
+# (e.g. "a __plant__", "portrait of a __plant__", "__plant__ in a __outdoor__")
+# Keep separate from biomes (__outdoor__) and set pieces (__scene__)
+# Style: short, no leading a/an/the — lead with the plant noun
+
+oak tree with broad spreading canopy
+willow tree with drooping branches
+baobab with massive swollen trunk
+cherry blossom tree with pink petal canopy
+pine tree with needle clusters
+palm tree with frond crown
+towering redwood trunk
+bonsai in miniature sculpted form
+rose bush with thorny blooms
+sunflower with large yellow face
+orchid with delicate exotic petals
+barrel cactus with spines
+venus flytrap with jaw-like leaves
+corpse flower with giant foul bloom
+mushroom cluster with rounded caps
+bioluminescent fungi with glowing blue caps
+creeping ivy vine
+bamboo with tall segmented stalks
+lotus flower floating on water
+lavender spikes in purple field
+agave with spiky rosette leaves
+pitcher plant with liquid-filled trap
+giant lily pad with wide circular leaf
+dry tumbling tumbleweed
+walking treant with bark face and branch arms
+glowing crystal fern with translucent leaves
+man-eating plant with toothed maw and vines

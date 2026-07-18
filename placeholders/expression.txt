@@ -60,3 +60,13 @@ yawning expression
 loving gaze
 longing gaze
 blushing smile
+
+# --- Disgust, pride & confusion ---
+disgusted grimace
+contemptuous sneer
+proud smug expression
+confused frown
+bored deadpan stare
+determined resolute look
+grief-stricken sob
+ecstatic euphoric face

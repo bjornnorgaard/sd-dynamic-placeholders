@@ -1,0 +1,7 @@
+# Office open plan — __location/office/open_plan__
+# Distinctive interior variants; one look per line
+# Style: short, no leading a/an/the
+
+open-plan office with rows of desks and glass partitions
+startup loft office with exposed brick and standing desks
+corporate floor with gray cubicle dividers and fluorescent ceiling

@@ -1,0 +1,9 @@
+# Villains — __character/villain__ (short: __villain__)
+# Known antagonists; picks one media family then franchise
+# One exemplar per visual family only
+# Pin directly with __villain__, or __character/villain/game/final_fantasy__
+
+__character/villain/movie__
+__character/villain/comics__
+__character/villain/game__
+__character/villain/animation__

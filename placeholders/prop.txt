@@ -1,0 +1,8 @@
+# Props — use as __prop__ in prompts
+# Picks ONE prop family per expand so held objects, furniture, and small items never stack
+# Pin a child when you want a family fixed (__prop/held__, __prop/furniture__, …)
+# Keep separate from __weapon__ (armaments) and worn __clothes__ accessories
+
+__prop/held__
+__prop/furniture__
+__prop/small__

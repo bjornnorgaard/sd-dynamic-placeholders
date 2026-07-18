@@ -1,0 +1,10 @@
+# Office interiors — __location/office__ (short: __office__)
+# Picks one room so office interiors never stack
+
+__location/office/open_plan__
+__location/office/executive_corner__
+__location/office/conference_room__
+__location/office/cubicle_farm__
+__location/office/reception_lobby__
+__location/office/server_room__
+__location/office/break_room__

@@ -1,0 +1,10 @@
+# Villain — marvel (__character/villain/movie/marvel__)
+# One exemplar per visual family; short, no leading a/an/the
+
+Thanos with purple skin and gold Infinity Gauntlet
+Loki in horned gold helmet and green Asgardian armor
+Green Goblin in green suit with glider and pumpkin bombs
+Red Skull with red skull face and Nazi uniform
+Venom with black symbiote jaw and wide white eyes
+Ultron in red-and-silver metal android body
+Hela with antler headdress and green-black Asgardian armor

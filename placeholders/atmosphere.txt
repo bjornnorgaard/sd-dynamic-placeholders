@@ -1,0 +1,31 @@
+# Atmosphere / scene mood — use as __atmosphere__ in prompts
+# Overall emotional tone of the scene — not facial expression (__expression__),
+# lighting technique (__lighting__), or weather (__weather__)
+# (e.g. "__atmosphere__", "with an __atmosphere__", "__atmosphere__ scene")
+# One entry per distinct emotional tone; near-synonyms pruned
+# Style: short, no leading a/an/the — lead with the mood cue
+
+eerie still dread
+cozy inviting warmth
+triumphant grandeur
+oppressive crushing weight
+melancholic quiet
+chaotic frenzy
+serene calm
+tense suspense
+ominous foreboding
+whimsical playfulness
+romantic intimacy
+lonely isolation
+nostalgic faded glow
+creeping horror dread
+awe-struck wonder
+desolate bleakness
+vibrant lively energy
+solemn reverence
+bittersweet sorrow-joy
+uncanny wrongness
+empowering heroic spirit
+decadent lavish excess
+secretive intrigue
+hopeful optimism

@@ -1,0 +1,7 @@
+# Office server room — __location/office/server_room__
+# Distinctive interior variants; one look per line
+# Style: short, no leading a/an/the
+
+server room with blinking rack lights and cable trays
+cold-aisle data center with raised floor and CRAC units
+closet server rack with tangled cables and whirring fans

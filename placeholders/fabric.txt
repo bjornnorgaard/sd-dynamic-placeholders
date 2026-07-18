@@ -1,0 +1,24 @@
+# Shared fabrics — use as __fabric__ in prompts
+# Cloth and soft goods; not hard surfaces (__material__) or prints (__pattern__)
+# Domain lists (clothes, gloves, …) compose this plus local-only textiles
+# One entry per textile family — near-synonyms pruned
+# Style: short, no leading a/an/the
+
+silk
+satin
+velvet
+linen
+cotton
+denim
+wool
+leather
+suede
+lace
+chiffon
+tweed
+canvas
+mesh
+fur
+latex
+fleece
+burlap

@@ -4,16 +4,19 @@
 #   - fullbody  ↔  torso
 #   - fullbody  ↔  legs/pants
 #   - swimwear  ↔  torso / legs / fullbody
-# Optional layers (head, scarf, feet/shoes, accessories, jewelry) may appear on
-# separates and fullbody; swimwear skips scarf (awkward with beachwear).
-# Zones: head/, torso/, legs/, feet/ — plus fullbody, swimwear, scarf, etc.
+# Optional layers (head, scarf, feet/shoes, hands/gloves, accessories, jewelry)
+# may appear on separates and fullbody; swimwear skips scarf (awkward with beachwear).
+# Zones: head/, torso/, legs/, feet/, hands/ — plus fullbody, swimwear, scarf, etc.
+# Fabric/pattern compose inside zone lists (__fabric__, __pattern__).
 # One phrasing per unique layer set — synonym prefixes pruned.
 
 # --- Separates: torso + legs (never with fullbody) ---
+wearing __clothes/head__, __clothes/scarf__, __clothes/torso__, __clothes/legs/pants__, __clothes/feet/shoes__, __clothes/hands/gloves__, and __clothes/accessories__
 wearing __clothes/head__, __clothes/scarf__, __clothes/torso__, __clothes/legs/pants__, __clothes/feet/shoes__, and __clothes/accessories__
 wearing __clothes/head__, __clothes/scarf__, __clothes/torso__, __clothes/legs/pants__, __clothes/feet/shoes__, and __clothes/jewelry__
 wearing __clothes/head__, __clothes/scarf__, __clothes/torso__, __clothes/legs/pants__, and __clothes/feet/shoes__
 wearing __clothes/head__, __clothes/scarf__, __clothes/torso__, __clothes/legs/pants__, and __clothes/accessories__
+wearing __clothes/head__, __clothes/torso__, __clothes/legs/pants__, __clothes/feet/shoes__, __clothes/hands/gloves__, and __clothes/accessories__
 wearing __clothes/head__, __clothes/torso__, __clothes/legs/pants__, __clothes/feet/shoes__, __clothes/accessories__, and __clothes/jewelry__
 wearing __clothes/head__, __clothes/torso__, __clothes/legs/pants__, __clothes/feet/shoes__, and __clothes/accessories__
 wearing __clothes/head__, __clothes/torso__, __clothes/legs/pants__, and __clothes/feet/shoes__
@@ -21,13 +24,16 @@ wearing __clothes/head__, __clothes/torso__, __clothes/legs/pants__, and __cloth
 wearing __clothes/scarf__, __clothes/torso__, __clothes/legs/pants__, __clothes/feet/shoes__, and __clothes/accessories__
 wearing __clothes/scarf__, __clothes/torso__, __clothes/legs/pants__, and __clothes/feet/shoes__
 wearing __clothes/scarf__, __clothes/torso__, __clothes/legs/pants__, and __clothes/jewelry__
+wearing __clothes/torso__, __clothes/legs/pants__, __clothes/feet/shoes__, __clothes/hands/gloves__, and __clothes/accessories__
 wearing __clothes/torso__, __clothes/legs/pants__, __clothes/feet/shoes__, and __clothes/accessories__
 wearing __clothes/torso__, __clothes/legs/pants__, and __clothes/feet/shoes__
 wearing __clothes/torso__ and __clothes/legs/pants__ with __clothes/accessories__
 wearing __clothes/torso__ and __clothes/legs/pants__ with __clothes/jewelry__
 wearing __clothes/torso__ and __clothes/legs/pants__
+wearing __clothes/torso__, __clothes/legs/pants__, and __clothes/hands/gloves__
 
 # --- Full-body: no torso, no pants ---
+wearing __clothes/head__, __clothes/scarf__, __clothes/fullbody__, __clothes/feet/shoes__, __clothes/hands/gloves__, and __clothes/accessories__
 wearing __clothes/head__, __clothes/scarf__, __clothes/fullbody__, __clothes/feet/shoes__, and __clothes/accessories__
 wearing __clothes/head__, __clothes/scarf__, __clothes/fullbody__, __clothes/feet/shoes__, and __clothes/jewelry__
 wearing __clothes/head__, __clothes/scarf__, __clothes/fullbody__, and __clothes/feet/shoes__
@@ -43,6 +49,7 @@ wearing __clothes/fullbody__ with __clothes/feet/shoes__ and __clothes/accessori
 wearing __clothes/fullbody__ and __clothes/feet/shoes__
 wearing __clothes/fullbody__ with __clothes/accessories__
 wearing __clothes/fullbody__ with __clothes/jewelry__
+wearing __clothes/fullbody__ with __clothes/hands/gloves__
 wearing __clothes/fullbody__
 
 # --- Swimwear: no torso, no pants, no fullbody ---

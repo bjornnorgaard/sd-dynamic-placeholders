@@ -1,7 +1,9 @@
 # Scarf / neckwear options — referenced from clothes.txt via __clothes/scarf__
-# Ordered: casual wraps → formal ties → fashion statement pieces
-# Material synonyms and near-identical ties pruned
+# Ordered: fabric/pattern composers → casual wraps → formal ties → fashion pieces
+# Composes shared __fabric__ / __pattern__; near-identical ties pruned
 
+__fabric__ scarf
+__pattern__ __fabric__ scarf
 chunky knit scarf
 plaid scarf
 silk scarf

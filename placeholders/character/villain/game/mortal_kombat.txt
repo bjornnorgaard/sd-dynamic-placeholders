@@ -1,0 +1,7 @@
+# Villain — mortal kombat (__character/villain/game/mortal_kombat__)
+# One exemplar per visual family; short, no leading a/an/the
+
+Shao Kahn with skull crown and war hammer
+Shinnok with glowing eyes and bone armor
+Quan Chi with pale skull face and green necromancy
+Mileena with Tarkatan mouth mask and sai blades

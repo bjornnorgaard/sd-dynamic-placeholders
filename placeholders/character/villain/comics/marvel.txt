@@ -1,0 +1,11 @@
+# Villain — marvel comics (__character/villain/comics/marvel__)
+# One exemplar per visual family; short, no leading a/an/the
+
+Doctor Doom in metal mask and green cloak
+Magneto with purple helmet and cape
+Green Goblin in green suit with pumpkin bombs
+Kingpin as massive bald figure in white pinstripe suit
+Galactus with purple helmet and cosmic scale
+Mystique with blue scaled skin and yellow eyes
+Venom with black symbiote tongue and white eyes
+Red Skull with red skull face and Nazi uniform

@@ -1,0 +1,9 @@
+# Laboratory main lab — __location/laboratory/main_lab__
+# Distinctive interior variants; one look per line
+# Style: short, no leading a/an/the
+
+cluttered chemistry lab with glass beakers and bubbling flasks
+sterile white laboratory with chrome equipment racks
+retro mad-science lab with Tesla coils and copper wiring
+high-tech biotech lab with glowing incubators
+underground bunker lab with concrete walls and harsh lights

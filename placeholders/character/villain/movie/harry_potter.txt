@@ -1,0 +1,8 @@
+# Villain — harry potter (__character/villain/movie/harry_potter__)
+# One exemplar per visual family; short, no leading a/an/the
+
+Voldemort with pale snake face and red eyes
+Bellatrix Lestrange with wild dark hair and cruel grin
+Dementor as hooded black wraith with cold mist
+Basilisk as giant serpent with yellow eyes
+Dolores Umbridge in pink cardigan with cat brooch

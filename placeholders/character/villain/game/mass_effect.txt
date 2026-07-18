@@ -1,0 +1,6 @@
+# Villain — mass effect (__character/villain/game/mass_effect__)
+# One exemplar per visual family; short, no leading a/an/the
+
+Saren with cybernetic Reaper implants and blue glow
+Harbinger Reaper with black tentacle dreadnought form
+Collector with insectoid chitin and glowing eyes

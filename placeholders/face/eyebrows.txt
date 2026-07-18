@@ -1,0 +1,14 @@
+# Eyebrows — __face/eyebrows__ (short: __eyebrows__)
+# Distinct brow shapes only — not expressions (__expression__)
+# Style: short, no leading a/an/the — lead with the brow cue
+
+thick bushy eyebrows
+thin arched eyebrows
+straight flat eyebrows
+unibrow single connected brow
+angular peaked eyebrows
+feathered soft eyebrows
+shaved bare brow bone
+bleached white eyebrows
+mismatched eyebrow shapes
+heavy furrowed eyebrows

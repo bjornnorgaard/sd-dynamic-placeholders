@@ -1,0 +1,25 @@
+# Celebrities — __character/celebrity__ (short: __celebrity__)
+# Film, music, sports, public life; looks image models know well
+# One short signature cue; skip near-clone looks
+# Style: short, no leading a/an/the — lead with the name
+
+Elvis Presley with pompadour and rhinestone jumpsuit
+Michael Jackson with single white glove and red leather jacket
+David Bowie with lightning face paint across the cheek
+Freddie Mercury with mustache and yellow stage jacket
+Madonna with cone bra and blonde-ambition look
+Marilyn Monroe with blonde curls and white halter dress
+Audrey Hepburn with little black dress and pearl necklace
+Charlie Chaplin with bowler hat, cane, and mustache
+Arnold Schwarzenegger with bodybuilder physique and action-hero stare
+Muhammad Ali with boxing gloves and fierce stare
+Michael Jordan mid-dunk with tongue out
+Princess Diana with short blonde hair and tiara
+Barack Obama in gray suit with warm smile
+Oprah Winfrey with curly hair and red dress
+Lady Gaga in avant-garde meat-dress era look
+Beyoncé in golden stage outfit with fierce poise
+Taylor Swift with sparkly microphone and stage glam
+Dwayne Johnson with bald head and raised eyebrow
+Cristiano Ronaldo in soccer kit with toned physique
+Dolly Parton with big blonde hair and rhinestone outfit

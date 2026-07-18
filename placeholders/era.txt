@@ -1,0 +1,31 @@
+# Historical eras — use as __era__ in prompts
+# Costume and atmosphere look modifiers — not places (__location__/__scene__)
+# (e.g. "__era__ portrait", "dressed in __era__ fashion", "__era__ scene")
+# One entry per distinct period palette; near-duplicate decades pruned
+# Style: short, no leading a/an/the — lead with the era cue
+
+ancient Egyptian linen kilts and gold jewelry
+ancient Greek chiton robes and laurel wreaths
+ancient Roman togas and legion armor
+medieval European chainmail and heraldic banners
+Renaissance Italian doublets and lace ruffs
+Elizabethan farthingale gowns and starched collars
+Baroque French brocade wigs and corseted silhouettes
+Victorian bustles and top hats
+Wild West dusters and cowboy hats
+Roaring Twenties flapper dresses and art deco glam
+World War II uniforms and ration-era fashion
+1950s Americana poodle skirts and chrome diner palette
+1960s counterculture tie-dye and mod miniskirts
+1970s disco bell bottoms and mirror-ball sparkle
+1980s neon shoulder pads and synth-wave palette
+1990s grunge flannel and ripped jeans
+Y2K frosted tips and low-rise denim
+feudal Japanese samurai armor and hakama
+Edo Japanese kimono and woodblock-print palette
+ancient Mesoamerican feathered headdresses
+steampunk brass gears and leather goggles
+space-age silver jumpsuits and bubble helmets
+cyberpunk neon chrome and augmented limbs
+post-apocalyptic scavenged armor and rust
+solarpunk organic green tech and glass domes

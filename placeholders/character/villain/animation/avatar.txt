@@ -1,0 +1,6 @@
+# Villain — avatar (__character/villain/animation/avatar__)
+# One exemplar per visual family; short, no leading a/an/the
+
+Fire Lord Ozai with topknot and imperial armor
+Azula with lightning and blue flame fingertips
+Koh face-stealing spirit with blank shifting mask

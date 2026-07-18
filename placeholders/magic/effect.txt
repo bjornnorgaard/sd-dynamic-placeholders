@@ -1,0 +1,19 @@
+# Magic effects — __magic/effect__
+# Spell visuals beyond raw elements; one look per line
+# Style: short, no leading a/an/the — lead with the effect cue
+
+glowing aura surrounding the body
+floating rune circle beneath the feet
+portal rift with swirling vortex
+telekinesis with levitating debris
+translucent energy shield bubble
+ghostly spirit wisps orbiting
+time-freeze with paused airborne particles
+summoning sigil glowing on the ground
+astral projection translucent double
+enchanted energy trail on a weapon
+magical transformation swirl
+necromantic green mist rising from the ground
+holographic spell matrix overlay
+chain lightning arcing between targets
+reality warp with fractal distortion

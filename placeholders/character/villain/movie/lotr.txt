@@ -1,0 +1,9 @@
+# Villain — lotr (__character/villain/movie/lotr__)
+# One exemplar per visual family; short, no leading a/an/the
+
+Sauron as giant flaming eye atop a black tower
+Saruman in white robes turned iron-gray with staff
+Witch-king of Angmar with crown helm and flaming sword
+Gollum with pale thin body and ring obsession
+Shelob as giant black spider in a webbed lair
+Balrog with horned shadow body and fire whip

@@ -1,0 +1,7 @@
+# Laboratory observation deck — __location/laboratory/observation_deck__
+# Distinctive interior variants; one look per line
+# Style: short, no leading a/an/the
+
+observation room behind one-way glass overlooking a test chamber
+control room with monitors and blinking instrument panels
+elevated catwalk overlooking a reactor core chamber

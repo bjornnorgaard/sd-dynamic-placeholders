@@ -1,0 +1,7 @@
+# Villain — naruto (__character/villain/animation/naruto__)
+# One exemplar per visual family; short, no leading a/an/the
+
+Orochimaru with pale skin and snake-like features
+Pain with orange hair and Rinnegan piercings
+Madara Uchiha with long spiky hair and red armor
+Kaguya with pale skin and horned rabbit-like silhouette

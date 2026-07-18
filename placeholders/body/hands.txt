@@ -1,0 +1,19 @@
+# Hands — __body/hands__ (short: __hands__)
+# Hand appearance only — not gestures (__pose__) or gloves (__clothes/hands/gloves__)
+# One exemplar per look family
+# Style: short, no leading a/an/the — lead with the hand cue
+
+delicate hands with slender fingers
+weathered hands with rough calluses
+clawed hands with sharp nails
+bony hands with prominent knuckles
+soft manicured hands with painted nails
+scarred knuckles with fight marks
+mechanical prosthetic hands with metal joints
+swollen arthritic hands with stiff joints
+small child hands with pudgy fingers
+veiny hands with visible tendons
+grime-stained working hands
+burn-scarred hands with charred texture
+long-fingered pianist hands
+webbed hands with skin between fingers

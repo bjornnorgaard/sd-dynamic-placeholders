@@ -1,0 +1,25 @@
+# Shared materials — use as __material__ in prompts
+# Hard surfaces and rigid matter; not cloth (__fabric__) or prints (__pattern__)
+# Domain lists compose this plus local-only surfaces
+# One entry per surface family — near-synonyms pruned
+# Style: short, no leading a/an/the
+
+brushed steel
+polished chrome
+warm brass
+patinated copper
+rusted iron
+veined marble
+speckled granite
+grained wood
+clear glass
+faceted crystal
+glazed ceramic
+raw concrete
+glossy plastic
+matte rubber
+polished bone
+black obsidian
+gold leaf
+smooth porcelain
+translucent ice

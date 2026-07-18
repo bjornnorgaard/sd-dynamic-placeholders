@@ -1,0 +1,7 @@
+# Villain — one piece (__character/villain/animation/one_piece__)
+# One exemplar per visual family; short, no leading a/an/the
+
+Blackbeard with gap teeth and darkness power
+Kaido with horned dragon-scarred body
+Akainu with magma fist and marine admiral coat
+Crocodile with hook hand and fur coat

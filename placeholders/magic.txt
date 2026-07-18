@@ -1,0 +1,7 @@
+# Magic — use as __magic__ in prompts
+# Picks ONE magic family per expand so elements and spell effects never stack
+# Pin a child when you want a family fixed (__magic/element__, __magic/effect__)
+# Keep separate from __lighting__ (illumination) and __weapon__ (physical arms)
+
+__magic/element__
+__magic/effect__

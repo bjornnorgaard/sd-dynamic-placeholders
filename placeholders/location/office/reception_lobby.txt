@@ -1,0 +1,7 @@
+# Office reception lobby — __location/office/reception_lobby__
+# Distinctive interior variants; one look per line
+# Style: short, no leading a/an/the
+
+corporate lobby with marble desk and logo wall
+tech company lobby with neon sign and beanbag seating
+law firm lobby with polished floors and potted palms

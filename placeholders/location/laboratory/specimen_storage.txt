@@ -1,0 +1,7 @@
+# Laboratory specimen storage — __location/laboratory/specimen_storage__
+# Distinctive interior variants; one look per line
+# Style: short, no leading a/an/the
+
+specimen room with jars of preserved organs on shelves
+cryogenic storage with frost-covered tanks and vapor
+museum-style specimen hall with skeleton mounts

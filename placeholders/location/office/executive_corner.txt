@@ -1,0 +1,7 @@
+# Office executive corner — __location/office/executive_corner__
+# Distinctive interior variants; one look per line
+# Style: short, no leading a/an/the
+
+corner executive office with mahogany desk and city view
+minimalist CEO office with white walls and single statement chair
+old-money executive study with leather chairs and trophy case

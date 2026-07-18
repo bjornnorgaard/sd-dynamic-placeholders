@@ -1,0 +1,13 @@
+# Villain movie — __character/villain/movie__
+# Picks one franchise list
+
+__character/villain/movie/star_wars__
+__character/villain/movie/marvel__
+__character/villain/movie/dc__
+__character/villain/movie/disney__
+__character/villain/movie/lotr__
+__character/villain/movie/harry_potter__
+__character/villain/movie/james_bond__
+__character/villain/movie/terminator__
+__character/villain/movie/alien__
+__character/villain/movie/matrix__

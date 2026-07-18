@@ -1,0 +1,6 @@
+# Villain — he man (__character/villain/animation/he_man__)
+# One exemplar per visual family; short, no leading a/an/the
+
+Skeletor with blue skin and purple hood
+Hordak with cybernetic red armor and bat wings
+Evil-Lyn with blue skin and horned headdress

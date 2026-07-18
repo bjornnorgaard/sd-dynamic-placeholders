@@ -1,0 +1,7 @@
+# Villain — pokemon (__character/villain/animation/pokemon__)
+# One exemplar per visual family; short, no leading a/an/the
+
+Giovanni in gray suit with Team Rocket emblem
+Jessie with magenta hair and white Team Rocket uniform
+Meowth standing upright with gold coin on forehead
+Mewtwo with purple psychic aura and tail tube

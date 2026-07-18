@@ -1,0 +1,7 @@
+# Laboratory chemical storage — __location/laboratory/chemical_storage__
+# Distinctive interior variants; one look per line
+# Style: short, no leading a/an/the
+
+chemical storage with color-coded barrels and hazard placards
+volatile reagent vault with reinforced steel shelving
+acid cabinet room with drip trays and ventilation hoods

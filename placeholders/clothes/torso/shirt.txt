@@ -1,8 +1,12 @@
 # Shirts / tops — referenced via __clothes/torso/shirt__
-# Ordered: casual tees → shirts → knits → structured tops
+# Ordered: fabric/pattern composers → casual tees → shirts → knits → structured tops
+# Composes shared __fabric__ / __pattern__ plus silhouette-specific tops
 # Meant for separates (not used alongside fullbody).
 # Distinct necklines and structures only
 
+__fabric__ shirt
+__pattern__ __fabric__ blouse
+__fabric__ turtleneck
 plain t-shirt
 graphic tee
 tank top

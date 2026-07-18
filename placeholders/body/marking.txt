@@ -1,0 +1,8 @@
+# Body markings — __body/marking__ (short: __marking__)
+# Picks ONE marking type so tattoos, scars, and brands never stack
+# Keep separate from __skin__ (complexion) and __makeup__ (cosmetics)
+
+__body/marking/tattoo__
+__body/marking/scar__
+__body/marking/birthmark__
+__body/marking/brand__

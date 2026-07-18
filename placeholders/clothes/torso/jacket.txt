@@ -1,8 +1,11 @@
 # Jackets / coats — referenced via __clothes/torso/jacket__
+# Composes shared __fabric__ / __material__ plus silhouette-specific outerwear
 # Ordered: light layers → denim/leather → formal → heavy outerwear
 # Meant for separates (not used alongside fullbody).
 # One coat per silhouette family
 
+__fabric__ jacket
+__material__ coat
 denim jacket
 leather jacket
 bomber jacket

@@ -1,0 +1,7 @@
+# Villain — final fantasy (__character/villain/game/final_fantasy__)
+# One exemplar per visual family; short, no leading a/an/the
+
+Sephiroth with silver hair and long Masamune sword
+Kefka with clown makeup and god-of-magic form
+Cloud of Darkness with red horned silhouette and void cloak
+Ultimecia with winged sorceress armor and time magic

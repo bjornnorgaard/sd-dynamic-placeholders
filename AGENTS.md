@@ -36,19 +36,34 @@ Before adding a line, ask: *If this and an existing line both got sampled, would
 
 ## Namespacing
 
-Organize lists in folders so related tokens read as a tree:
+Organize lists in folders so related tokens read as a tree. Prefer nesting under an umbrella over dumping new roots into `placeholders/`.
 
 | Umbrella | Lives under | Example |
 |---|---|---|
-| Place | `location/` | `location/castle/ballroom.txt` |
-| Character | `character/` | `character/heroine/game/ff7.txt` |
-| Face features | `face/` | `face/eyes/color.txt` |
-| Clothes zones | `clothes/` | `clothes/legs/pants.txt` |
+| Place | `location/` | `location/castle/ballroom.txt`, `location/laboratory/main_lab.txt` |
+| Character | `character/` | `character/heroine/game/ff7.txt`, `character/villain/movie/star_wars.txt` |
+| Face features | `face/` | `face/eyes/color.txt`, `face/eyebrows.txt`, `face/facial_hair.txt` |
+| Body | `body/` | `body/age.txt`, `body/hands.txt`, `body/marking/tattoo.txt` |
+| Clothes zones | `clothes/` | `clothes/legs/pants.txt`, `clothes/hands/gloves.txt` |
+| Props | `prop/` | `prop/held.txt`, `prop/furniture.txt` |
+| Magic | `magic/` | `magic/element.txt`, `magic/effect.txt` |
 
 - Token name = path without extension; nested folders use `/`.
-- Root composers (`location.txt`, `clothes.txt`, `face.txt`) pick **one** mutually exclusive family per line so layers never stack.
-- Short-path resolution: unique leaf / suffix names also match (`__eyes__` → `face/eyes.txt`, `__ballroom__` → `location/castle/ballroom.txt`). If two files share a basename, short-path fails — rename for uniqueness or require a fuller path.
+- Root composers (`location.txt`, `clothes.txt`, `face.txt`, `character.txt`, `prop.txt`, `magic.txt`) pick **one** mutually exclusive family per line so layers never stack.
+- Short-path resolution: unique leaf / suffix names also match (`__eyes__` → `face/eyes.txt`, `__ballroom__` → `location/castle/ballroom.txt`, `__age__` → `body/age.txt`). If two files share a basename, short-path fails — rename for uniqueness or require a fuller path.
 - Prefer unique basenames for leaves users will pin often.
+- Avoid parallel composers that share a basename (e.g. do not ship both `body/hands.txt` and `clothes/hands.txt` — gloves live at `clothes/hands/gloves.txt` so `__hands__` stays unique for body).
+
+### What may live at the root
+
+Keep the root reserved for:
+
+1. **Shared primitives** — `color`, `size`, `length`, `material`, `fabric`, `pattern`
+2. **Cross-cutting shot / style / mood** — `view`, `focus`, `pose`, `lighting`, `time`, `weather`, `era`, `atmosphere`, `artstyle`, `artist`, `photostyle`, `game`, `situation`
+3. **Flat subject families** that are not trees yet — `profession`, `race`, `animal`, `monster`, `plant`, `skin`, `makeup`, `expression`, `armor`, `weapon`
+4. **Umbrella composers** that only delegate — `character`, `location`, `clothes`, `face`, `body`, `hair`, `vehicle`, `prop`, `magic`, `random`
+
+New multi-file families should get a folder + composer (`prop/`, `magic/`, `body/marking/`, `location/office/`, …), not a pile of sibling roots.
 
 ### Shared vs local attributes
 
@@ -57,8 +72,19 @@ Top-level shared lists:
 - `__color__` — base palette
 - `__size__` — generic scale
 - `__length__` — generic length
+- `__material__` — hard surfaces (metal, stone, wood, glass, …)
+- `__fabric__` — cloth / soft goods
+- `__pattern__` — prints and repeating designs
 
-Domain files should **compose** these (`__color__` as a line) and add only domain-only extras (lipstick shades, heterochromia, fashion hair blends, cavernous rooms). Do not duplicate the shared palette inside every namespace.
+Domain files should **compose** these (`__fabric__` as a line, `__material__ plate armor`, `__pattern__ __fabric__ blouse`) and add only domain-only extras. Do not duplicate the shared palette inside every namespace.
+
+Typical composition homes:
+
+| Primitive | Compose into |
+|---|---|
+| `__color__` | `hair/color`, `face/eyes/color`, lip colors, accents |
+| `__fabric__` / `__pattern__` | clothes zones (shirt, pants, fullbody, scarf, gloves, jacket) |
+| `__material__` | armor, shoes/boots, furniture props, hard outerwear |
 
 ## Token boundaries & familiarity
 
@@ -66,18 +92,28 @@ Do not dump lookalikes across adjacent tokens. Prefer the sharper home for the e
 
 | Token | Keep | Leave out |
 |---|---|---|
-| `__monster__` | Horror / pop-culture icons with dread | Simple beasts (`__animal__`), RPG types like vampire (`__race__`), plain human slashers |
+| `__monster__` | Horror / pop-culture icons with dread | Simple beasts (`__animal__`), flora (`__plant__`), RPG types like vampire (`__race__`), plain human slashers |
+| `__plant__` | Distinct flora / botanical silhouettes | Outdoor biomes (`__outdoor__`), movie jungles (`__scene__`) |
 | `__game__` | Breakthrough franchise looks | Near-clone genres and niche titles |
 | `__artist__` | Named animators / cartoonists / internet illustrators | Bare mediums (`__artstyle__`), oil painters, photographers |
-| `__makeup__` | Full-face cosmetic looks | Bare lip color (`__lips__`), expression blush |
+| `__makeup__` | Full-face cosmetic looks | Bare lip color (`__lips__`), expression blush, tattoos (`__marking__`) |
+| `__marking__` | Tattoos, scars, birthmarks, brands | Skin tone (`__skin__`), makeup, temporary paint |
+| `__prop__` | Held / furniture / small objects | Weapons (`__weapon__`), worn bags/gloves (`__clothes__`) |
+| `__magic__` | Elemental power and spell visuals | Lighting setups (`__lighting__`), weather (`__weather__`) |
+| `__era__` | Period costume / culture looks | Clock time of day (`__time__`), place set pieces (`__scene__/period`) |
+| `__atmosphere__` | Scene emotional tone | Facial expression (`__expression__`), lighting technique, weather |
+| `__expression__` | Face emotion / expression | Scene mood (`__atmosphere__`) |
+| `__hands__` | Hand anatomy / look | Gestures (`__pose__`), gloves (`__gloves__`) |
 | `__location/outdoor__` | Biomes / environments | Movie set pieces (`location/scene`), dwelling rooms |
-| `__location/scene__` | Film / animation tropes | Outdoor biomes, named cities |
+| `__location/scene__` | Film / animation tropes | Outdoor biomes, named cities, office/lab room trees |
+| Character icons | Named heroes, villains, historical figures, celebrities | Generic professions (`__profession__`) |
 
-When a list is meant for named cultural icons (monsters, games, heroes), prefer **broadly familiar** exemplars over niche completeness. One short signature cue after the name is enough — do not pad with landmark laundry lists.
+When a list is meant for named cultural icons (monsters, games, heroes, villains, celebrities), prefer **broadly familiar** exemplars over niche completeness. One short signature cue after the name is enough — do not pad with landmark laundry lists.
 
 ## File conventions
 
 - One replacement phrase per line; `#` comments and blank lines are ignored.
 - Match existing style: short, no leading `a`/`an`/`the`, lead with the main noun.
 - Header comments should state the token, intended prompt slots, and the distinctiveness rule.
-- New **families** (new umbrella roots): add the lists, then a short note in `docs/placeholders.md` and a demo in `docs/examples.md` if useful. Do **not** catalog every leaf file in the docs — the folder tree is the catalog.
+- New **families** (new umbrella roots or major namespaces): add the lists, then a short note in `docs/placeholders.md` and a demo in `docs/examples.md` if useful. Do **not** catalog every leaf file in the docs — the folder tree is the catalog.
+- After adding families, update `__random__` recipes so they exercise the new tokens without violating mutual exclusions.

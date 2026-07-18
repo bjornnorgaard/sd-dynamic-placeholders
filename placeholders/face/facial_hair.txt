@@ -1,0 +1,16 @@
+# Facial hair — __face/facial_hair__ (short: __facial_hair__)
+# Distinct beard and mustache shapes only
+# Style: short, no leading a/an/the — lead with the facial-hair cue
+
+full thick beard
+pointed goatee
+handlebar mustache curled upward
+five-o-clock stubble
+wide mutton-chop sideburns
+soul patch chin tuft
+walrus mustache thick and drooping
+clean-shaven smooth jaw
+viking braided beard
+thin pencil mustache
+long flowing wizard beard
+chin-strap beard along the jawline

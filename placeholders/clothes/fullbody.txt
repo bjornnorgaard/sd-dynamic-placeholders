@@ -1,8 +1,12 @@
 # Full-body attire — referenced from clothes.txt via __clothes/fullbody__
 # One-piece or coordinated head-to-hem looks. Composition lines that use this
 # omit top/pants so nothing is worn over the outfit.
+# Composes shared __fabric__ / __pattern__ plus silhouette-specific outfits
 # One silhouette per family — near-duplicate suits, dresses, and work onesies omitted
 
+__fabric__ gown
+__pattern__ __fabric__ dress
+__fabric__ jumpsuit
 three-piece suit
 tuxedo
 evening gown

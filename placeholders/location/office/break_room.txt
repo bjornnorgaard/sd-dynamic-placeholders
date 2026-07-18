@@ -1,0 +1,7 @@
+# Office break room — __location/office/break_room__
+# Distinctive interior variants; one look per line
+# Style: short, no leading a/an/the
+
+office break room with vending machines and laminate tables
+kitchenette with microwave lineup and coffee station
+employee lounge with couch and foosball table

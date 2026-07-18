@@ -1,0 +1,7 @@
+# Villain — street fighter (__character/villain/game/street_fighter__)
+# One exemplar per visual family; short, no leading a/an/the
+
+M. Bison with red cape and Psycho Power aura
+Akuma with red gi and glowing Satsui eyes
+Sagat with eyepatch and scarred chest
+Balrog with boxing gloves and gold chains

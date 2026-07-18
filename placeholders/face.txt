@@ -1,25 +1,33 @@
 # Composable face: structure (shape / jaw / cheeks) plus feature groups under face/.
-# Eyes, nose, lips, and ears are optional layers — omit some for lighter prompts.
-# Short tokens (__eyes__, __lips__, …) also resolve via short-path when unique.
+# Eyes, nose, lips, ears, eyebrows, and facial hair are optional layers —
+# omit some for lighter prompts.
+# Short tokens (__eyes__, __lips__, __eyebrows__, …) also resolve via short-path when unique.
 # Structure is included on most lines so overall silhouette stays distinct.
 # One phrasing per unique feature set — synonym wrappers pruned.
 
-# --- Full face: structure + all features ---
-__face/structure__ with __face/eyes__, __face/nose__, __face/lips__, and __face/ears__
-__face/structure__, __face/eyes__, __face/nose__, __face/lips__, __face/ears__
+# --- Full face: structure + core features + brows ---
+__face/structure__ with __face/eyes__, __face/nose__, __face/lips__, __face/ears__, and __face/eyebrows__
+__face/structure__, __face/eyes__, __face/nose__, __face/lips__, __face/ears__, __face/eyebrows__
 
 # --- Structure + core features (no ears) ---
-__face/structure__ with __face/eyes__, __face/nose__, and __face/lips__
+__face/structure__ with __face/eyes__, __face/nose__, __face/lips__, and __face/eyebrows__
 __face/structure__, __face/eyes__, __face/nose__, __face/lips__
+
+# --- With facial hair (beard / mustache looks) ---
+__face/structure__ with __face/eyes__, __face/nose__, __face/lips__, and __face/facial_hair__
+__face/structure__ with __face/eyes__, __face/eyebrows__, and __face/facial_hair__
 
 # --- Features without structure ---
 __face/eyes__, __face/nose__, __face/lips__, and __face/ears__
+__face/eyes__, __face/nose__, __face/lips__, and __face/eyebrows__
 __face/eyes__, __face/nose__, and __face/lips__
 
 # --- Structure + eyes focus ---
 __face/structure__ with __face/eyes__ and __face/lips__
+__face/structure__ with __face/eyes__ and __face/eyebrows__
 __face/structure__ with __face/eyes__
 
 # --- Structure alone or with one feature ---
 __face/structure__
 __face/structure__ with __face/nose__ and __face/lips__
+__face/structure__ with __face/facial_hair__

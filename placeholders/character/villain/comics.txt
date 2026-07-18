@@ -1,0 +1,5 @@
+# Villain comics — __character/villain/comics__
+# Picks one franchise list
+
+__character/villain/comics/dc__
+__character/villain/comics/marvel__

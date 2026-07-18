@@ -1,0 +1,20 @@
+# Gloves — __clothes/hands/gloves__ (short: __gloves__)
+# Hand coverings; distinct silhouettes only
+# Composes shared __fabric__ for textile variants
+# Style: short, no leading a/an/the — lead with the glove noun
+
+__fabric__ gloves
+leather gloves
+lace gloves
+fingerless gloves
+rubber medical gloves
+padded work gloves
+elbow-length opera gloves
+boxing gloves
+knit mittens
+armored metal gauntlets
+wool winter mittens
+tight latex gloves
+perforated driving gloves
+thick insulated winter gloves
+fishnet gloves

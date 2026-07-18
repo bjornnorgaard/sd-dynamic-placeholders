@@ -1,0 +1,6 @@
+# Villain — sonic (__character/villain/game/sonic__)
+# One exemplar per visual family; short, no leading a/an/the
+
+Dr. Eggman with round red body and mustache
+Metal Sonic with blue chrome robot frame
+Chaos as emerald beast with liquid limbs

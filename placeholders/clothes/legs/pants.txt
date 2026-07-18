@@ -1,8 +1,12 @@
 # Pants / lower-body options — referenced from clothes.txt via __clothes/legs/pants__
-# Ordered: jeans → trousers → shorts → skirts → athletic & specialty
+# Ordered: fabric/pattern composers → jeans → trousers → shorts → skirts → athletic
+# Composes shared __fabric__ / __pattern__ plus silhouette-specific bottoms
 # Meant for separates outfits (not used alongside fullbody).
 # Silhouette-first — drop near-duplicate washes, cuts, and athletic synonyms
 
+__fabric__ trousers
+__pattern__ __fabric__ skirt
+__fabric__ shorts
 blue jeans
 ripped jeans
 wide-leg jeans

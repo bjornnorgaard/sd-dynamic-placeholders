@@ -1,0 +1,7 @@
+# Laboratory autopsy room — __location/laboratory/autopsy_room__
+# Distinctive interior variants; one look per line
+# Style: short, no leading a/an/the
+
+morgue autopsy room with stainless steel table and overhead lamp
+forensic lab with evidence trays and magnifying lamps
+clinical dissection theater with tiered viewing seats
