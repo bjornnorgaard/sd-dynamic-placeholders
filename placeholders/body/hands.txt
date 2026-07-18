@@ -1,5 +1,5 @@
 # Hands — __body/hands__ (short: __hands__)
-# Hand appearance only — not gestures (__pose__) or gloves (__clothes/hands/gloves__)
+# Hand appearance only — not gestures (__pose/gesture__) or gloves (__clothes/hands/gloves__)
 # One exemplar per look family
 # Style: short, no leading a/an/the — lead with the hand cue
 

@@ -1,0 +1,35 @@
+# Locomotion, combat-ready & signature tropes — __pose/action__ (short: __action__)
+# Self-contained silhouettes that should not stack with stance×gesture or sit/lie
+# Keep complex hobbies/sports out — those belong in __situation__
+# One exemplar per visual family; near-duplicates pruned
+# Style: short, no leading a/an/the — lead with the action or trope cue
+
+# --- Locomotion & air ---
+walking mid-stride
+running at full sprint
+jumping with arms raised
+mid-air jump fist pumped
+floating weightlessly
+
+# --- Combat & game-ready ---
+fighting stance fists raised
+boxing guard hands up
+sword-ready stance blade forward
+archery draw aiming forward
+spellcasting pose one palm forward
+superhero landing one knee and fist down
+dramatic coat-flare stance arm out
+magical-girl pose arms overhead
+jojo-style dramatic pose
+
+# --- Anime & game comedy / mood tropes ---
+T-pose arms outstretched sideways
+victory pose both arms raised
+defeated on knees head bowed
+embarrassed squat looking away
+face-planted asleep on a desk
+zombie arms outstretched stiffly
+handstand upside down
+hanging upside down by the legs
+formal bow from the waist
+deep kowtow forehead to the floor

@@ -103,7 +103,7 @@ Do not dump lookalikes across adjacent tokens. Prefer the sharper home for the e
 | `__era__` | Period costume / culture looks | Clock time of day (`__time__`), place set pieces (`__scene__/period`) |
 | `__atmosphere__` | Scene emotional tone | Facial expression (`__expression__`), lighting technique, weather |
 | `__expression__` | Face emotion / expression | Scene mood (`__atmosphere__`) |
-| `__hands__` | Hand anatomy / look | Gestures (`__pose__`), gloves (`__gloves__`) |
+| `__hands__` | Hand anatomy / look | Gestures (`__pose/gesture__`), gloves (`__gloves__`) |
 | `__location/outdoor__` | Biomes / environments | Movie set pieces (`location/scene`), dwelling rooms |
 | `__location/scene__` | Film / animation tropes | Outdoor biomes, named cities, office/lab room trees |
 | Character icons | Named heroes, villains, historical figures, celebrities | Generic professions (`__profession__`) |

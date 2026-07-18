@@ -1,0 +1,15 @@
+# Sitting arrangements — __pose/sit__ (short: __sit__)
+# Composer prefixes "sitting"; do not repeat the verb here
+# Surfaces stay light — furniture props live under __prop/furniture__
+# One exemplar per visual family; near-duplicates pruned
+# Style: short, no leading a/an/the — lead with the arrangement cue
+
+on a chair
+with legs crossed
+cross-legged on the floor
+in seiza on the heels
+with knees hugged to the chest
+sideways with legs tucked (wariza)
+backwards on a chair
+on a windowsill legs dangling
+slumped in a chair chin in hand

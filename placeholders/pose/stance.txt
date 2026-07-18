@@ -1,0 +1,19 @@
+# Base body position — __pose/stance__ (short: __stance__)
+# Upright and low silhouettes that compose with __pose/gesture__
+# Keep sit/lie arrangements in __pose/sit__ / __pose/lie__; locomotion and tropes in __pose/action__
+# One exemplar per visual family; near-duplicates pruned
+# Style: short, no leading a/an/the — lead with the stance cue
+
+standing upright
+contrapposto weight on one leg
+power stance feet apart
+at-attention military stance
+kneeling on both knees
+kneeling on one knee
+low combat crouch
+squatting
+crawling on all fours
+leaning against a wall
+leaning forward
+leaning on a railing
+balancing on one foot
