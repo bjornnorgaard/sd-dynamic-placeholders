@@ -81,7 +81,7 @@ Prefer one place family per prompt so outdoor, scene, background, and rooms do n
 
 | Family | Tokens |
 |---|---|
-| Camera | `__view__`, `__focus__`, `__pose__` |
+| Camera | `__view__`, `__focus__`, `__pose__` | `__view__` → facing×height under `view/` **or** a composition device |
 | Light | `__lighting__` (photo / cinema / cartoon / anime illumination — not time or weather) |
 | Event | `__situation__` |
 | Time / weather / era | `__time__`, `__weather__`, `__era__` |
@@ -107,6 +107,7 @@ Parents inject children; pin a child when you want a family fixed.
 - `__marking__` → tattoo **or** scar **or** birthmark **or** brand
 - `__prop__` → held **or** furniture **or** small
 - `__magic__` → element **or** effect
+- `__view__` → `__view/horizontal__` + `__view/vertical__` (facing × height) **or** `__view/composition__`
 - `__location__` → outdoor **or** scene **or** background **or** city **or** a dwelling room
 - `__character__` → hero / heroine / villain / historical / celebrity
 - `__vehicle__` / `__background__` → one type per expand

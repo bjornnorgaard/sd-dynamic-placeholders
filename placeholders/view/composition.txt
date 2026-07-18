@@ -1,0 +1,30 @@
+# Non-axis composition devices — __view/composition__ (short: __composition__)
+# Framing tricks that are not horizontal facing × vertical height
+# Keep separate from __focus__ (crop) and the angle combo in __view__
+# One exemplar per visual family; near-duplicates pruned
+# Style: short, no leading a/an/the — lead with the composition cue
+
+# --- Extreme verticals (facing is moot) ---
+bird's-eye view
+worm's-eye view
+top-down overhead view
+
+# --- Special projections & perspective ---
+isometric view
+one-point perspective with vanishing lines
+dramatic foreshortening
+dynamic action angle
+
+# --- Framing devices ---
+over-the-shoulder framing
+subject looking back over the shoulder
+centered symmetrical composition
+off-center asymmetrical framing
+frame-within-a-frame through an opening
+silhouette against bright backlight
+seen through a doorway
+reflection in a mirror
+first-person point-of-view
+two figures sharing the frame
+wide establishing view
+distant tiny figure in a vast space

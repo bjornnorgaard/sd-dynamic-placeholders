@@ -1,0 +1,10 @@
+# Horizontal facing / orbit around the subject — __view/horizontal__ (short: __horizontal__)
+# Camera position on the left–right / around axis; compose with __view/vertical__
+# One exemplar per visual family; near-duplicates pruned
+# Style: short, no leading a/an/the — lead with the facing cue
+
+from the front
+from the side
+three-quarter view
+from behind
+dutch angle with tilted horizon

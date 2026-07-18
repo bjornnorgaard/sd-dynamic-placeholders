@@ -1,0 +1,8 @@
+# Vertical height / pitch of the camera — __view/vertical__ (short: __vertical__)
+# Camera position on the up–down axis; compose with __view/horizontal__
+# One exemplar per visual family; near-duplicates pruned
+# Style: short, no leading a/an/the — lead with the height cue
+
+straight on at eye level
+looking down from above
+looking up from below

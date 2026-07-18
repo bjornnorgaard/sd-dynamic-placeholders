@@ -3,40 +3,10 @@
 # Shared language of anime/manga direction and cinema / still imagery
 # (e.g. "__view__", "seen in __view__", "__view__ of …", "a __view__ composition")
 # Medium-agnostic — no photography-only optics jargon (no lens, bokeh, depth of field)
+# Picks facing×height angle combo OR a standalone composition device (never stacked)
+# Pin children when fixed: __view/horizontal__, __view/vertical__, __view/composition__
 # One exemplar per visual family; near-duplicates pruned so each line changes the frame
 # Style: short, no leading a/an/the — lead with the view, angle, or composition cue
 
-# --- Height & vertical angle ---
-eye-level view
-high angle looking down
-low angle looking up
-bird's-eye view
-worm's-eye view
-top-down overhead view
-
-# --- Facing & orientation ---
-straight-on front view
-profile side view
-three-quarter view
-view from behind
-over-the-shoulder framing
-subject looking back over the shoulder
-
-# --- Tilt, drama & perspective ---
-dutch angle with tilted horizon
-dynamic action angle
-dramatic foreshortening
-one-point perspective with vanishing lines
-isometric view
-
-# --- Compositional devices ---
-centered symmetrical composition
-off-center asymmetrical framing
-frame-within-a-frame through an opening
-silhouette against bright backlight
-seen through a doorway
-reflection in a mirror
-first-person point-of-view
-two figures sharing the frame
-wide establishing view
-distant tiny figure in a vast space
+__view/horizontal__, __view/vertical__
+__view/composition__
