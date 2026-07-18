@@ -1,4 +1,5 @@
 # Heroine — buffy (__character/heroine/movie/buffy__)
 # One exemplar per visual family; short, no leading a/an/the
+# Explicit traits models may not infer from the name alone
 
-Buffy Summers the Vampire Slayer with wooden stake, leather jacket, and blonde hair
+Buffy Summers the Vampire Slayer with blond hair, wooden stake, leather jacket, and petite build

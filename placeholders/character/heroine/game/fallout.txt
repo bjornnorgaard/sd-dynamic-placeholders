@@ -1,8 +1,9 @@
 # Heroine — fallout (__character/heroine/game/fallout__)
 # One exemplar per visual family; short, no leading a/an/the
+# Explicit traits models may not infer from the name alone
 
-Lucy MacLean of Fallout in yellow vault suit with vault-tec smile and pistol
-Piper Wright of Fallout in red coat with press hat and notepad
+Lucy MacLean of Fallout with blond hair in yellow vault suit with vault-tec smile and pistol
+Piper Wright of Fallout in red coat with press hat, freckles, and notepad
 Cass of Fallout New Vegas in cowboy hat with whiskey bottle and shotgun
 Veronica of Fallout New Vegas with mohawk, Brotherhood robes, and power fist
-Cait of Fallout in leather jacket with shotgun and fiery red hair
+Cait of Fallout with fiery red hair, freckles, leather jacket, and shotgun

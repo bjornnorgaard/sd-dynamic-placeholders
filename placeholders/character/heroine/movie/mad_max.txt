@@ -1,4 +1,5 @@
 # Heroine — mad max (__character/heroine/movie/mad_max__)
 # One exemplar per visual family; short, no leading a/an/the
+# Explicit traits models may not infer from the name alone
 
-Furiosa of Mad Max with shaved head, mechanical arm, and war paint
+Furiosa of Mad Max with shaved head, black grease war paint, mechanical left arm, and desert grit

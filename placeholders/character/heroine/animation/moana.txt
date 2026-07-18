@@ -1,4 +1,5 @@
 # Heroine — moana (__character/heroine/animation/moana__)
 # One exemplar per visual family; short, no leading a/an/the
+# Explicit traits models may not infer from the name alone
 
-Moana of Disney in Polynesian wrap with ocean necklace and canoe paddle
+Moana of Disney with brown Polynesian skin, ocean necklace, wrap skirt, and canoe paddle

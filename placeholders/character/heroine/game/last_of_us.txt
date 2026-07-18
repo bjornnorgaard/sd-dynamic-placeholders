@@ -1,4 +1,5 @@
 # Heroine — last of us (__character/heroine/game/last_of_us__)
 # One exemplar per visual family; short, no leading a/an/the
+# Explicit traits models may not infer from the name alone
 
-Ellie from The Last of Us with backpack, bow, and scarred determined face
+Ellie from The Last of Us with freckles, backpack, bow, and scarred determined face

@@ -1,9 +1,10 @@
 # Heroine — baldurs gate (__character/heroine/game/baldurs_gate__)
 # One exemplar per visual family; short, no leading a/an/the
+# Explicit traits models may not infer from the name alone
 
-Shadowheart of Baldur's Gate with silver braid, black half-plate, and Shar spear
+Shadowheart of Baldur's Gate with pale skin, silver braid, green eyes, and black half-plate
 Karlach of Baldur's Gate with red devil skin, burning chest engine, and massive axe
-Lae'zel of Baldur's Gate with green githyanki skin, silver armor, and greatsword
-Minthara of Baldur's Gate with white drow hair, absolute paladin armor, and cruel stare
-Jaheira of Baldur's Gate with Harper druid armor, twin scimitars, and weathered resolve
-Dame Aylin of Baldur's Gate with silver aasimar wings, moonlit armor, and greatsword
+Lae'zel of Baldur's Gate with green githyanki skin, pointed ears, silver armor, and greatsword
+Minthara of Baldur's Gate with grey-purple drow skin, white hair, red eyes, and absolute paladin armor
+Jaheira of Baldur's Gate as weathered half-elf with greying dark hair, Harper druid armor, and twin scimitars
+Dame Aylin of Baldur's Gate with glowing pale aasimar skin, silver feathered wings, and moonlit armor

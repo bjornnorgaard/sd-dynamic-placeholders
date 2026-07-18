@@ -1,4 +1,5 @@
 # Heroine — harry potter (__character/heroine/movie/harry_potter__)
 # One exemplar per visual family; short, no leading a/an/the
+# Explicit traits models may not infer from the name alone
 
-Hermione Granger with bushy hair, wand, and Hogwarts robes
+Hermione Granger with bushy brown hair, wand, and Hogwarts robes

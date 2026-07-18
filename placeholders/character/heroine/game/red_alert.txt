@@ -1,4 +1,5 @@
 # Heroine — red alert (__character/heroine/game/red_alert__)
 # One exemplar per visual family; short, no leading a/an/the
+# Explicit traits models may not infer from the name alone
 
-Tanya of Command & Conquer Red Alert in combat fatigues with dual pistols and blonde hair
+Tanya of Command & Conquer Red Alert in combat fatigues with dual pistols and blond hair

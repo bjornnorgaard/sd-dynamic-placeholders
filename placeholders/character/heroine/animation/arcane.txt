@@ -1,5 +1,6 @@
 # Heroine — arcane (__character/heroine/animation/arcane__)
 # One exemplar per visual family; short, no leading a/an/the
+# Explicit traits models may not infer from the name alone
 
-Jinx of Arcane League of Legends with long blue braids, chaos tattoos, and rocket launcher
-Vi of Arcane League of Legends with pink hair, hextech gauntlets, and undercity jacket
+Jinx of Arcane League of Legends with pale skin, long blue braids, cloud tattoos, and rocket launcher
+Vi of Arcane League of Legends with pink undercut hair, face scars, hextech gauntlets, and undercity jacket

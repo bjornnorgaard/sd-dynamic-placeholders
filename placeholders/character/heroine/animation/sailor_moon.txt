@@ -1,4 +1,5 @@
 # Heroine — sailor moon (__character/heroine/animation/sailor_moon__)
 # One exemplar per visual family; short, no leading a/an/the
+# Explicit traits models may not infer from the name alone
 
-Sailor Moon in sailor fuku with odango buns and crescent wand
+Sailor Moon with long blond odango buns in sailor fuku with crescent wand

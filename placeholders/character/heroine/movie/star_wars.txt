@@ -1,5 +1,6 @@
 # Heroine — star wars (__character/heroine/movie/star_wars__)
 # One exemplar per visual family; short, no leading a/an/the
+# Explicit traits models may not infer from the name alone
 
-Leia Organa in white gown with side buns and blaster
-Rey of Star Wars in scavenger wraps with staff and blue lightsaber
+Leia Organa in white gown with cinnamon-bun side buns and blaster
+Rey of Star Wars in scavenger wraps with staff, brown hair triple bun, and blue lightsaber

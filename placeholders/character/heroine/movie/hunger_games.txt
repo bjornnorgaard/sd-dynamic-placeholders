@@ -1,4 +1,5 @@
 # Heroine — hunger games (__character/heroine/movie/hunger_games__)
 # One exemplar per visual family; short, no leading a/an/the
+# Explicit traits models may not infer from the name alone
 
-Katniss Everdeen with side braid, bow, and Mockingjay pin
+Katniss Everdeen with dark hair in side braid, bow, and Mockingjay pin

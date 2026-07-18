@@ -1,4 +1,5 @@
 # Heroine — horizon (__character/heroine/game/horizon__)
 # One exemplar per visual family; short, no leading a/an/the
+# Explicit traits models may not infer from the name alone
 
-Aloy of Horizon Zero Dawn in Nora tribal armor with Focus earpiece and spear
+Aloy of Horizon Zero Dawn with red hair, freckles, Nora tribal armor, Focus earpiece, and spear

@@ -1,4 +1,5 @@
 # Heroine — street fighter (__character/heroine/game/street_fighter__)
 # One exemplar per visual family; short, no leading a/an/the
+# Explicit traits models may not infer from the name alone
 
-Chun-Li in blue qipao with spiked bracelets and bun hair
+Chun-Li with East Asian features in blue qipao with spiked bracelets and ox-horn hair buns

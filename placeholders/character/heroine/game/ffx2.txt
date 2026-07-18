@@ -1,4 +1,5 @@
 # Heroine — ffx2 (__character/heroine/game/ffx2__)
 # One exemplar per visual family; short, no leading a/an/the
+# Explicit traits models may not infer from the name alone
 
-Paine of Final Fantasy with short silver hair, black sphere-hunter outfit, and sword
+Paine of Final Fantasy with short silver hair, red eyes, black sphere-hunter outfit, and sword

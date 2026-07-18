@@ -1,4 +1,5 @@
 # Heroine — xena (__character/heroine/comics/xena__)
 # One exemplar per visual family; short, no leading a/an/the
+# Explicit traits models may not infer from the name alone
 
-Xena Warrior Princess in leather armor with chakram and sword
+Xena Warrior Princess with dark hair in bronze leather armor with chakram and sword

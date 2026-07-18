@@ -1,4 +1,5 @@
 # Heroine — bioshock (__character/heroine/game/bioshock__)
 # One exemplar per visual family; short, no leading a/an/the
+# Explicit traits models may not infer from the name alone
 
-Elizabeth of BioShock Infinite in blue dress with cameo choker and tear-opening powers
+Elizabeth of BioShock Infinite with brown hair in blue dress with cameo choker and tear-opening powers

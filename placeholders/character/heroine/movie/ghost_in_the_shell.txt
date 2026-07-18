@@ -1,4 +1,5 @@
 # Heroine — ghost in the shell (__character/heroine/movie/ghost_in_the_shell__)
 # One exemplar per visual family; short, no leading a/an/the
+# Explicit traits models may not infer from the name alone
 
-Major Motoko Kusanagi in tactical bodysuit with cybernetic eyes
+Major Motoko Kusanagi with purple hair, East Asian features, tactical bodysuit, and cybernetic eyes

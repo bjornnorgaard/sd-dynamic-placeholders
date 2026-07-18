@@ -1,4 +1,5 @@
 # Heroine — alita (__character/heroine/movie/alita__)
 # One exemplar per visual family; short, no leading a/an/the
+# Explicit traits models may not infer from the name alone
 
-Alita Battle Angel with large eyes, cybernetic body, and Damascus blade
+Alita Battle Angel with oversized doll eyes, black hair, metallic cybernetic body, and Damascus blade
