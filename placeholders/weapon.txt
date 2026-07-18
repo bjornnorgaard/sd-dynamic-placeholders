@@ -1,0 +1,59 @@
+# Weapons — use as __weapon__ in prompts
+# Phrases meant for armament slots (e.g. "wielding a __weapon__", "armed with a __weapon__",
+# "__race__ warrior holding a __weapon__", "__artstyle__ of a soldier with a __weapon__")
+# One entry per visual family only — silhouette and era cues must differ; near-duplicate
+# sword variants, rifle clones, and slight pistol variants are omitted
+# Style: short, no leading a/an/the — lead with the weapon noun, then signature look
+# Keep separate from __armor__ (protective gear) and named costume heroes (__hero__ / __heroine__)
+
+# --- Blades ---
+longsword with straight double-edged blade and cruciform hilt
+greatsword with oversized two-handed blade and long grip
+katana with curved single-edge blade and wrapped tsuka
+scimitar with deeply curved Middle Eastern blade
+rapier with slender thrusting blade and ornate swept hilt
+khopesh with bronze sickle-shaped Egyptian blade
+dagger with short double-edged blade and simple crossguard
+combat knife with black tanto blade and textured grip
+
+# --- Axes, hammers & blunt ---
+battleaxe with broad crescent blade and leather-wrapped haft
+warhammer with heavy flat face and rear spike
+mace with flanged iron head on a short haft
+flail with spiked ball on a short chain
+quarterstaff with long polished wooden shaft
+
+# --- Polearms & thrown melee ---
+spear with leaf-shaped tip and long wooden shaft
+halberd with axe blade, thrusting spike, and hook on a pole
+trident with three parallel prongs and long haft
+scythe with long curved harvesting blade on a tall haft
+whip with long tapering leather lash and braided handle
+
+# --- Bows & early ranged ---
+longbow with tall yew limbs and drawn bowstring
+crossbow with horizontal prod, stock, and cocked bolt
+javelin with slim weighted tip for throwing
+chakram with flat steel throwing ring
+boomerang with curved wooden throwing wing
+
+# --- Early firearms ---
+flintlock pistol with ornate brass fittings and flint lock
+musket with long smoothbore barrel and wooden stock
+blunderbuss with flared muzzle and short brass barrel
+
+# --- Modern firearms ---
+revolver with exposed cylinder and western-style grip
+semi-automatic pistol with short slide and polymer frame
+submachine gun with compact frame and folding stock
+assault rifle with intermediate cartridge, rails, and magazine
+sniper rifle with long barrel and high-magnification scope
+shotgun with pump action and wide muzzle
+minigun with rotating multi-barrel cluster
+rocket launcher with shoulder tube and backblast vent
+flamethrower with fuel tanks and ignited nozzle jet
+grenade with segmented iron body and pull-pin ring
+
+# --- Sci-fi & energy ---
+lightsaber with glowing plasma blade and emitter hilt
+plasma rifle with glowing coils and vented energy barrel

@@ -60,6 +60,14 @@ __artstyle__ of a __race__ warrior, __country__, with __expression__, __face__, 
 __artstyle__ of a __race__ warrior in __armor__, __expression__, __pose__, in a __setting__
 ```
 
+### Armed with a weapon
+
+`__weapon__` is an armament look (medieval through modern and sci-fi); pair with armor or clothes, not with hero costume cues that already carry a signature weapon.
+
+```
+__artstyle__ of a __profession__ wielding a __weapon__, __expression__, __pose__, in a __setting__
+```
+
 ### Scene — game aesthetic
 
 `__game__` is a pop-culture franchise look; use it for style / world cues, not as a subject job.

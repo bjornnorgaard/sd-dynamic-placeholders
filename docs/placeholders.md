@@ -21,6 +21,7 @@ You can use a parent alone (`__hair__`) and let composition pull in children, or
 | `__hair__` | Composable hair → `hair/length`, `hair/color`, `hair/style` |
 | `__clothes__` | Composable attire → head, torso, pants, fullbody, shoes, etc. |
 | `__armor__` | Protective gear types (plate, mail, leather, power armor, …) |
+| `__weapon__` | Weapon types (blades, polearms, bows, firearms, energy, …) |
 | `__setting__` | Outdoor / environment backdrop |
 | `__location__` | Stereotypical movie / animation scene places |
 | `__room__` | Composable interior → type, size, mood, place |
