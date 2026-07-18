@@ -1,0 +1,11 @@
+# Helicopters — use as __vehicle/helicopter__ (also via __vehicle__)
+# Rotorcraft only; keep separate from fixed-wing __vehicle/plane__
+# One entry per visual family — rotor layout and body cues must differ
+# Style: short, no leading a/an/the — lead with the helicopter noun, then signature look
+
+utility helicopter with skids and bubble canopy
+attack helicopter with tandem cockpit and stub wings
+tandem-rotor Chinook with twin overhead rotors
+medevac helicopter with red-cross markings and rescue hoist
+news helicopter with camera pod under the nose
+heavy-lift helicopter with dual cargo hooks and bulky fuselage

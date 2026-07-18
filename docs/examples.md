@@ -68,6 +68,18 @@ __artstyle__ of a __race__ warrior in __armor__, __expression__, __pose__, in a 
 __artstyle__ of a __profession__ wielding a __weapon__, __expression__, __pose__, in a __setting__
 ```
 
+### Vehicle / conveyance
+
+`__vehicle__` picks one type (car, boat, plane, …) then a distinctive model. Pin a child when you want a family fixed.
+
+```
+__photostyle__ of a __profession__ beside a __vehicle__, __pose__, in a __setting__ at __time__, __view__
+```
+
+```
+__artstyle__ of a __vehicle/boat__ on the water at __time__, __weather__, __view__
+```
+
 ### Scene — game aesthetic
 
 `__game__` is a pop-culture franchise look; use it for style / world cues, not as a subject job.
@@ -86,10 +98,30 @@ by __artist__, __focus__, __view__ of a __profession__ with __expression__, __ha
 
 ### Outdoor scene
 
-Environment-first: setting, city, and time drive the backdrop.
+Environment-first: setting, city, and time drive the place.
 
 ```
 __photostyle__ of a __profession__ __pose__ in a __setting__ in __city__ at __time__, __view__
+```
+
+### Scenic background / vista
+
+`__background__` is scenery *behind* the subject (cityscape, landscape, spacescape, …). Prefer it instead of `__setting__` when you want a backdrop, not a place to stand in.
+
+```
+__photostyle__ portrait of a __profession__ with __expression__, __pose__, against a __background__, __view__
+```
+
+```
+__artstyle__ of a __heroine__ standing before a __background/cityscape__ at __time__, __weather__
+```
+
+### Weather atmosphere
+
+`__weather__` is sky / precipitation / atmosphere only — pair with `__setting__` and `__time__`, not as a place substitute.
+
+```
+__photostyle__ of a __profession__ __pose__ in a __setting__ in __weather__ at __time__, __view__
 ```
 
 ### Situation-driven scene

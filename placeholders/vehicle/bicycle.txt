@@ -1,0 +1,12 @@
+# Bicycles — use as __vehicle/bicycle__ (also via __vehicle__)
+# Human-powered two-wheelers; keep separate from motorized __vehicle/motorcycle__
+# One entry per visual family — frame shape and wheel cues must differ
+# Style: short, no leading a/an/the — lead with the bike noun, then signature look
+
+road bicycle with drop handlebars and thin tires
+mountain bike with suspension forks and knobby tires
+BMX bike with small frame and stunt pegs
+cruiser bicycle with balloon tires and swept bars
+cargo bicycle with front box carrier
+tandem bicycle with two seats in a row
+penny-farthing with huge front wheel and tiny rear wheel

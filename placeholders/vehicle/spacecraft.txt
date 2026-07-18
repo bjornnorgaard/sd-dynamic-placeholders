@@ -1,0 +1,13 @@
+# Spacecraft — use as __vehicle/spacecraft__ (also via __vehicle__)
+# Orbital and sci-fi craft; keep separate from atmospheric __vehicle/plane__
+# One entry per visual family — hull silhouette must differ; near-clone starships omitted
+# Style: short, no leading a/an/the — lead with the craft noun, then signature look
+
+space shuttle with delta wings and orange external tank
+multistage rocket with stacked boosters and exhaust plume
+flying saucer with disc hull and glowing rim lights
+wedge-shaped starship with bridge tower and engine banks
+Apollo lunar module with spidery landing legs
+satellite with gold foil body and solar-panel wings
+starfighter with twin engines and cockpit canopy
+generation ark ship with rotating habitat rings

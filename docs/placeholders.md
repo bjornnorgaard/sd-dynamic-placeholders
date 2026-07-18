@@ -22,10 +22,13 @@ You can use a parent alone (`__hair__`) and let composition pull in children, or
 | `__clothes__` | Composable attire → head, torso, pants, fullbody, shoes, etc. |
 | `__armor__` | Protective gear types (plate, mail, leather, power armor, …) |
 | `__weapon__` | Weapon types (blades, polearms, bows, firearms, energy, …) |
-| `__setting__` | Outdoor / environment backdrop |
+| `__vehicle__` | Composable conveyances → car, truck, boat, plane, train, … |
+| `__background__` | Composable scenic vistas → cityscape, landscape, spacescape, … |
+| `__setting__` | Outdoor / environment place the subject is in |
 | `__location__` | Stereotypical movie / animation scene places |
 | `__room__` | Composable interior → type, size, mood, place |
 | `__time__` | Time of day / lighting cue |
+| `__weather__` | Atmospheric conditions (clear, rain, snow, fog, storms, …) |
 | `__city__` | Visually distinct city / place names |
 | `__country__` | National / cultural subject looks (demonym + signature dress) |
 | `__artstyle__` | Non-photorealistic mediums (anime, painting, comic, craft, …) |
@@ -54,6 +57,14 @@ You can use a parent alone (`__hair__`) and let composition pull in children, or
 | `__clothes/swimwear__` | `placeholders/clothes/swimwear.txt` |
 | `__room__` | `placeholders/room.txt` |
 | `__room/type__` | `placeholders/room/type.txt` |
+| `__vehicle__` | `placeholders/vehicle.txt` |
+| `__vehicle/car__` | `placeholders/vehicle/car.txt` |
+| `__vehicle/boat__` | `placeholders/vehicle/boat.txt` |
+| `__vehicle/plane__` | `placeholders/vehicle/plane.txt` |
+| `__background__` | `placeholders/background.txt` |
+| `__background/cityscape__` | `placeholders/background/cityscape.txt` |
+| `__background/landscape__` | `placeholders/background/landscape.txt` |
+| `__background/spacescape__` | `placeholders/background/spacescape.txt` |
 
 ### Clothes
 
@@ -69,9 +80,38 @@ Child lists under `placeholders/clothes/`:
 
 `face.txt` mixes structure with optional feature groups (`__eyes__`, `__nose__`, `__lips__`, `__ears__`) so prompts stay light when you omit layers. Each feature group nests size / shape / color / adjective lists the same way hair does.
 
-### Room vs setting vs location
+### Vehicle
 
-`room.txt` composes indoor locations from `type` with optional `size`, `mood`, and `place` (dwelling context). Use `__room__` for dwelling interiors, `__setting__` for outdoor / environment backdrops, and `__location__` for stereotypical movie and animation scene places (diner, school hallway, spaceship bridge, and similar).
+`vehicle.txt` picks **one** type per expansion so categories never stack. Child lists under `placeholders/vehicle/`:
+
+- `car`, `truck`, `motorcycle`, `bicycle`
+- `boat`, `plane`, `helicopter`, `train`, `spacecraft`
+
+Use `__vehicle__` for any conveyance, or pin a family (`__vehicle/boat__`, `__vehicle/car__`, …). Keep separate from `__situation__` activities that already imply a ride.
+
+### Background
+
+`background.txt` picks **one** vista type per expansion so categories never stack. Child lists under `placeholders/background/`:
+
+- `cityscape`, `landscape`, `seascape`, `skyscape`
+- `spacescape`, `underwater`, `ruins`
+
+Use `__background__` for scenery *behind* a subject, or pin a family (`__background/spacescape__`, …).
+
+### Background vs setting vs location vs room
+
+| Token | Use for |
+|---|---|
+| `__background__` | Scenic vista / backdrop behind the subject |
+| `__setting__` | Outdoor / environment place the subject is *in* |
+| `__location__` | Stereotypical movie / animation set pieces |
+| `__room__` | Dwelling interiors (type + optional size / mood / place) |
+
+Prefer one place family per prompt so they do not fight — e.g. `__background__` *or* `__setting__`, not both stacked with conflicting scenery.
+
+### Time vs weather
+
+`__time__` is time of day / lighting cue; `__weather__` is atmosphere (sky, precipitation, fog, storms). Keep them separate so dawn fog and midnight rain can combine freely.
 
 ### View, focus, pose, situation
 

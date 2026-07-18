@@ -1,0 +1,17 @@
+# Boats & watercraft — use as __vehicle/boat__ (also via __vehicle__)
+# One entry per visual family — hull shape and propulsion cues must differ; near-duplicate
+# sailboat clones and slight yacht variants are omitted
+# Style: short, no leading a/an/the — lead with the craft noun, then signature look
+
+sailboat with tall mast and white canvas sails
+yacht with sleek white hull and flying bridge
+fishing trawler with nets and weathered cabin
+speedboat with low hull and foaming wake
+canoe with open wooden hull and paddles
+gondola with black lacquered hull and curved prow
+cruise ship with multi-deck white superstructure
+submarine with cylindrical black hull and conning tower
+pirate galleon with tall masts and black sails
+Viking longship with dragon prow and row of shields
+tugboat with stout hull and rubber bumpers
+catamaran with twin hulls and trampoline deck

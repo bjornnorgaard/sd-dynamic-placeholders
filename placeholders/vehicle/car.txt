@@ -1,0 +1,17 @@
+# Passenger cars — use as __vehicle/car__ (also via __vehicle__)
+# One entry per visual family — body silhouette and era cues must differ; near-duplicate
+# sedan/hatchback clones and slight coupe variants are omitted
+# Style: short, no leading a/an/the — lead with the car noun, then signature look
+
+sedan with four-door body and upright greenhouse
+sports car with low coupe silhouette and wide tires
+convertible with open top and chrome windshield frame
+muscle car with long hood and dual exhaust pipes
+Volkswagen Beetle with round bug-shaped body
+classic Cadillac with towering chrome tail fins
+Formula 1 car with open cockpit and rear wing
+off-road jeep with boxy body and mounted spare tire
+stretch limousine with elongated black cabin
+SUV with tall wagon body and roof rails
+hot rod with exposed chrome engine and flame paint
+futuristic concept car with seamless glass canopy

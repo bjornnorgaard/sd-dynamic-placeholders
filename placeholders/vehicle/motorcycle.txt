@@ -1,0 +1,12 @@
+# Motorcycles & scooters — use as __vehicle/motorcycle__ (also via __vehicle__)
+# One entry per visual family — frame stance and fairing must differ; near-duplicate
+# sport-bike clones and slight cruiser variants are omitted
+# Style: short, no leading a/an/the — lead with the bike noun, then signature look
+
+cruiser motorcycle with low seat and ape-hanger bars
+sport bike with tucked fairing and aggressive lean
+dirt bike with knobby tires and high ground clearance
+chopper with extended front forks and tiny rear wheel
+scooter with step-through frame and small wheels
+cafe racer with clipped rear and round headlight
+touring motorcycle with hard saddlebags and tall windshield

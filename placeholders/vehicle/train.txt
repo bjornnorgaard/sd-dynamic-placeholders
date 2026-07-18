@@ -1,0 +1,11 @@
+# Trains & rail — use as __vehicle/train__ (also via __vehicle__)
+# One entry per visual family — locomotive shape and rail era cues must differ
+# Style: short, no leading a/an/the — lead with the train noun, then signature look
+
+steam locomotive with black boiler and tall smokestack
+bullet train with sleek nose and streamlined cars
+subway train with metal cars and overhead third rail
+vintage streetcar with trolley pole and wood trim
+freight train with long string of boxcars
+monorail with elevated single-rail cars
+luxury sleeper train with brass-trimmed passenger cars

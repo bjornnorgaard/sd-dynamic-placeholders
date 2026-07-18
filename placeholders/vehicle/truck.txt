@@ -1,0 +1,15 @@
+# Trucks, vans & buses — use as __vehicle/truck__ (also via __vehicle__)
+# Heavy and utility road vehicles; keep separate from passenger __vehicle/car__
+# One entry per visual family — cab, cargo, and duty cues must differ
+# Style: short, no leading a/an/the — lead with the vehicle noun, then signature look
+
+pickup truck with open cargo bed and chrome grille
+semi-truck with sleeper cab and long cargo trailer
+delivery van with high boxy cargo body
+city bus with accordion doors and roof vents
+school bus with long yellow body and stop-sign arm
+fire truck with red ladder and chrome bumper
+dump truck with raised hydraulic bed
+monster truck with huge tires and elevated chassis
+ambulance with boxy white body and roof light bar
+cement mixer with rotating drum and stout cab

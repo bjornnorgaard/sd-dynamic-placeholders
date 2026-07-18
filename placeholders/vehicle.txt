@@ -1,0 +1,16 @@
+# Composable vehicle — use as __vehicle__ in prompts
+# Phrases meant for conveyance slots (e.g. "riding a __vehicle__", "beside a __vehicle__",
+# "a __vehicle__ parked nearby", "__artstyle__ of a __vehicle__")
+# Nested lists under vehicle/: one type per line so categories never stack
+# Pin a child when you want a family fixed (__vehicle/boat__, __vehicle/car__, …)
+# Style of children: short, no leading a/an/the — lead with the vehicle noun, then signature look
+
+__vehicle/car__
+__vehicle/truck__
+__vehicle/motorcycle__
+__vehicle/bicycle__
+__vehicle/boat__
+__vehicle/plane__
+__vehicle/helicopter__
+__vehicle/train__
+__vehicle/spacecraft__

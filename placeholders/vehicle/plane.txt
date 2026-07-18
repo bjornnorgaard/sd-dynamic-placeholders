@@ -1,0 +1,15 @@
+# Airplanes — use as __vehicle/plane__ (also via __vehicle__)
+# Fixed-wing aircraft only; keep separate from __vehicle/helicopter__
+# One entry per visual family — wing planform and era cues must differ
+# Style: short, no leading a/an/the — lead with the plane noun, then signature look
+
+commercial airliner with swept wings and underwing jet engines
+biplane with stacked wings and open cockpit
+fighter jet with pointed nose and afterburner glow
+seaplane with pontoon floats under the wings
+cargo plane with high T-tail and bulbous nose
+propeller bush plane with high wings and tundra tires
+stealth bomber with black flying-wing shape
+Concorde with slender delta wings and droop nose
+WWII bomber with glass nose turret and multi-engine wings
+glider with long slender wings and no engine
