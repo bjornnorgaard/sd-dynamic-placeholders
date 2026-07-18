@@ -2,4 +2,4 @@
 # One exemplar per visual family; short, no leading a/an/the
 # Explicit traits models may not infer from the name alone
 
-Xena Warrior Princess with dark hair in bronze leather armor with chakram and sword
+Xena Warrior Princess with long dark hair, bronze leather armor, circular chakram, and sword

@@ -2,9 +2,9 @@
 # One exemplar per visual family; short, no leading a/an/the
 # Explicit traits models may not infer from the name alone
 
-Lilith of Borderlands with red hair, facial siren tattoos, and wings of fire
-Maya of Borderlands with blue siren tattoos, purple hair, and phase-lock orbs
-Tiny Tina of Borderlands with dark skin, braided hair, explosive backpack, and manic grin
-Mad Moxxi of Borderlands in corset with heart pasties, red hair, and cigarette holder
-Gaige the Mechromancer of Borderlands with orange pigtails, goggles, and Deathtrap robot
+Lilith of Borderlands with red hair, facial wing siren tattoos, and Phasewalk wings of fire
+Maya of Borderlands with purple hair, blue geometric arm siren tattoos, and phase-lock orbs
+Tiny Tina of Borderlands with dark skin, beaded braids, explosive backpack, and manic grin
+Mad Moxxi of Borderlands with red hair, heart pasties, corset, and cigarette holder
+Gaige the Mechromancer of Borderlands with orange pigtails, forehead goggles, and Deathtrap robot
 Amara of Borderlands with brown South Asian skin, siren arm tattoos, muscular build, and ethereal fists

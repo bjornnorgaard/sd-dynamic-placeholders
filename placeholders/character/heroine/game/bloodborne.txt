@@ -2,4 +2,4 @@
 # One exemplar per visual family; short, no leading a/an/the
 # Explicit traits models may not infer from the name alone
 
-Lady Maria of Bloodborne with pale blond hair, bloodied hunter coat, rapier, and tricorne
+Lady Maria of Bloodborne with pale blond hair in a bun, bloodstained white shirt under hunter coat, rapier, and tricorne

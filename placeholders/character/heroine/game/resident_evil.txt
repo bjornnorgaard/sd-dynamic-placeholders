@@ -2,6 +2,6 @@
 # One exemplar per visual family; short, no leading a/an/the
 # Explicit traits models may not infer from the name alone
 
-Jill Valentine in blue STARS beret with shoulder holster and handgun
-Ada Wong with East Asian features in red cheongsam dress with handgun
-Claire Redfield in red leather jacket with shoulder holster and determined stare
+Jill Valentine with short brown hair in blue STARS beret, shoulder holster, and handgun
+Ada Wong with East Asian features, short black hair, red cheongsam dress, and handgun
+Claire Redfield with auburn hair in red leather jacket, shoulder holster, and determined stare

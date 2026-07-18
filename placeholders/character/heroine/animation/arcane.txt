@@ -2,5 +2,5 @@
 # One exemplar per visual family; short, no leading a/an/the
 # Explicit traits models may not infer from the name alone
 
-Jinx of Arcane League of Legends with pale skin, long blue braids, cloud tattoos, and rocket launcher
-Vi of Arcane League of Legends with pink undercut hair, face scars, hextech gauntlets, and undercity jacket
+Jinx of Arcane League of Legends with pale skin, long blue twin braids, cloud tattoos, pink eyes, and rocket launcher
+Vi of Arcane League of Legends with pink undercut hair, face scars, pink hextech gauntlets, and undercity jacket

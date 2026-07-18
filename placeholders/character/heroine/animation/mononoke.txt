@@ -2,4 +2,4 @@
 # One exemplar per visual family; short, no leading a/an/the
 # Explicit traits models may not infer from the name alone
 
-San of Princess Mononoke with red-and-white face paint, wolf fur cloak, dagger, and spear mask
+San of Princess Mononoke with red-and-white face paint, short brown hair, wolf fur cloak, dagger, and carved spear mask

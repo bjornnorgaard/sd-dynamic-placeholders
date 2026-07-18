@@ -2,6 +2,6 @@
 # One exemplar per visual family; short, no leading a/an/the
 # Explicit traits models may not infer from the name alone
 
-Maelle of Clair Obscur with copper-red hair, pale skin, fencing rapier, and white expedition blouse
-Lune of Clair Obscur with East Asian features, black hair in an elegant bun, floating elemental glyphs, and staff
-Sciel of Clair Obscur with tan skin, wavy blond hair, combat scythe, and fortune-teller cards
+Maelle of Clair Obscur with long red hair in high ponytail, green eyes, black-and-purple expedition jacket, and fencing rapier
+Lune of Clair Obscur with East Asian features, black hair in a bun, face tattoos, floating mage stance, and elemental glyphs
+Sciel of Clair Obscur with tan skin, brown hair in a low bun, nose scar, double scythe, and fortune-teller cards

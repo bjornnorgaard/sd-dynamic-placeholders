@@ -2,4 +2,4 @@
 # One exemplar per visual family; short, no leading a/an/the
 # Explicit traits models may not infer from the name alone
 
-Lara Croft in teal tank top with dual pistols, shorts, boots, and long braid
+Lara Croft with brown hair in long braid, teal tank top, shorts, combat boots, and dual pistols

@@ -2,4 +2,4 @@
 # One exemplar per visual family; short, no leading a/an/the
 # Explicit traits models may not infer from the name alone
 
-Mikasa Ackerman with East Asian features, short black hair, Survey Corps cape, red scarf, and blades
+Mikasa Ackerman with East Asian features, short black hair, red scarf, Survey Corps green cloak, and ODM blades

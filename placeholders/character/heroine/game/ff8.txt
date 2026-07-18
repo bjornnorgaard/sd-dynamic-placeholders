@@ -2,9 +2,9 @@
 # One exemplar per visual family; short, no leading a/an/the
 # Explicit traits models may not infer from the name alone
 
-Rinoa Heartilly of Final Fantasy in black dress with angel wing accents, brown hair, and Griever necklace
-Quistis Trepe of Final Fantasy with glasses, blond hair, blue SeeD uniform, and whip
-Selphie Tilmitt of Final Fantasy with short brown hair, yellow jacket, and nunchaku
-Edea Kramer of Final Fantasy as pale sorceress in elaborate horned black-and-white gown
-Ultimecia of Final Fantasy with pale skin, time-witch gown, winged headdress, and junction magic
-Fujin of Final Fantasy with white hair, eyepatch, wind magic, and tight-lipped stare
+Rinoa Heartilly of Final Fantasy with brown hair, black dress with white angel-wing accents, and Griever necklace
+Quistis Trepe of Final Fantasy with long blond hair, glasses, blue SeeD uniform, and whip
+Selphie Tilmitt of Final Fantasy with short brown hair, yellow jacket, green eyes, and nunchaku
+Edea Kramer of Final Fantasy as pale sorceress in horned black-and-white gown with high collar
+Ultimecia of Final Fantasy with pale skin, purple time-witch gown, winged headdress, and junction magic
+Fujin of Final Fantasy with short white hair, black eyepatch, tight black outfit, and silent stare

@@ -2,4 +2,4 @@
 # One exemplar per visual family; short, no leading a/an/the
 # Explicit traits models may not infer from the name alone
 
-Hermione Granger with bushy brown hair, wand, and Hogwarts robes
+Hermione Granger with bushy brown hair, brown eyes, Hogwarts robes, and wand

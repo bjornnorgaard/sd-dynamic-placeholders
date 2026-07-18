@@ -2,4 +2,4 @@
 # One exemplar per visual family; short, no leading a/an/the
 # Explicit traits models may not infer from the name alone
 
-Major Motoko Kusanagi with purple hair, East Asian features, tactical bodysuit, and cybernetic eyes
+Major Motoko Kusanagi with short purple hair, East Asian features, black tactical bodysuit, and cybernetic eyes

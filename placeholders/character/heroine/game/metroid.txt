@@ -2,4 +2,4 @@
 # One exemplar per visual family; short, no leading a/an/the
 # Explicit traits models may not infer from the name alone
 
-Samus Aran in orange Varia Power Suit with green visor, arm cannon, and helmet
+Samus Aran in orange-and-red Varia Power Suit with green visor, shoulder pads, arm cannon, and sealed helmet

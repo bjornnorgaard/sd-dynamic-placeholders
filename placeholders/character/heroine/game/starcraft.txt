@@ -2,6 +2,6 @@
 # One exemplar per visual family; short, no leading a/an/the
 # Explicit traits models may not infer from the name alone
 
-Sarah Kerrigan Queen of Blades with pale greenish zerg skin, bony chitin wings, heel-blade boots, and green glowing eyes
-Nova Terra of StarCraft in blue ghost stealth suit with white hair, glowing visor, and sniper rifle
-Mira Han of StarCraft with East Asian features, dark hair, mercenary armor, and dual pistols
+Sarah Kerrigan Queen of Blades with mottled green zerg skin, insect hair-stalks, bony skeletal wings, heel-blade legs, and glowing yellow-green eyes
+Nova Terra of StarCraft with white hair in blue ghost stealth suit with glowing visor and sniper rifle
+Mira Han of StarCraft with East Asian features, black hair with orange tips, mercenary armor, and dual pistols

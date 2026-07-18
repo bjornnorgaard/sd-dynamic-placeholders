@@ -2,4 +2,4 @@
 # One exemplar per visual family; short, no leading a/an/the
 # Explicit traits models may not infer from the name alone
 
-Sarah Connor with muscular build in tank top with shotgun and military toughness
+Sarah Connor with brown hair, muscular build, grey tank top, shotgun, and military toughness

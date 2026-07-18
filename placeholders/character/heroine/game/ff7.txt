@@ -2,9 +2,9 @@
 # One exemplar per visual family; short, no leading a/an/the
 # Explicit traits models may not infer from the name alone
 
-Tifa Lockhart with brown hair, black tank top, suspenders, miniskirt, and leather gloves
-Aerith Gainsborough of Final Fantasy in pink dress with jacket, pink hair ribbon, and flower staff
-Yuffie Kisaragi of Final Fantasy with short black hair, green ninja outfit, and large shuriken
-Jessie Rasberry of Final Fantasy with brown hair in Avalanche turtleneck with Midgar grit
-Elena of Final Fantasy in Turks suit with blond hair and pistol
-Scarlet of Final Fantasy with blond hair in red Shinra dress with arrogant poise
+Tifa Lockhart with long brown hair, black sports tank, suspenders, black miniskirt, and leather gloves
+Aerith Gainsborough of Final Fantasy with long brown hair, pink ribbon, pink dress and bolero jacket, and flower staff
+Yuffie Kisaragi of Final Fantasy with short black hair, green ninja midriff outfit, and oversized shuriken
+Jessie Rasberry of Final Fantasy with brown hair, Avalanche turtleneck sweater, and Midgar grit
+Elena of Final Fantasy with short blond hair in black Turks suit with pistol
+Scarlet of Final Fantasy with blond hair in low-cut red Shinra dress with arrogant poise

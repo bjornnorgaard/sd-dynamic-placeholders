@@ -2,6 +2,6 @@
 # One exemplar per visual family; short, no leading a/an/the
 # Explicit traits models may not infer from the name alone
 
-Ciri from The Witcher with ashen white hair, green eyes, witcher swords, and scarred cheek
-Yennefer of The Witcher with pale skin, raven-black hair, violet eyes, and black gown
-Triss Merigold of The Witcher with auburn hair, freckles, blue sorceress dress, and fire magic
+Ciri from The Witcher with ashen white hair, green eyes, facial scar across left cheek, and twin witcher swords
+Yennefer of The Witcher with pale skin, raven-black hair, violet eyes, black-and-white gown, and diamond choker
+Triss Merigold of The Witcher with auburn hair, freckles, teal sorceress dress, and fire magic

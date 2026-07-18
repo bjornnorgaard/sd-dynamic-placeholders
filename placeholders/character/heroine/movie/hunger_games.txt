@@ -2,4 +2,4 @@
 # One exemplar per visual family; short, no leading a/an/the
 # Explicit traits models may not infer from the name alone
 
-Katniss Everdeen with dark hair in side braid, bow, and Mockingjay pin
+Katniss Everdeen with olive skin, dark hair in side braid, hunting bow, and Mockingjay pin

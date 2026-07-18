@@ -2,4 +2,4 @@
 # One exemplar per visual family; short, no leading a/an/the
 # Explicit traits models may not infer from the name alone
 
-Eowyn of The Lord of the Rings in Rohan armor with sword and flowing blond hair
+Eowyn of The Lord of the Rings with long flowing blond hair in Rohan armor with sword and shield

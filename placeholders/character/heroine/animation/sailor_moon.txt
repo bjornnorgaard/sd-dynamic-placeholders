@@ -2,4 +2,4 @@
 # One exemplar per visual family; short, no leading a/an/the
 # Explicit traits models may not infer from the name alone
 
-Sailor Moon with long blond odango buns in sailor fuku with crescent wand
+Sailor Moon with long blond odango buns, blue sailor fuku with red bow, and crescent moon wand

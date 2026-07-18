@@ -2,4 +2,4 @@
 # One exemplar per visual family; short, no leading a/an/the
 # Explicit traits models may not infer from the name alone
 
-Wonder Woman with dark hair in golden armored bodice with tiara, lasso, and shield
+Wonder Woman with long dark hair, golden armored bodice, Amazon bracers, tiara, lasso, and shield

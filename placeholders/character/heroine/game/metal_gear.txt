@@ -2,8 +2,8 @@
 # One exemplar per visual family; short, no leading a/an/the
 # Explicit traits models may not infer from the name alone
 
-Quiet of Metal Gear Solid in bikini sniper gear with sheer face veil, bare feet, and rifle
-The Boss of Metal Gear Solid in white sneaking suit with CQC stance and blond braid
-Sniper Wolf of Metal Gear Solid in wolf-pattern ghillie with sniper rifle and wolf companions
-EVA of Metal Gear Solid in Chinese dress with motorcycle and pink lipstick
-Meryl Silverburgh of Metal Gear Solid in military fatigues with bandana and SOCOM pistol
+Quiet of Metal Gear Solid in bikini sniper gear with sheer face veil, bare feet, and sniper rifle
+The Boss of Metal Gear Solid with long blond braid in white sneaking suit with CQC stance
+Sniper Wolf of Metal Gear Solid with long brown hair in wolf-pattern ghillie with sniper rifle
+EVA of Metal Gear Solid with black hair in red Chinese dress with motorcycle and pink lipstick
+Meryl Silverburgh of Metal Gear Solid with blond hair, red bandana, military fatigues, and SOCOM pistol

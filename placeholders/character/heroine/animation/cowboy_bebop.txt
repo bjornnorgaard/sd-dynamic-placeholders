@@ -2,4 +2,4 @@
 # One exemplar per visual family; short, no leading a/an/the
 # Explicit traits models may not infer from the name alone
 
-Faye Valentine in yellow coat with short red bob hair and cigarette
+Faye Valentine with short red bob, yellow trench coat, purple eyeshadow, and cigarette

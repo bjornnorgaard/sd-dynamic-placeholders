@@ -2,6 +2,6 @@
 # One exemplar per visual family; short, no leading a/an/the
 # Explicit traits models may not infer from the name alone
 
-Tracer from Overwatch with short brown hair, orange goggles, chronal accelerator, and twin pistols
-D.Va of Overwatch with Korean features in pink bunny mech-pilot suit with headset
-Widowmaker of Overwatch with purple-blue skin, purple bodysuit, sniper rifle, and glowing yellow eyes
+Tracer from Overwatch with short spiked brown hair, orange goggles on forehead, orange jacket, chronal accelerator chest piece, and pulse pistols
+D.Va of Overwatch with Korean features in pink bunny MEKA pilot suit with headset and face stickers
+Widowmaker of Overwatch with purple-blue skin, long purple ponytail, purple bodysuit, yellow eyes, and spider forehead mark

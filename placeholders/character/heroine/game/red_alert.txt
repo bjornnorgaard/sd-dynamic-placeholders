@@ -2,4 +2,4 @@
 # One exemplar per visual family; short, no leading a/an/the
 # Explicit traits models may not infer from the name alone
 
-Tanya of Command & Conquer Red Alert in combat fatigues with dual pistols and blond hair
+Tanya of Command & Conquer Red Alert with blond hair, red beret, combat fatigues, and dual pistols

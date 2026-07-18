@@ -2,9 +2,9 @@
 # One exemplar per visual family; short, no leading a/an/the
 # Explicit traits models may not infer from the name alone
 
-Shadowheart of Baldur's Gate with pale skin, silver braid, green eyes, and black half-plate
-Karlach of Baldur's Gate with red devil skin, burning chest engine, and massive axe
-Lae'zel of Baldur's Gate with green githyanki skin, pointed ears, silver armor, and greatsword
-Minthara of Baldur's Gate with grey-purple drow skin, white hair, red eyes, and absolute paladin armor
-Jaheira of Baldur's Gate as weathered half-elf with greying dark hair, Harper druid armor, and twin scimitars
-Dame Aylin of Baldur's Gate with glowing pale aasimar skin, silver feathered wings, and moonlit armor
+Shadowheart of Baldur's Gate with pale skin, long silver braid, green eyes, and black Shar half-plate
+Karlach of Baldur's Gate with red tiefling skin, large curved horns, muscular build, burning chest engine, and massive axe
+Lae'zel of Baldur's Gate with olive-green githyanki skin, pointed ears, facial scars, silver plate, and greatsword
+Minthara of Baldur's Gate with grey-purple drow skin, white hair, red eyes, and Absolute paladin armor
+Jaheira of Baldur's Gate as weathered half-elf with dark greying hair, Harper leather, and twin scimitars
+Dame Aylin of Baldur's Gate with glowing pale aasimar skin, silver feathered wings, moonlit plate, and greatsword

@@ -2,10 +2,10 @@
 # One exemplar per visual family; short, no leading a/an/the
 # Explicit traits models may not infer from the name alone
 
-Commander Shepard of Mass Effect in black-and-red N7 armor with short reddish-brown hair
-Liara T'Soni of Mass Effect with blue asari skin, head tentacles, and biotic glow
-Tali'Zorah of Mass Effect in purple quarian envirosuit with glowing visor mask and no exposed face
-Miranda Lawson of Mass Effect in white catsuit with black hair and side-parted bangs
-Ashley Williams of Mass Effect in Alliance armor with dark hair and assault rifle
-Jack of Mass Effect with shaved head, pale skin, full-body biotic tattoos, and convict defiance
-EDI of Mass Effect with white synthetic body, blue circuits, and android poise
+Commander Shepard of Mass Effect with short reddish-brown hair in black-and-red N7 hardsuit
+Liara T'Soni of Mass Effect with blue asari skin, distinctive head crest, and biotic glow
+Tali'Zorah of Mass Effect in full purple quarian envirosuit with glowing purple visor and three-fingered gloves
+Miranda Lawson of Mass Effect with black side-parted hair in white catsuit with black geometric panels
+Ashley Williams of Mass Effect with dark brown hair in blue Alliance armor with assault rifle
+Jack of Mass Effect with shaved head, pale skin covered in biotic tattoos, and convict defiance
+EDI of Mass Effect with white synthetic android body, blue circuit lines, and inhuman poise

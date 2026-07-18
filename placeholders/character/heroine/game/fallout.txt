@@ -2,8 +2,8 @@
 # One exemplar per visual family; short, no leading a/an/the
 # Explicit traits models may not infer from the name alone
 
-Lucy MacLean of Fallout with blond hair in yellow vault suit with vault-tec smile and pistol
-Piper Wright of Fallout in red coat with press hat, freckles, and notepad
-Cass of Fallout New Vegas in cowboy hat with whiskey bottle and shotgun
-Veronica of Fallout New Vegas with mohawk, Brotherhood robes, and power fist
-Cait of Fallout with fiery red hair, freckles, leather jacket, and shotgun
+Lucy MacLean of Fallout with blond hair in yellow Vault 33 jumpsuit with vault-tec smile and pistol
+Piper Wright of Fallout with dark hair, freckles, red press coat, newsboy hat, and notepad
+Cass of Fallout New Vegas with brown hair under cowboy hat, whiskey bottle, and shotgun
+Veronica of Fallout New Vegas with blond mohawk, Brotherhood scribe robes, and power fist
+Cait of Fallout with fiery red hair, freckles, Irish pale skin, leather jacket, and shotgun

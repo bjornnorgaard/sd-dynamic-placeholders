@@ -2,4 +2,4 @@
 # One exemplar per visual family; short, no leading a/an/the
 # Explicit traits models may not infer from the name alone
 
-Ellen Ripley with short brown hair in jumpsuit with pulse rifle and xenomorph scars
+Ellen Ripley with short brown hair in Colonial Marines gear with pulse rifle and determined stare

@@ -2,4 +2,4 @@
 # One exemplar per visual family; short, no leading a/an/the
 # Explicit traits models may not infer from the name alone
 
-Princess Zelda with pointed elf ears, blond hair, royal blue-and-gold dress, and Triforce crest
+Princess Zelda with pointed Hylian ears, long blond hair, pink-and-blue royal dress, and Triforce crest
