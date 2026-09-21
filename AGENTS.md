@@ -117,3 +117,32 @@ When a list is meant for named cultural icons (monsters, games, heroes, villains
 - Header comments should state the token, intended prompt slots, and the distinctiveness rule.
 - New **families** (new umbrella roots or major namespaces): add the lists, then a short note in `docs/placeholders.md` and a demo in `docs/examples.md` if useful. Do **not** catalog every leaf file in the docs — the folder tree is the catalog.
 - After adding families, update `__random__` recipes so they exercise the new tokens without violating mutual exclusions.
+
+## Versioning and releases
+
+This repo follows [Semantic Versioning](https://semver.org). **Git tags are the version of record** — there is no version file to keep in sync.
+
+- Tags are annotated and named `vMAJOR.MINOR.PATCH` (e.g. `v0.3.1`), created on `main`.
+- **MAJOR stays `0`.** Do not release `1.0.0` (or any `1.x`) unless the owner explicitly says the project is ready. While on `0.x`, a breaking change bumps MINOR.
+- **MINOR** — a new user-facing feature or syntax; a new or changed `dynph_*` setting; new placeholder families or namespaces under `placeholders/`; a renamed or removed placeholder (breaking for existing prompts).
+- **PATCH** — a bug fix, a compatibility fix, or corrections / tuning of existing placeholder entries with no new families.
+- **No tag** — docs, tests, refactors, or `AGENTS.md` edits that do not change shipped behaviour or placeholder content.
+- If `git tag` is empty, the first release is `v0.1.0`.
+
+Whenever you commit and push a releasable change to `main`, tag it in the same push:
+
+```bash
+git describe --tags --abbrev=0                      # latest version (none yet -> v0.1.0)
+# ... commit the change on main ...
+git tag -a vX.Y.Z -m "vX.Y.Z: <one-line summary>"    # on the commit that ships the change
+git push origin main vX.Y.Z                         # commit and tag together
+git ls-remote --tags origin vX.Y.Z                  # verify it arrived
+```
+
+Rules:
+
+- Pick the bump from the *whole* change, not the last commit. When several changes ship together, use the highest bump.
+- Never move, delete, or re-push a tag that has been pushed. If a release was wrong, ship a new PATCH.
+- Never push a tag without its commit, and never tag a commit that is not on `main`.
+- Only commit / push when the user has asked you to (as elsewhere); the tag is part of that push, not a separate ask.
+- In your reply, state the version you tagged and why that bump.
