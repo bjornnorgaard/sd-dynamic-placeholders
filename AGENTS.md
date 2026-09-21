@@ -123,16 +123,17 @@ When a list is meant for named cultural icons (monsters, games, heroes, villains
 This repo follows [Semantic Versioning](https://semver.org). **Git tags are the version of record** — there is no version file to keep in sync.
 
 - Tags are annotated and named `vMAJOR.MINOR.PATCH` (e.g. `v0.3.1`), created on `main`.
-- **MAJOR stays `0`.** Do not release `1.0.0` (or any `1.x`) unless the owner explicitly says the project is ready. While on `0.x`, a breaking change bumps MINOR.
-- **MINOR** — a new user-facing feature or syntax; a new or changed `dynph_*` setting; new placeholder families or namespaces under `placeholders/`; a renamed or removed placeholder (breaking for existing prompts).
+- The project reached **`1.0.0`** by the owner's decision. Bump MAJOR only for a genuine breaking change, and tell the owner before tagging a new MAJOR.
+- **MAJOR** — a breaking change: a renamed or removed placeholder (existing prompts stop working), a removed or renamed `dynph_*` setting key, or a syntax change that breaks existing prompts.
+- **MINOR** — a new user-facing feature or syntax; a new `dynph_*` setting; new placeholder families or namespaces under `placeholders/`.
 - **PATCH** — a bug fix, a compatibility fix, or corrections / tuning of existing placeholder entries with no new families.
 - **No tag** — docs, tests, refactors, or `AGENTS.md` edits that do not change shipped behaviour or placeholder content.
-- If `git tag` is empty, the first release is `v0.1.0`.
+- The release line starts at `v1.0.0`.
 
 Whenever you commit and push a releasable change to `main`, tag it in the same push:
 
 ```bash
-git describe --tags --abbrev=0                      # latest version (none yet -> v0.1.0)
+git describe --tags --abbrev=0                      # latest version
 # ... commit the change on main ...
 git tag -a vX.Y.Z -m "vX.Y.Z: <one-line summary>"    # on the commit that ships the change
 git push origin main vX.Y.Z                         # commit and tag together
