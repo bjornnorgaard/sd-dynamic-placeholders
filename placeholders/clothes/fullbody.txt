@@ -6,6 +6,7 @@
 
 __fabric__ gown
 __pattern__ __fabric__ dress
+__clothes/fullbody/dress__
 __fabric__ jumpsuit
 three-piece suit
 tuxedo

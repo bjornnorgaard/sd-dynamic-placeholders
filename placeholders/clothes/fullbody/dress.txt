@@ -1,0 +1,14 @@
+# Dress styles and silhouettes — referenced via __clothes/fullbody/dress__ or short-path __dress__
+# Distinct necklines, sleeve cuts, and silhouettes for dresses
+# One silhouette per family — image-model distinguishability rule
+
+square neck dress
+turtleneck dress
+slip dress
+off-shoulder dress
+strapless dress
+halter neck dress
+sweetheart dress
+scoop neck dress
+one-shoulder dress
+sheer sleeves dress
